@@ -40,7 +40,7 @@
 
     ```npm init -y```
 
-3. Instale os pacotes necessários executando o comando abaixo no terminal. Isso irá instalar o [PostCSS](https://postcss.org/), o PostCSS CLI (para executar o script de compilação) e os 3 plug-ins principais para PostCSS, que são TailwindCSS, AutoPrefixer e PurgeCSS.
+3. Instale os pacotes necessários executando o comando abaixo no terminal. Isso irá instalar o [PostCSS](https://postcss.org/), o **PostCSS CLI** (para executar o script de compilação) e os 3 plug-ins principais para PostCSS, que são **TailwindCSS**, **AutoPrefixer** e o **PurgeCSS**.
 
      ```npm i postcss postcss-cli tailwindcss autoprefixer @fullhuman/postcss-purgecss```
 
