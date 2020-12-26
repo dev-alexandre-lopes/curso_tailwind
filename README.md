@@ -3,7 +3,7 @@
 ![](https://refactoringui.nyc3.cdn.digitaloceanspaces.com/tailwind-logo.svg)
 
 O TailwindCSS é um framework que utiliza a abordagem **_Utility First_** ou **_Functional CSS_**. 
-É forma de escrita do CSS procura fazer o uso de classes "utilitárias" que representam os atributos do CSS, trazendo os conceitos do paradigma funcional para o contexto do CSS.
+É a forma de escrita do CSS onde procura-se fazer o uso de classes "utilitárias" que representam os atributos do CSS, trazendo os conceitos do paradigma funcional para o contexto do CSS.
 
 
 ## Referências e Documentação Oficial:
@@ -65,3 +65,23 @@ O TailwindCSS é um framework que utiliza a abordagem **_Utility First_** ou **_
     }
     ```
 6. Crie o arquivo `tailwind.css` e adicione o seguinte código:
+
+    ```
+    @tailwind base;
+
+    @tailwind components;
+
+    @tailwind utilities;
+    ```
+7. Adicione um **_script_** de compilação ao seu arquivo **package.json**:
+
+    ```
+    "scripts":{ "build":"postcss tailwind.css -o style.css"}
+    ```
+8. Crie o seu arquivo CSS executando o comando abaixo no terminal: 
+
+    ```npm run build```
+
+9. Pronto agora você deve ter um arquivo CSS compilado, que contém apenas as configurações básicas do **Tailwind** (apenas Normalize.css), junto com quaisquer classes de utilitário que você está usando em seus modelos.
+
+**_Obs: Durante o desenvolvimento, você pode omitir o uso de **PurgeCSS** em seu processo de construção e apenas adicionar todas as classes do utilitário **Tailwind** ao seu arquivo CSS. Isso resultará em um arquivo CSS grande (Mb), no entanto, se você estiver trabalhando localmente, ele deve carregar rapidamente e permitirá que você tenha acesso a todo o CSS do Tailwind sem ter que executar um script de construção constantemente._** 
