@@ -36,10 +36,8 @@
 
 1. Se Caso ainda não o tenha feito, você precisará instalar o [NodeJS](https://nodejs.org/en/) em seu computador. Utilize a versão recomendada LTS.
 
-2. Inicialize o npm em seu projeto executando o comando de terminal:
+2. Inicialize o **_npm_** no seu projeto executando o comando abaixo no terminal. Isso criará um arquivo **_package.json_** e permitirá que você instale os pacotes necessários.
 
 ```npm init -y```
-
-Isso criará um arquivo **_package.json_** e permitirá que você instale os pacotes necessários.
 
 3. 
