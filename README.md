@@ -2,8 +2,8 @@
 
 ![](https://refactoringui.nyc3.cdn.digitaloceanspaces.com/tailwind-logo.svg)
 
-É um framework CSS que utiliza uma abordagem **_Utility First_** ou **_Functional CSS_**. 
-É uma abordagem de escrita de CSS em que se procura fazer o uso de classes utilitárias que representam os atributos do CSS, trazendo os conceitos do paradigma funcional para o contexto do CSS.
+O TailwindCSS é um framework que utiliza a abordagem **_Utility First_** ou **_Functional CSS_**. 
+É forma de escrita do CSS procura fazer o uso de classes "utilitárias" que representam os atributos do CSS, trazendo os conceitos do paradigma funcional para o contexto do CSS.
 
 
 ## Referências e Documentação Oficial:
@@ -44,9 +44,24 @@
 
      ```npm i postcss postcss-cli tailwindcss autoprefixer @fullhuman/postcss-purgecss```
 
-4. Execute o comando abaixo no terminal para gerar um arquivo **_tailwind.config.js_**, que é opcional, mas permite que você substitua ou estenda as configurações básicas no **Tailwind**, como fontes, cores, espaçamento etc.
+4. Execute o comando abaixo no terminal para gerar o arquivo **_tailwind.config.js_**, que é opcional, mas permite que você substitua ou estenda as configurações básicas no **Tailwind**, como fontes, cores, espaçamento etc.
 
     ```npx tailwind init```
 
-5. 
+5. Crie o arquivo `postcss.config.js` e adicione o seguinte código:
 
+    ```
+    module.exports = {
+        plugins: [
+            require('tailwindcss'),
+            require('autoprefixer'),
+            require('@fullhuman/postcss-purgecss')({
+                content: [
+                '**/*.html' // whatever your template language
+                ],
+            defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
+        })
+        ]
+    }
+    ```
+6. Crie o arquivo `tailwind.css` e adicione o seguinte código:
