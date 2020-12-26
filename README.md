@@ -38,6 +38,15 @@
 
 2. Inicialize o **_npm_** no seu projeto executando o comando abaixo no terminal. Isso criará um arquivo **_package.json_** e permitirá que você instale os pacotes necessários.
 
-```npm init -y```
+    ```npm init -y```
 
-3. 
+3. Instale os pacotes necessários executando o comando abaixo no terminal. Isso irá instalar o [PostCSS] (https://postcss.org/), o PostCSS CLI (para executar o script de compilação) e os 3 plug-ins principais para PostCSS, que são TailwindCSS, AutoPrefixer e PurgeCSS.
+
+     ```npm i postcss postcss-cli tailwindcss autoprefixer @fullhuman/postcss-purgecss```
+
+4. Execute o comando abaixo no terminal para gerar um arquivo **_tailwind.config.js_**, que é opcional, mas permite que você substitua ou estenda as configurações básicas no **Tailwind**, como fontes, cores, espaçamento etc.
+
+    ```npx tailwind init```
+
+5. 
+
