@@ -30,7 +30,10 @@ O TailwindCSS é um framework que utiliza uma abordagem de escrita e uso do CSS 
 * Transformações;
 * Interatividade;
 
-## Como instalar o TailwindCSS
+
+## Introdução
+
+### Como instalar o TailwindCSS
 
 1. Se caso ainda não o tenha feito, você precisará instalar o [NodeJS](https://nodejs.org/en/) em seu computador. Utilize sempre a versão recomendada LTS.
 
@@ -93,13 +96,13 @@ O TailwindCSS é um framework que utiliza uma abordagem de escrita e uso do CSS 
 11. Pronto agora você deve ter um arquivo **_CSS Final Compilado_** na pasta **_src/css_** e um arquivo **_CSS Final Compilado Minify_** na pasta **_dist/css_**. Este último possui somente as configurações básicas utilizadas do **Tailwind**, junto com as classes de utilitário que você está usando em seus modelos.
 
 
-## Extensão IntelliSense para o VSCode
+### Extensão IntelliSense para o Visual Studio Code
 
 A extensão **_TailwindCSS IntelliSense_** para o Visual Studio Code aprimora a experiência de desenvolvimento do Tailwind fornecendo ao usuário recursos avançados, como preenchimento automático, destaque de sintaxe e linting.
 
 ![intellisense 0bd2cbf8c277e6c1330e345ab3cd7684](https://user-images.githubusercontent.com/64049906/103180961-bfb8dd80-4871-11eb-9644-990aae1bd952.png)
 
-### Principais Funcionalidades:
+#### Principais Funcionalidades:
 
 * **_Autocompletar_**: Sugestões inteligentes para nomes de classes, bem como funções e diretivas CSS.
 * **_Linting_**: Destaca os erros e possíveis **bugs** em seu CSS e em sua marcação.
@@ -109,5 +112,11 @@ A extensão **_TailwindCSS IntelliSense_** para o Visual Studio Code aprimora a 
 
 ## Conceitos Fundamentais
 
+# Tudo é Classe:
+
+A estilização no projeto com o Tailwind é tudo feito por meio de **_classes_**. Temos classes para **cor de fonte** e até mesmo para **pseudo seletores (hover)**. É possível também criar classes próprias com base nas existentes.
 
 
+# Utility First:
+
+A premissa do Tailwind é construir componentes complexos com um conjunto de classes utilitárias. Podemos citar o exemplo do [BootStrap](https://getbootstrap.com/) que utiliza componentes prontos, que aumenta substancialmente a dificuldade de customização em projetos extensos. No caso do **Tailwind** já utilizamos um conjunto de classes que proporciona a possibilidade de criação de variações de componentes (customização) de forma simples, ou seja, componentes únicos.
