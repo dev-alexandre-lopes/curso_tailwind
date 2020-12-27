@@ -123,12 +123,17 @@ A premissa do Tailwind é construir componentes complexos com um conjunto de cla
 
 ### Prioridade para Dispositivos Móveis: Mobile First
 
-Todas as classes podem ser aplicadas a um determinado **breakpoint**. As classes padrões do Tailwind são: **_sm, md, lg e xl_**. Lembrando que as classes são **_mobile first_**, ou seja,  aplicadas para resoluções acima destes breakpoints. Não utilizamos nenhum breakpoint para atingir o mobile.
+Todas as classes podem ser aplicadas a um determinado **breakpoint**. As classes padrões do Tailwind são: **_sm, md, lg e xl_**. Lembrando que as classes são **_mobile first_**, ou seja,  aplicadas para resoluções acima destes breakpoints. Não utilizamos nenhum breakpoint para atingir o mobile. Na fase de projeto deve-se pensar sempre do menor para o maior breakpoint que será utilizado.
 
-Breakpoints: sm: 640px, md: 768px, lg: 1024px, xl: 1280px,
+Breakpoints: **sm**: 640px, **md**: 768px, **lg**: 1024px, **xl**: 1280px,
 
 
 ### Pseudos Classes e Eventos:
 
+Podemos utilizar as pseudo-classes com o Tailwind bastando adicionar as classes: **_hover, focus, active, group-houver, group-focus, focus-within, focus-visible, motion-safe, motion-reduce, disable, visited, checked, first-child, last-child, odd-child, even-child_**, 
 
 ### Componentização:
+
+Em Tailwind não devemos utilizar componentes prontos. Primeiramente desenvolvemos o que precisamos e depois podemos **transformar em um componente** (via apply). Essa abordagem é interessante pois nem sempre tudo é definido no CSS, talvez precisamos de uma estrutura de HTML diferenciada.
+
+
