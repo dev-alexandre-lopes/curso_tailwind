@@ -32,9 +32,9 @@ O TailwindCSS é um framework que utiliza uma abordagem de escrita e uso do CSS 
 
 ## Como instalar o TailwindCSS
 
-1. Se Caso ainda não o tenha feito, você precisará instalar o [NodeJS](https://nodejs.org/en/) em seu computador. Utilize a versão recomendada LTS.
+1. Se caso ainda não o tenha feito, você precisará instalar o [NodeJS](https://nodejs.org/en/) em seu computador. Utilize sempre a versão recomendada LTS.
 
-2. Inicialize o **_npm_** no seu projeto executando o comando abaixo no terminal. Isso criará um arquivo **_package.json_** e permitirá que você instale os pacotes necessários.
+2. Inicialize o **_npm_** na pasta do seu projeto executando o comando abaixo no terminal. Isso criará um arquivo **_package.json_** e permitirá que você instale posteriormente os pacotes necessários.
 
     ```npm init -y```
 
@@ -46,7 +46,7 @@ O TailwindCSS é um framework que utiliza uma abordagem de escrita e uso do CSS 
 
     ```npx tailwind init```
 
-5. Crie o arquivo `postcss.config.js` que será utilizado para criação da versão Minify do seu arquivo final CSS compilado. Use o seguinte código:
+5. Crie o arquivo `postcss.config.js` que será utilizado para a criação da versão Minify (minificada) do seu arquivo final CSS compilado. Use o seguinte código:
 
     ```
     module.exports = {
@@ -71,22 +71,22 @@ O TailwindCSS é um framework que utiliza uma abordagem de escrita e uso do CSS 
 
     @tailwind utilities;
     ```
-7. Adicione um **_script_** chamado de **_start_** no seu arquivo **package.json**. Este script irá gerar um arquivo **CSS Final** com todas as classes do **Tailwind**, dentro de uma pasta chamada **src**. :
+7. Adicione um **_script_** chamado de **_start_** no seu arquivo **package.json** criado na etapa 1. Este script irá gerar um arquivo **CSS Final** com todas as classes do **Tailwind**, dentro de uma pasta chamada **src**. :
 
     ```
     "scripts": {"start":"npx tailwindcss build tailwind.css -o src/css/style.css"},
     ```
-8. Crie o seu arquivo **_CSS Final Compilado_** executando o comando abaixo no terminal: 
+8. Crie o seu arquivo **_CSS Final Compilado_** executando o script através do comando abaixo no terminal: 
 
     ```npm run start```
 
-9. Adicione um **_script_** chamado de **_build_** no seu arquivo **package.json**. Este script irá gerar um arquivo **CSS Final Minify** utilizando o **PostCSS** com todas as classes do **Tailwind**, dentro de uma pasta chamada **dist**. :
+9. Adicione um **_script_** chamado de **_build_** no seu arquivo **package.json** criado na etapa 1. Este script irá gerar um arquivo **CSS Final Minify** utilizando o **PostCSS** com todas as classes do **Tailwind**, dentro de uma pasta chamada **dist**. :
     
     ```
     "scripts": {"build":"postcss tailwind.css -o dist/css/style.css"},
     ```
 
-10. Crie o seu arquivo **_CSS Final Compilado Minify_** executando o comando abaixo no terminal:
+10. Crie o seu arquivo **_CSS Final Compilado Minify_** executando o script através do comando abaixo no terminal:
 
     ```npm run build``` 
 
