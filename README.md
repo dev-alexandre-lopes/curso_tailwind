@@ -112,11 +112,11 @@ A extensão **_TailwindCSS IntelliSense_** para o Visual Studio Code aprimora a 
 
 ## Conceitos Fundamentais
 
-# Tudo é Classe:
+### Tudo é Classe:
 
 A estilização no projeto com o Tailwind é tudo feito por meio de **_classes_**. Temos classes para **cor de fonte** e até mesmo para **pseudo seletores (hover)**. É possível também criar classes próprias com base nas existentes.
 
 
-# Utility First:
+### Utility First:
 
 A premissa do Tailwind é construir componentes complexos com um conjunto de classes utilitárias. Podemos citar o exemplo do [BootStrap](https://getbootstrap.com/) que utiliza componentes prontos, que aumenta substancialmente a dificuldade de customização em projetos extensos. No caso do **Tailwind** já utilizamos um conjunto de classes que proporciona a possibilidade de criação de variações de componentes (customização) de forma simples, ou seja, componentes únicos.
