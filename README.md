@@ -48,7 +48,7 @@ O TailwindCSS é um framework que utiliza a abordagem **_Utility First_** ou **_
 
     ```npx tailwind init```
 
-5. Crie o arquivo `postcss.config.js` e adicione o seguinte código:
+5. Crie o arquivo `postcss.config.js` que será utilizado para criação da versão Minify do seu arquivo final CSS compilado. Use o seguinte código:
 
     ```
     module.exports = {
@@ -64,7 +64,7 @@ O TailwindCSS é um framework que utiliza a abordagem **_Utility First_** ou **_
         ]
     }
     ```
-6. Crie o arquivo `tailwind.css` e adicione o seguinte código:
+6. Crie o arquivo `tailwind.css` que irá conter as diretivas do **Tailwind**. Use o seguinte código:
 
     ```
     @tailwind base;
@@ -93,3 +93,8 @@ O TailwindCSS é um framework que utiliza a abordagem **_Utility First_** ou **_
     ```npm run build``` 
 
 11. Pronto agora você deve ter um arquivo **CSS Final Compilado** na pasta **_src/css_** e um arquivo **_CSS Final Compilado Minify_** na pasta **_dist/css_**. Este último possui somente as configurações básicas utilizadas do **Tailwind**, junto com quaisquer classes de utilitário que você está usando em seus modelos.
+
+## Conceitos Fundamentais
+
+
+
