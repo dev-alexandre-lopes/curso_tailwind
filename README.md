@@ -125,6 +125,8 @@ A premissa do Tailwind é construir componentes complexos com um conjunto de cla
 
 Todas as classes podem ser aplicadas a um determinado **breakpoint**. As classes padrões do Tailwind são: **_sm, md, lg e xl_**. Lembrando que as classes são **_mobile first_**, ou seja,  aplicadas para resoluções acima destes breakpoints. Não utilizamos nenhum breakpoint para atingir o mobile.
 
+Breakpoints: sm: 640px, md: 768px, lg: 1024px, xl: 1280px,
+
 
 ### Pseudos Classes e Eventos:
 
