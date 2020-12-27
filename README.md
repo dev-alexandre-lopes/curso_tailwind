@@ -73,15 +73,21 @@ O TailwindCSS é um framework que utiliza a abordagem **_Utility First_** ou **_
 
     @tailwind utilities;
     ```
-7. Adicione um **_script_** de compilação ao seu arquivo **package.json**:
+7. Adicione um **_script_** chamado de **_start_** de compilação ao seu arquivo **package.json**. Este script irá gerar um arquivo **CSS final** com todas as classes do **Tailwind**, dentro de uma pasta **src**. :
 
     ```
-    "scripts":{ "build":"postcss tailwind.css -o style.css"}
+    "scripts": {"start":"npx tailwindcss build tailwind.css -o src/css/style.css"},
     ```
-8. Crie o seu arquivo CSS executando o comando abaixo no terminal: 
+8. Crie o seu arquivo CSS final executando o comando abaixo no terminal: 
 
-    ```npm run build```
+    ```npm run start```
 
-9. Pronto agora você deve ter um arquivo CSS compilado, que contém apenas as configurações básicas do **Tailwind** (apenas Normalize.css), junto com quaisquer classes de utilitário que você está usando em seus modelos.
+9. Adicione um **_script_** chamado de **_build_** de compilação ao seu arquivo **package.json**. Este script irá gerar um arquivo **CSS final minify** utilizando o **PostCSS** com todas as classes do **Tailwind**, dentro de uma pasta **dist**. :
+    
+    ```
+    "scripts": {"build":"postcss tailwind.css -o dist/css/style.css"},
+    ```
+
+10. Pronto agora você deve ter um arquivo CSS compilado na pasta src/css e um arquico CSS Compilado minify na pasta dist/css. Este último possui somente as configurações básicas do **Tailwind** (apenas Normalize.css), junto com quaisquer classes de utilitário que você está usando em seus modelos.
 
 **_Obs:_** Durante o desenvolvimento, você pode omitir o uso de **PurgeCSS** em seu processo de construção e apenas adicionar todas as classes do utilitário **Tailwind** ao seu arquivo CSS. Isso resultará em um arquivo CSS grande (Mb), no entanto, se você estiver trabalhando localmente, ele deve carregar rapidamente e permitirá que você tenha acesso a todo o CSS do Tailwind sem ter que executar um script de construção constantemente. 
