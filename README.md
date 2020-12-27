@@ -78,7 +78,7 @@ O TailwindCSS é um framework que utiliza a abordagem **_Utility First_** ou **_
     ```
     "scripts": {"start":"npx tailwindcss build tailwind.css -o src/css/style.css"},
     ```
-8. Crie o seu arquivo CSS final executando o comando abaixo no terminal: 
+8. Crie o seu arquivo **_CSS Final Compilado_** executando o comando abaixo no terminal: 
 
     ```npm run start```
 
@@ -88,6 +88,8 @@ O TailwindCSS é um framework que utiliza a abordagem **_Utility First_** ou **_
     "scripts": {"build":"postcss tailwind.css -o dist/css/style.css"},
     ```
 
-10. Pronto agora você deve ter um arquivo CSS compilado na pasta src/css e um arquico CSS Compilado minify na pasta dist/css. Este último possui somente as configurações básicas do **Tailwind** (apenas Normalize.css), junto com quaisquer classes de utilitário que você está usando em seus modelos.
+10. Crie o seu arquivo **_CSS Final Compilado Minify_** executando o comando abaixo no terminal:
 
-**_Obs:_** Durante o desenvolvimento, você pode omitir o uso de **PurgeCSS** em seu processo de construção e apenas adicionar todas as classes do utilitário **Tailwind** ao seu arquivo CSS. Isso resultará em um arquivo CSS grande (Mb), no entanto, se você estiver trabalhando localmente, ele deve carregar rapidamente e permitirá que você tenha acesso a todo o CSS do Tailwind sem ter que executar um script de construção constantemente. 
+    ```npm run build``` 
+
+11. Pronto agora você deve ter um arquivo **CSS Final Compilado** na pasta **_src/css_** e um arquivo **_CSS Final Compilado Minify_** na pasta **_dist/css_**. Este último possui somente as configurações básicas utilizadas do **Tailwind**, junto com quaisquer classes de utilitário que você está usando em seus modelos.
