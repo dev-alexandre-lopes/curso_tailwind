@@ -2,15 +2,13 @@
 
 ![](https://refactoringui.nyc3.cdn.digitaloceanspaces.com/tailwind-logo.svg)
 
-O TailwindCSS é um framework que utiliza a abordagem **_Utility First_** ou **_Functional CSS_**. 
-É a forma de escrita do CSS onde procura-se fazer o uso de classes "utilitárias" que representam os atributos do CSS, trazendo os conceitos do paradigma funcional para o contexto do CSS.
-
+O TailwindCSS é um framework que utiliza uma abordagem de escrita e uso do CSS em que se procura, primeiramente, fazer uso das chamadas classes utilitárias (**_Utility First_**), classes estas que representam atributos do CSS, como **border**, **background**, **border-radius** e uma série de outras propriedades. Essa abordagem possui inúmeros sinônimos: **_Immutable CSS, Functional CSS, Atomic CSS_** entre outros.
 
 ## Referências e Documentação Oficial:
 
-[Website](https://tailwindcss.com) - Website Oficial do Framework Tailwind CSS
+[Website](https://tailwindcss.com) - Website Oficial do Framework TailwindCSS
 
-[Repositório](https://github.com/tailwindcss/tailwindcss) - Repositório Oficial do Framework Tailwind CSS.
+[Repositório](https://github.com/tailwindcss/tailwindcss) - Repositório Oficial do Framework TailwindCSS.
 
 ## Conteúdo do Curso
 
@@ -32,7 +30,7 @@ O TailwindCSS é um framework que utiliza a abordagem **_Utility First_** ou **_
 * Transformações;
 * Interatividade;
 
-## Como instalar o Tailwind CSS
+## Como instalar o TailwindCSS
 
 1. Se Caso ainda não o tenha feito, você precisará instalar o [NodeJS](https://nodejs.org/en/) em seu computador. Utilize a versão recomendada LTS.
 
