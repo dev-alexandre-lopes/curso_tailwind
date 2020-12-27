@@ -73,7 +73,7 @@ O TailwindCSS é um framework que utiliza a abordagem **_Utility First_** ou **_
 
     @tailwind utilities;
     ```
-7. Adicione um **_script_** chamado de **_start_** no seu arquivo **package.json**. Este script irá gerar um arquivo **CSS final** com todas as classes do **Tailwind**, dentro de uma pasta chamada **src**. :
+7. Adicione um **_script_** chamado de **_start_** no seu arquivo **package.json**. Este script irá gerar um arquivo **CSS Final** com todas as classes do **Tailwind**, dentro de uma pasta chamada **src**. :
 
     ```
     "scripts": {"start":"npx tailwindcss build tailwind.css -o src/css/style.css"},
@@ -82,7 +82,7 @@ O TailwindCSS é um framework que utiliza a abordagem **_Utility First_** ou **_
 
     ```npm run start```
 
-9. Adicione um **_script_** chamado de **_build_** no seu arquivo **package.json**. Este script irá gerar um arquivo **CSS final minify** utilizando o **PostCSS** com todas as classes do **Tailwind**, dentro de uma pasta chamada **dist**. :
+9. Adicione um **_script_** chamado de **_build_** no seu arquivo **package.json**. Este script irá gerar um arquivo **CSS Final Minify** utilizando o **PostCSS** com todas as classes do **Tailwind**, dentro de uma pasta chamada **dist**. :
     
     ```
     "scripts": {"build":"postcss tailwind.css -o dist/css/style.css"},
@@ -92,7 +92,7 @@ O TailwindCSS é um framework que utiliza a abordagem **_Utility First_** ou **_
 
     ```npm run build``` 
 
-11. Pronto agora você deve ter um arquivo **CSS Final Compilado** na pasta **_src/css_** e um arquivo **_CSS Final Compilado Minify_** na pasta **_dist/css_**. Este último possui somente as configurações básicas utilizadas do **Tailwind**, junto com quaisquer classes de utilitário que você está usando em seus modelos.
+11. Pronto agora você deve ter um arquivo **_CSS Final Compilado_** na pasta **_src/css_** e um arquivo **_CSS Final Compilado Minify_** na pasta **_dist/css_**. Este último possui somente as configurações básicas utilizadas do **Tailwind**, junto com as classes de utilitário que você está usando em seus modelos.
 
 ## Conceitos Fundamentais
 
