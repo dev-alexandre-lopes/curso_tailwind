@@ -40,7 +40,7 @@ O TailwindCSS é um framework que utiliza a abordagem **_Utility First_** ou **_
 
     ```npm init -y```
 
-3. Instale os pacotes necessários executando o comando abaixo no terminal. Isso irá instalar o [PostCSS](https://postcss.org/), o **PostCSS CLI** (para executar o script de compilação) e os 3 plug-ins principais para PostCSS, que são **TailwindCSS**, **AutoPrefixer** e o **PurgeCSS**.
+3. Instale os pacotes necessários executando o comando abaixo no terminal. Isso irá instalar o [PostCSS](https://postcss.org/), o **PostCSS CLI** (para executar o script de compilação) e os 3 plugins principais para PostCSS, que são: **TailwindCSS**, **AutoPrefixer** e o **PurgeCSS**.
 
      ```npm i postcss postcss-cli tailwindcss autoprefixer @fullhuman/postcss-purgecss```
 
@@ -73,7 +73,7 @@ O TailwindCSS é um framework que utiliza a abordagem **_Utility First_** ou **_
 
     @tailwind utilities;
     ```
-7. Adicione um **_script_** chamado de **_start_** de compilação ao seu arquivo **package.json**. Este script irá gerar um arquivo **CSS final** com todas as classes do **Tailwind**, dentro de uma pasta **src**. :
+7. Adicione um **_script_** chamado de **_start_** no seu arquivo **package.json**. Este script irá gerar um arquivo **CSS final** com todas as classes do **Tailwind**, dentro de uma pasta chamada **src**. :
 
     ```
     "scripts": {"start":"npx tailwindcss build tailwind.css -o src/css/style.css"},
@@ -82,7 +82,7 @@ O TailwindCSS é um framework que utiliza a abordagem **_Utility First_** ou **_
 
     ```npm run start```
 
-9. Adicione um **_script_** chamado de **_build_** de compilação ao seu arquivo **package.json**. Este script irá gerar um arquivo **CSS final minify** utilizando o **PostCSS** com todas as classes do **Tailwind**, dentro de uma pasta **dist**. :
+9. Adicione um **_script_** chamado de **_build_** no seu arquivo **package.json**. Este script irá gerar um arquivo **CSS final minify** utilizando o **PostCSS** com todas as classes do **Tailwind**, dentro de uma pasta chamada **dist**. :
     
     ```
     "scripts": {"build":"postcss tailwind.css -o dist/css/style.css"},
