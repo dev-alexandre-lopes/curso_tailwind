@@ -92,6 +92,19 @@ O TailwindCSS é um framework que utiliza uma abordagem de escrita e uso do CSS 
 
 11. Pronto agora você deve ter um arquivo **_CSS Final Compilado_** na pasta **_src/css_** e um arquivo **_CSS Final Compilado Minify_** na pasta **_dist/css_**. Este último possui somente as configurações básicas utilizadas do **Tailwind**, junto com as classes de utilitário que você está usando em seus modelos.
 
+
+## Extensão IntelliSense para o VSCode
+
+A extensão **_TailwindCSS IntelliSense_** para o VS Code aprimora a experiência de desenvolvimento do Tailwind fornecendo ao usuário do Visual Studio Code recursos avançados, como preenchimento automático, destaque de sintaxe e linting.
+
+# Principais Funcionalidades:
+
+* **_Autocompletar_**: Sugestões inteligentes para nomes de classes, bem como funções e diretivas CSS.
+* **_Linting_**: Destaca os erros e possíveis **bugs** em seu CSS e em sua marcação.
+* **_Hover Preview_**: Veja o CSS completo para um nome de classe do Tailwind passando o mouse sobre ele.
+* **_Realce de sintaxe_**: Fornece definições de sintaxe para que os recursos do Tailwind sejam destacados corretamente.
+
+
 ## Conceitos Fundamentais
 
 
