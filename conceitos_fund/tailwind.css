@@ -4,6 +4,8 @@
 
 @tailwind utilities;
 
+/* Exemplo de como criar um componente*/
+
 @layer components {
 
     .btn-blue{
