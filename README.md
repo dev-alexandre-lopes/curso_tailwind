@@ -93,17 +93,34 @@ O TailwindCSS é um framework que utiliza uma abordagem de escrita e uso do CSS 
 
 11. Faça o link dentro do arquivo html para o arquivo CSS Final compilado do Tailwind gerado no item 10 que encontra-se na pasta **/src/css**.
 
-12. Adicione um **_script_** chamado de **_build_** no seu arquivo **package.json** criado na etapa 1. Este script irá gerar um arquivo **CSS Final Minify** utilizando o **PostCSS** com todas as classes do **Tailwind**, dentro da pasta **dist** criada no item 7. :
+12. O Tailwind já está em funcionamento, para verificar o resultado utilize o Live Server do VS Code para visualizar a página HTML com o código padrão abaixo:
+
+    ```
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Framework TailwindCSS</title>
+        <link rel="stylesheet" href="/src/css/style.css">
+    </head>
+    <body>
+     <h1 class="text-xl text-blue-800 ml-60"> HTML Boilerplate </h1>
+    </body>
+    </html>
+    ```
+
+13. Adicione um **_script_** chamado de **_build_** no seu arquivo **package.json** criado na etapa 1. Este script irá gerar um arquivo **CSS Final Minify** utilizando o **PostCSS** com todas as classes do **Tailwind**, dentro da pasta **dist** criada no item 7. :
     
     ```
     "scripts": {"build":"postcss tailwind.css -o dist/css/style.css"},
     ```
 
-13. Crie o seu arquivo **_CSS Final Compilado Minify_** executando o script através do comando abaixo no terminal:
+14. Crie o seu arquivo **_CSS Final Compilado Minify_** executando o script através do comando abaixo no terminal:
 
     ```npm run build``` 
 
-14. Pronto agora você deve ter um arquivo **_CSS Final Compilado_** na pasta **_src/css_** e um arquivo **_CSS Final Compilado Minify_** na pasta **_dist/css_**. Este último possui somente as configurações básicas utilizadas do **Tailwind**, junto com as classes de utilitário que você está usando em seus modelos.
+15. Pronto agora você deve ter um arquivo **_CSS Final Compilado_** na pasta **_src/css_** e um arquivo **_CSS Final Compilado Minify_** na pasta **_dist/css_**. Este último possui somente as configurações básicas utilizadas do **Tailwind**, junto com as classes de utilitário que você está usando em seus modelos, podendo ser utilizado em modo de produção.
 
 
 ### 1.2 Extensão IntelliSense para o Visual Studio Code
@@ -150,7 +167,7 @@ Em Tailwind não devemos utilizar componentes prontos. Primeiramente desenvolvem
 
 ### 3.1 Container
 
-O container é um elemento que possui uma determinada largura, e que serve para incluir elementos dentro. Com as classes de responsividade (sm, md, lg e xl) pode setar um **_max-with_** no elemento. É aplicado utilizando-se a classe **container**
+O container é um elemento que possui uma determinada largura, e que serve para incluir elementos dentro. Com as classes de responsividade (sm, md, lg e xl) podemos setar um **_max-with_** no elemento. É aplicado utilizando-se a classe **container**.
 
 
 
