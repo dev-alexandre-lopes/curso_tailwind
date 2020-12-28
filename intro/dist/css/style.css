@@ -188,6 +188,11 @@ Add the correct display in Chrome and Safari.
  * Removes the default spacing and border for appropriate elements.
  */
 
+
+h1 {
+  margin: 0;
+}
+
 /**
  * Work around a Firefox/IE bug where the transparent `button` background
  * results in a loss of the default `button` focus styles.
@@ -268,6 +273,11 @@ body {
  * https://github.com/tailwindcss/tailwindcss/issues/362
  */
 
+h1 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
 /**
  * Reset links to optimize for opt-in styling instead of
  * opt-out.
@@ -303,6 +313,15 @@ body {
  * https://github.com/mozdevs/cssremedy/issues/14
  */
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.ml-60 {
+  margin-left: 15rem;
+}
+
 * {
   --tw-shadow: 0 0 #0000;
 }
@@ -314,6 +333,11 @@ body {
   --tw-ring-color: rgba(59, 130, 246, 0.5);
   --tw-ring-offset-shadow: 0 0 #0000;
   --tw-ring-shadow: 0 0 #0000;
+}
+
+.text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgba(239, 68, 68, var(--tw-text-opacity));
 }
 
 @keyframes spin {
