@@ -78,9 +78,9 @@ O TailwindCSS é um framework que utiliza uma abordagem de escrita e uso do CSS 
 
     a) Pasta **src**: Deve conter o código html do projeto e o CSS final compilado do Tailwind;
 
-    b) Pasta **dist**: Deve conter o código final compilado e minificado do Tailwind;
+    b) Pasta **dist**: Deve conter o CSS final compilado e minificado do Tailwind;
 
-8. Crie o arquivo **_index.html_** dentro da pasta **src** digite o código do projeto e faça o link para o arquivo CSS compilado do Tailwind que encontra-se na pasta **/src/css**.
+8. Crie o arquivo **_index.html_** dentro da pasta **src**, digite o código do projeto e faça o link para o arquivo CSS compilado do Tailwind que encontra-se na pasta **/src/css**.
 
 9. Adicione um **_script_** chamado de **_start_** no seu arquivo **package.json** criado na etapa 1. Este script irá gerar um arquivo **CSS Final** com todas as classes do **Tailwind**, dentro da pasta **src** criada no item 7. :
 
