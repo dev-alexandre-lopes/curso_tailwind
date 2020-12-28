@@ -31,9 +31,9 @@ O TailwindCSS é um framework que utiliza uma abordagem de escrita e uso do CSS 
 * Interatividade;
 
 
-## Introdução
+## 1. Introdução
 
-### Como instalar o TailwindCSS
+### 1.1 Como instalar o TailwindCSS
 
 1. Se caso ainda não o tenha feito, você precisará instalar o [NodeJS](https://nodejs.org/en/) em seu computador. Utilize sempre a versão recomendada LTS.
 
@@ -96,13 +96,13 @@ O TailwindCSS é um framework que utiliza uma abordagem de escrita e uso do CSS 
 11. Pronto agora você deve ter um arquivo **_CSS Final Compilado_** na pasta **_src/css_** e um arquivo **_CSS Final Compilado Minify_** na pasta **_dist/css_**. Este último possui somente as configurações básicas utilizadas do **Tailwind**, junto com as classes de utilitário que você está usando em seus modelos.
 
 
-### Extensão IntelliSense para o Visual Studio Code
+### 1.2 Extensão IntelliSense para o Visual Studio Code
 
 A extensão **_TailwindCSS IntelliSense_** para o Visual Studio Code aprimora a experiência de desenvolvimento do Tailwind fornecendo ao usuário recursos avançados, como preenchimento automático, destaque de sintaxe e linting.
 
 ![intellisense 0bd2cbf8c277e6c1330e345ab3cd7684](https://user-images.githubusercontent.com/64049906/103180961-bfb8dd80-4871-11eb-9644-990aae1bd952.png)
 
-#### Principais Funcionalidades:
+#### 1.3 Principais Funcionalidades:
 
 * **_Autocompletar_**: Sugestões inteligentes para nomes de classes, bem como funções e diretivas CSS.
 * **_Linting_**: Destaca os erros e possíveis **bugs** em seu CSS e em sua marcação.
@@ -110,30 +110,33 @@ A extensão **_TailwindCSS IntelliSense_** para o Visual Studio Code aprimora a 
 * **_Realce de sintaxe_**: Fornece definições de sintaxe para que os recursos do Tailwind sejam destacados corretamente.
 
 
-## Conceitos Fundamentais
+## 2. Conceitos Fundamentais
 
-### Tudo é Classe no TailwindCSS:
+### 2.1 Tudo é Classe no TailwindCSS:
 
 A estilização no projeto com o Tailwind é tudo feito por meio de **_classes_**. Temos classes para **cor de fonte** e até mesmo para **pseudo seletores (hover)**. É possível também criar classes próprias com base nas existentes.
 
 
-### O Conceito de Utility First:
+### 2.2 O Conceito de Utility First:
 
 A premissa do Tailwind é construir componentes complexos com um conjunto de classes utilitárias. Podemos citar o exemplo do [BootStrap](https://getbootstrap.com/) que utiliza componentes prontos, aumentando substancialmente a dificuldade de customização em projetos extensos. No caso do **Tailwind** já utilizamos um conjunto de classes que proporciona a possibilidade de criação de variações de componentes (customização) de forma simples, ou seja, componente únicos. O tempo de desenvolvimento também é menor comparado a criação de um arquivo CSS puro.
 
-### Prioridade para Dispositivos Móveis: Mobile First
+### 2.3 Prioridade para Dispositivos Móveis: Mobile First
 
-Todas as classes podem ser aplicadas a um determinado **breakpoint**. As classes padrões do Tailwind são: **_sm, md, lg e xl_**. Lembrando que as classes são **_mobile first_**, ou seja,  aplicadas para resoluções acima destes breakpoints. Não utilizamos nenhum breakpoint para atingir o mobile. Na fase de projeto deve-se pensar sempre do menor para o maior breakpoint que será utilizado.
+Todas as classes podem ser aplicadas a um determinado **breakpoint**. As classes padrões do Tailwind são: **_sm, md, lg e xl_**. Lembrando que as classes são **_mobile first_**, ou seja,  aplicadas para resoluções acima destes **breakpoints**. Não utilizamos nenhum **breakpoint** para atingir o mobile. Na fase de projeto deve-se pensar sempre do menor para o maior **breakpoint** que será utilizado.
 
-Breakpoints: **sm**: 640px, **md**: 768px, **lg**: 1024px, **xl**: 1280px,
+**_Breakpoints_**: **sm**: 640px, **md**: 768px, **lg**: 1024px, **xl**: 1280px,
 
 
-### Pseudos Classes e Eventos:
+### 2.4 Pseudos Classes e Eventos:
 
-Podemos utilizar as pseudo-classes com o Tailwind bastando adicionar as classes: **_hover, focus, active, group-houver, group-focus, focus-within, focus-visible, motion-safe, motion-reduce, disable, visited, checked, first-child, last-child, odd-child, even-child_**, 
+Podemos utilizar as pseudo-classes com o Tailwind bastando adicionar as seguintes classes: **_hover, focus, active, group-houver, group-focus, focus-within, focus-visible, motion-safe, motion-reduce, disable, visited, checked, first-child, last-child, odd-child, even-child_**, 
 
-### Componentização:
+### 2.5 Componentização:
 
 Em Tailwind não devemos utilizar componentes prontos. Primeiramente desenvolvemos o que precisamos e depois podemos **transformar em um componente** (via apply). Essa abordagem é interessante pois nem sempre tudo é definido no CSS, talvez precisamos de uma estrutura de HTML diferenciada.
+
+## 3. Layout
+
 
 
