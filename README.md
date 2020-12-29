@@ -161,13 +161,15 @@ Podemos utilizar as pseudo-classes com o Tailwind bastando adicionar as seguinte
 
 ### 2.5 Componentização:
 
-Em Tailwind não devemos utilizar componentes prontos. Primeiramente desenvolvemos o que precisamos e depois podemos **_transformar em um componente_** (via apply). Essa abordagem é interessante pois nem sempre tudo é definido no CSS, talvez precisamos de uma estrutura de HTML diferenciada.
+Com o Tailwind não devemos utilizar componentes prontos. Primeiramente desenvolvemos o que precisamos e depois podemos **_transformar em um componente_** (via apply). Essa abordagem é interessante pois nem sempre tudo é definido no CSS, talvez precisamos de uma estrutura de HTML diferenciada.
 
 ## 3. Layout
 
 ### 3.1 Container
 
-O container é um elemento que possui uma determinada largura, e que serve para incluir elementos dentro. Com as classes de responsividade (sm, md, lg e xl) podemos setar um **_max-with_** no elemento. É aplicado utilizando-se a classe **container**.
+O container é um elemento que possui uma determinada largura, e que serve para incluir elementos dentro. Com as classes de responsividade **_(sm, md, lg e xl)_** podemos setar um **_max-with_** no elemento. É aplicado utilizando-se a classe **container**. Observe que, ao contrário dos **containers** que você pode ter usado em outras estruturas, o **container** do Tailwind não se centraliza automaticamente e não tem nenhum preenchimento horizontal integrado.
+
+![class container tailwind](https://user-images.githubusercontent.com/64049906/103250553-cc5d3480-494a-11eb-8871-ef77882f2854.png)
 
 
 
