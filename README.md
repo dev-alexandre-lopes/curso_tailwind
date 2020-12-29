@@ -171,5 +171,11 @@ O container é um elemento que possui uma determinada largura, e que serve para 
 
 ![class container tailwind](https://user-images.githubusercontent.com/64049906/103250553-cc5d3480-494a-11eb-8871-ef77882f2854.png)
 
+Abaixo observe o exemplo de um trecho de código que centralizamos um container com a utility **_mx-auto_** e adicionamos um padding com a utility **_p-4_**:
 
+```
+    <div class="container mx-auto p-4 font-bold bg-green-300 md:bg-blue-400">
+        <p> Mudando da cor verde para azul no md breakpoint</p>
+    </div>
+```
 
