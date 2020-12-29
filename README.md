@@ -243,6 +243,22 @@ Podemos controlar a propriedade **float** do elemento com classes **float-(*)**.
 
 ![clear types](https://user-images.githubusercontent.com/64049906/103318718-b19bc600-4a05-11eb-8605-b70858cfbce3.png)
 
+Abaixo observe um trecho de que código onde aplicamos o conceito de **_float right_** e **_clear-none_**:
+
+
+    <div class="container mx-auto p-8 m-8 bg-gray-400">
+        <img class="float-right" src="/src/img/tailwind.png" alt="logo tailwind">
+        <p class="clear-none"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+            It has survived not only five centuries, but also the leap into electronic typesetting, 
+            remaining essentially unchanged. 
+            It was popularised in the 1960s with the release of Letraset sheets containing 
+            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
+            including versions of Lorem Ipsum.</p>
+    </div>
+
+![ex float clear](https://user-images.githubusercontent.com/64049906/103320039-55877080-4a0a-11eb-88bb-30e9accba62b.png)
+
 ### 3.5 Object Fit
 
 ### 3.6 Object Position
