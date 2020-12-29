@@ -181,7 +181,7 @@ Abaixo observe o exemplo de um trecho de código que centralizamos um container 
 
 ### 3.2 Box Sizing
 
-Com as classes **border-box** e **border-content**, podemos declarar como o elemento calcula o seu tamanho total.
+Com as classes **border-box** e **box-content**, podemos declarar como o elemento calcula o seu tamanho total.
 
 ![class box-sizing](https://user-images.githubusercontent.com/64049906/103250906-a89aee00-494c-11eb-8a1f-e0b5fc786f1f.png)
 
