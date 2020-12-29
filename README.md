@@ -203,3 +203,13 @@ Abaixo observe um trecho de que código onde aplicamos os conceitos de **box-bor
         </div>
    
 ![box-sizing](https://user-images.githubusercontent.com/64049906/103288928-5f828280-49bc-11eb-8487-4fbe26c256e0.png)
+
+### 3.3 Display
+
+Utility para controlar o tipo de **display box** de um elemento.
+
+
+![display 1](https://user-images.githubusercontent.com/64049906/103290024-f3554e00-49be-11eb-8b4d-6a4c166e61d9.png)
+
+![Display 2](https://user-images.githubusercontent.com/64049906/103290042-ffd9a680-49be-11eb-85e7-f5175d896e15.png)
+
