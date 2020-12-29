@@ -213,3 +213,15 @@ Utility para controlar o tipo de **display box** de um elemento.
 
 ![Display 2](https://user-images.githubusercontent.com/64049906/103290042-ffd9a680-49be-11eb-85e7-f5175d896e15.png)
 
+Colocando classes com valores da propriedade **display**, como **block**, podemos controlar este comportamento do elemento. Então um elemento com classe **inline-block**, se comporta igual a um elemento com estilo **_display: inline-block_**. As outras propriedades seguem a mesma lógica.
+
+### 3.4 Floats e Clear
+
+Utility para controlar o empacotamento do conteúdo em torno de um elemento.
+
+![floats](https://user-images.githubusercontent.com/64049906/103293435-51396400-49c6-11eb-95ed-4851dce33a0c.png)
+
+Podemos controlar a propriedade **float** do elemento com classes **float-(*)**. Onde o * é o tipo de float que desejamos, como por exxemplo: **right** ou **left**. 
+
+![float](https://user-images.githubusercontent.com/64049906/103294481-50093680-49c8-11eb-9dca-4680947f50df.png)
+
