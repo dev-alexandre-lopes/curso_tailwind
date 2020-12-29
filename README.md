@@ -230,11 +230,21 @@ Abaixo observe um trecho de que código onde aplicamos o conceito de **_display:
 
 ### 3.4 Floats e Clear
 
-Utility para controlar o empacotamento do conteúdo em torno de um elemento.
+As utilities **float** e **clear** servem para controlar o empacotamento do conteúdo em torno de um elemento.
 
 ![floats](https://user-images.githubusercontent.com/64049906/103293435-51396400-49c6-11eb-95ed-4851dce33a0c.png)
 
-Podemos controlar a propriedade **float** do elemento com classes **float-(*)**. Onde o * é o tipo de float que desejamos, como por exxemplo: **right** ou **left**. 
+Podemos controlar a propriedade **float** do elemento com classes **float-(*)**. Onde o * é o tipo de float que desejamos, como por exemplo: **right**, **left** ou **none**. A classe **clear** segue o mesmo padrão, podendo-se ser: **right**, **left**, **none** ou **both**, por exemplo.
 
 ![float](https://user-images.githubusercontent.com/64049906/103294481-50093680-49c8-11eb-9dca-4680947f50df.png)
 
+
+![clear](https://user-images.githubusercontent.com/64049906/103318701-a0eb5000-4a05-11eb-8023-691901da9259.png)
+
+![clear types](https://user-images.githubusercontent.com/64049906/103318718-b19bc600-4a05-11eb-8605-b70858cfbce3.png)
+
+### 3.5 Object Fit
+
+### 3.6 Object Position
+
+### 3.7 Overflow
