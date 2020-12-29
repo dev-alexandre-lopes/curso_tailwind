@@ -195,12 +195,12 @@ Isso significa que um elemento 100px × 100px com uma borda de 2px e 4px de pree
 
 Abaixo observe um trecho de que código onde aplicamos os conceitos de **box-border** e **box-content**:
   
-        <div class="container box-border mx-auto p-8 m-8 bg-purple-500"> 
-            <p>Exemplo de um container com border-box e margem e padding de 2rem</p>
-        </div>
-        <div class="container box-content mx-auto p-8 m-8 bg-yellow-300">
-            <p>Exemplo de um container com box-content e margem e padding de 2rem </p>
-        </div>
+    <div class="container box-border mx-auto p-8 m-8 bg-purple-500"> 
+        <p>Exemplo de um container com border-box e margem e padding de 2rem</p>
+    </div>
+    <div class="container box-content mx-auto p-8 m-8 bg-yellow-300">
+        <p>Exemplo de um container com box-content e margem e padding de 2rem </p>
+    </div>
    
 ![box-sizing](https://user-images.githubusercontent.com/64049906/103288928-5f828280-49bc-11eb-8487-4fbe26c256e0.png)
 
@@ -214,6 +214,16 @@ Utility para controlar o tipo de **display box** de um elemento.
 ![Display 2](https://user-images.githubusercontent.com/64049906/103290042-ffd9a680-49be-11eb-85e7-f5175d896e15.png)
 
 Colocando classes com valores da propriedade **display**, como **block**, podemos controlar este comportamento do elemento. Então um elemento com classe **inline-block**, se comporta igual a um elemento com estilo **_display: inline-block_**. As outras propriedades seguem a mesma lógica.
+
+Abaixo observe um trecho de que código onde aplicamos o conceito de **_display: inline-block_**:
+
+    <div class="container mx-auto p-8 m-8 bg-yellow-200">
+        <div class="bg-red-400 inline-block p-2 m-2"> Bloco 01 </div>
+
+        <div class="bg-blue-500 inline-block p-2 m-2"> Bloco 02 </div>
+
+        <div class="bg-green-500 inline-block p-2 m-2"> Bloco 03 </div>
+    </div>
 
 ### 3.4 Floats e Clear
 
