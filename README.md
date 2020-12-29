@@ -194,13 +194,12 @@ Use a utility **box-content** para definir o **box-sizing** de um elemento para 
 Isso significa que um elemento 100px × 100px com uma borda de 2px e 4px de preenchimento em todos os lados será renderizado como 112px × 112px, com uma área de conteúdo interno de 100px × 100px.
 
 Abaixo observe um trecho de que código onde aplicamos os conceitos de **box-border** e **box-content**:
-
-    ```    
+  
         <div class="container box-border mx-auto p-8 m-8 bg-purple-500"> 
             <p>Exemplo de um container com border-box e margem e padding de 2rem</p>
         </div>
         <div class="container box-content mx-auto p-8 m-8 bg-yellow-300">
             <p>Exemplo de um container com box-content e margem e padding de 2rem </p>
         </div>
-    ```
+   
 ![box-sizing](https://user-images.githubusercontent.com/64049906/103288928-5f828280-49bc-11eb-8487-4fbe26c256e0.png)
