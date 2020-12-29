@@ -185,6 +185,22 @@ Com as classes **border-box** e **box-content**, podemos declarar como o element
 
 ![class box-sizing](https://user-images.githubusercontent.com/64049906/103250906-a89aee00-494c-11eb-8a1f-e0b5fc786f1f.png)
 
-Use a utility **box-border** para definir o tamanho da caixa de um elemento como **border-box**, instruindo o navegador a incluir as bordas e o padding do elemento quando você atribuir a ele uma altura ou largura.
+Use a utility **box-border** para definir o **box-sizing** de um elemento como **border-box**, instruindo o navegador a incluir as bordas e o padding do elemento quando você atribuir a ele uma altura ou largura.
 
 Isso significa que um elemento de 100px × 100px com uma borda de 2px e 4px de padding em todos os lados será renderizado como 100px × 100px, com uma área de conteúdo interno de 88px × 88px.
+
+Use a utility **box-content** para definir o **box-sizing** de um elemento para **content-box**, instruindo o navegador a adicionar bordas e padding na parte superior da largura ou altura especificada do elemento.
+
+Isso significa que um elemento 100px × 100px com uma borda de 2px e 4px de preenchimento em todos os lados será renderizado como 112px × 112px, com uma área de conteúdo interno de 100px × 100px.
+
+Abaixo observe um trecho de que código onde aplicamos os conceitos de **box-border** e **box-content**:
+
+    ```
+    <div class="container box-border mx-auto p-8 m-8 bg-purple-500"> 
+        <p>Exemplo de um container com border-box e margem e padding de 2rem</p>
+    </div>
+    <div class="container box-content mx-auto p-8 m-8 bg-yellow-300">
+        <p>Exemplo de um container com box-content e margem e padding de 2rem </p>
+    </div>
+    ```
+    ![box-sizing](https://user-images.githubusercontent.com/64049906/103288928-5f828280-49bc-11eb-8487-4fbe26c256e0.png)
