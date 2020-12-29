@@ -225,6 +225,9 @@ Abaixo observe um trecho de que código onde aplicamos o conceito de **_display:
         <div class="bg-green-500 inline-block p-2 m-2"> Bloco 03 </div>
     </div>
 
+![Exemplo inline block](https://user-images.githubusercontent.com/64049906/103295010-75e30b00-49c9-11eb-9ee1-d57b63446a21.png)
+
+
 ### 3.4 Floats e Clear
 
 Utility para controlar o empacotamento do conteúdo em torno de um elemento.
