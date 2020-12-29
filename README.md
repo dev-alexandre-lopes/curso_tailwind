@@ -203,4 +203,4 @@ Abaixo observe um trecho de que código onde aplicamos os conceitos de **box-bor
         <p>Exemplo de um container com box-content e margem e padding de 2rem </p>
     </div>
     ```
-    ![box-sizing](https://user-images.githubusercontent.com/64049906/103288928-5f828280-49bc-11eb-8487-4fbe26c256e0.png)
+![box-sizing](https://user-images.githubusercontent.com/64049906/103288928-5f828280-49bc-11eb-8487-4fbe26c256e0.png)
