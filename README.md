@@ -171,11 +171,20 @@ O container é um elemento que possui uma determinada largura, e que serve para 
 
 ![class container tailwind](https://user-images.githubusercontent.com/64049906/103250553-cc5d3480-494a-11eb-8871-ef77882f2854.png)
 
-Abaixo observe o exemplo de um trecho de código que centralizamos um container com a utility **_mx-auto_** e adicionamos um padding com a utility **_p-4_**:
+Abaixo observe o exemplo de um trecho de código que centralizamos um container com a utility **_mx-auto_** e adicionamos um padding com a utility **_p-4_**. 
 
 ```
     <div class="container mx-auto p-4 font-bold bg-green-300 md:bg-blue-400">
-        <p> Mudando da cor verde para azul no md breakpoint</p>
+        <p> Mudando da cor verde para azul no md:(breakpoint)</p>
     </div>
 ```
 
+### 3.2 Box Sizing
+
+Com as classes **border-box** e **border-content**, podemos declarar como o elemento calcula o seu tamanho total.
+
+![class box-sizing](https://user-images.githubusercontent.com/64049906/103250906-a89aee00-494c-11eb-8a1f-e0b5fc786f1f.png)
+
+Use a utility **box-border** para definir o tamanho da caixa de um elemento como **border-box**, instruindo o navegador a incluir as bordas e o padding do elemento quando você atribuir a ele uma altura ou largura.
+
+Isso significa que um elemento de 100px × 100px com uma borda de 2px e 4px de padding em todos os lados será renderizado como 100px × 100px, com uma área de conteúdo interno de 88px × 88px.
