@@ -216,7 +216,6 @@ Abaixo observe um trecho de que código onde aplicamos os conceitos de **box-bor
 
 Utility para controlar o tipo de **display box** de um elemento.
 
-
 ![display 1](https://user-images.githubusercontent.com/64049906/103290024-f3554e00-49be-11eb-8b4d-6a4c166e61d9.png)
 
 ![Display 2](https://user-images.githubusercontent.com/64049906/103290042-ffd9a680-49be-11eb-85e7-f5175d896e15.png)
@@ -270,7 +269,27 @@ Abaixo observe um trecho de que código onde aplicamos o conceito de **_float-ri
 
 ### 3.6 Object Fit
 
-É uma utility para controlar
+É uma utility para controlar como o conteúdo de um elemento substituído (img ou tag de vídeo) deve ser redimensionado.
+
+![object fit](https://user-images.githubusercontent.com/64049906/103425668-462f3100-4b8a-11eb-83ea-0832ed11c88c.png)
+
+**_object-contain_**: Utilizado para redimensionar o conteúdo de um elemento para que o mesmo fique contido em seu container.
+
+![contain](https://user-images.githubusercontent.com/64049906/103425787-277d6a00-4b8b-11eb-8f99-165699bb95fe.png)
+
+
+**_object-cover_**: Utilizado para redimensionar o conteúdo de um elemento para que o mesmo possa cobrir o seu container.
+
+![cover](https://user-images.githubusercontent.com/64049906/103425896-d326ba00-4b8b-11eb-81fc-e2dd45614b8e.png)
+
+**_object-fill_**: Utilizado para esticar o conteúdo de um elemento para que o mesmo possa caber em todo o seu container.
+
+![fill](https://user-images.githubusercontent.com/64049906/103425927-16812880-4b8c-11eb-9805-9e372d36514d.png)
+
+
+**_object-scale-down_**: Utilizado para exibir o conteúdo de um elemento em seu tamanho original, mas pode reduzi-ló para caber em seu container, se necessário.
+
+![contain](https://user-images.githubusercontent.com/64049906/103425787-277d6a00-4b8b-11eb-8f99-165699bb95fe.png)
 
 ### 3.7 Object Position
 
