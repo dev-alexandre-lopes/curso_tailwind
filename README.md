@@ -293,4 +293,25 @@ Abaixo observe um trecho de que código onde aplicamos o conceito de **_float-ri
 
 ### 3.7 Object Position
 
+É uma utility para controlar como o conteúdo de um elemento substituído deve ser posicionado em seu container.
+
+![position](https://user-images.githubusercontent.com/64049906/103427514-e3449680-4b97-11eb-9d46-9d87f8bf5b29.png)
+
+Abaixo observe um exemmplo de código com as possibilidades de posicionamento dentro de um container:
+    
+    <div class="container flex flex-wrap mx-auto m-4 p-4 bg-gray-400">
+        <img class="w-32 h-32 m-4 object-none object-left-top bg-red-400"src="/src/img/placeholder-square-amber.svg" alt="bloco amarelo">
+        <img class="w-32 h-32 m-4 object-none object-top bg-blue-600"src="/src/img/placeholder-square-amber.svg" alt="bloco amarelo">
+        <img class="w-32 h-32 m-4 object-none object-right-top bg-green-300"src="/src/img/placeholder-square-amber.svg" alt="bloco amarelo">
+        <img class="w-32 h-32 m-4 object-none object-left bg-yellow-300"src="/src/img/placeholder-square-amber.svg" alt="bloco amarelo">
+        <img class="w-32 h-32 m-4 object-none object-center bg-purple-800"src="/src/img/placeholder-square-amber.svg" alt="bloco amarelo">
+        <img class="w-32 h-32 m-4 object-none object-right bg-green-900"src="/src/img/placeholder-square-amber.svg" alt="bloco amarelo">
+        <img class="w-32 h-32 m-4 object-none object-left-bottom bg-red-700"src="/src/img/placeholder-square-amber.svg" alt="bloco amarelo">
+        <img class="w-32 h-32 m-4 object-none object-bottom bg-yellow-300"src="/src/img/placeholder-square-amber.svg" alt="bloco amarelo">
+        <img class="w-32 h-32 m-4 object-none object-right-bottom bg-indigo-600"src="/src/img/placeholder-square-amber.svg" alt="bloco amarelo">
+    </div>
+
+![position 2](https://user-images.githubusercontent.com/64049906/103427557-39193e80-4b98-11eb-94a4-677b0674b404.png)
+
+
 ### 3.8 Overflow
