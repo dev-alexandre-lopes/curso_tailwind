@@ -4,11 +4,14 @@
 
 O TailwindCSS é um framework que utiliza uma abordagem de escrita e uso do CSS em que se procura, primeiramente, fazer uso das chamadas classes utilitárias (**_Utility First_**), classes estas que representam atributos do CSS, como **border**, **background**, **border-radius** e uma série de outras propriedades. Essa abordagem possui inúmeros sinônimos: **_Immutable CSS, Functional CSS, Atomic CSS_** entre outros.
 
-## Referências e Documentação Oficial:
+## Boas Referências e a Documentação Oficial:
 
 [Website](https://tailwindcss.com) - Website Oficial do Framework TailwindCSS
 
 [Repositório](https://github.com/tailwindcss/tailwindcss) - Repositório Oficial do Framework TailwindCSS.
+
+[TailBlocks](https://github.com/mertJF/tailblocks) - TailwindCSS Blocks.
+
 
 ## Conteúdo do Curso
 
