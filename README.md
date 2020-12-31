@@ -165,7 +165,15 @@ Com o Tailwind não devemos utilizar componentes prontos. Primeiramente desenvol
 
 ## 3. Layout
 
-### 3.1 Container
+
+### 3.1 Breakpoints
+
+Os **breakpoints** são os tamanhos de tela que envolvem as classes de utilitários. Os valores para os breakpoints são apresentados abaixo:
+
+![breakpoints](https://user-images.githubusercontent.com/64049906/103425006-e9317c00-4b85-11eb-9342-c64de4ff9c6f.png)
+
+
+### 3.2 Container
 
 O container é um elemento que possui uma determinada largura, e que serve para incluir elementos dentro. Com as classes de responsividade **_(sm, md, lg e xl)_** podemos setar um **_max-with_** no elemento. É aplicado utilizando-se a classe **container**. Observe que, ao contrário dos **containers** que você pode ter usado em outras estruturas, o **container** do Tailwind não se centraliza automaticamente e não tem nenhum preenchimento horizontal integrado.
 
@@ -179,7 +187,7 @@ Abaixo observe o exemplo de um trecho de código que centralizamos um container 
     </div>
 ```
 
-### 3.2 Box Sizing
+### 3.3 Box Sizing
 
 Com as classes **border-box** e **box-content**, podemos declarar como o elemento calcula o seu tamanho total.
 
@@ -204,7 +212,7 @@ Abaixo observe um trecho de que código onde aplicamos os conceitos de **box-bor
    
 ![box-sizing](https://user-images.githubusercontent.com/64049906/103288928-5f828280-49bc-11eb-8487-4fbe26c256e0.png)
 
-### 3.3 Display
+### 3.4 Display
 
 Utility para controlar o tipo de **display box** de um elemento.
 
@@ -228,7 +236,7 @@ Abaixo observe um trecho de que código onde aplicamos o conceito de **_display:
 ![Exemplo inline block](https://user-images.githubusercontent.com/64049906/103295010-75e30b00-49c9-11eb-9ee1-d57b63446a21.png)
 
 
-### 3.4 Floats e Clear
+### 3.5 Floats e Clear
 
 As utilities **float** e **clear** servem para controlar o empacotamento do conteúdo em torno de um elemento.
 
@@ -243,12 +251,13 @@ Podemos controlar a propriedade **float** do elemento com classes **float-(*)**.
 
 ![clear types](https://user-images.githubusercontent.com/64049906/103318718-b19bc600-4a05-11eb-8605-b70858cfbce3.png)
 
-Abaixo observe um trecho de que código onde aplicamos o conceito de **_float right_** e **_clear-none_**:
+Abaixo observe um trecho de que código onde aplicamos o conceito de **_float-right_** e **_clear-none_**:
 
 
     <div class="container mx-auto p-8 m-8 bg-gray-400">
         <img class="float-right" src="/src/img/tailwind.png" alt="logo tailwind">
-        <p class="clear-none"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+        <p class="clear-none"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
             when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
             It has survived not only five centuries, but also the leap into electronic typesetting, 
             remaining essentially unchanged. 
@@ -259,8 +268,10 @@ Abaixo observe um trecho de que código onde aplicamos o conceito de **_float ri
 
 ![ex float clear](https://user-images.githubusercontent.com/64049906/103320039-55877080-4a0a-11eb-88bb-30e9accba62b.png)
 
-### 3.5 Object Fit
+### 3.6 Object Fit
 
-### 3.6 Object Position
+É uma utility para controlar
 
-### 3.7 Overflow
+### 3.7 Object Position
+
+### 3.8 Overflow
