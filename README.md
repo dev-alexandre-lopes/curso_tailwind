@@ -318,3 +318,36 @@ Abaixo observe um exemmplo de código com as possibilidades de posicionamento de
 
 
 ### 3.8 Overflow
+
+É uma utility para controlar como um elemento trata um conteúdo muito grande para o seu container. Podemos criar ou eliminar **scroll**, controlar eixos tudo através das classes abaixo:
+
+![overflow](https://user-images.githubusercontent.com/64049906/103458792-dc299f80-4ce1-11eb-85a8-0d36de0fed8d.png)
+
+
+### 3.9 Overscroll
+
+É uma utility para controlar como o navegador se comporta ao atingir o limite de uma área de rolagem. Podemos controlar através das classes abaixo:
+
+![overscroll](https://user-images.githubusercontent.com/64049906/103459696-7e985180-4ce7-11eb-94ed-39ec3e49893b.png)
+
+
+### 3.10 Position
+
+É uma utility para controlar como um elemento é posicionado no DOM. Podemos controlar através das classes abaixo:
+
+![position](https://user-images.githubusercontent.com/64049906/103460651-4ea07c80-4cee-11eb-9a69-5269003edded.png)
+
+
+### 3.11 Top, right, bottom, left
+
+
+### 3.12 Visibility
+
+
+### 3.13 Z-index
+
+
+## 4. Flexbox
+
+
+### 
