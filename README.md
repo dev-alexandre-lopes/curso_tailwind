@@ -340,6 +340,17 @@ Abaixo observe um exemmplo de código com as possibilidades de posicionamento de
 
 ### 3.11 Top, right, bottom, left
 
+É uma utility para controlar o posicionamento de elementos com a classe **absolute** em um container com a classe **relative**.
+
+Use as utilities {top | right | bottom | left | inset} -0 para ancorar elementos absolutamente posicionados contra qualquer uma das arestas do elemento pai posicionado mais próximo.
+
+Combinando com os utilities de preenchimento e margem do **Tailwind**, provavelmente podemos controlar com precisão os elementos posicionados de forma absoluta. Abaixo alguns exemplos:
+
+![position](https://user-images.githubusercontent.com/64049906/103490764-75e17180-4df4-11eb-80ec-4e6e34d52eb3.png)
+
+
+
+
 
 ### 3.12 Visibility
 

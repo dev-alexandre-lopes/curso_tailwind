@@ -155,7 +155,7 @@
 
     <!--Exemplos de Position-->
 
-    <div class=" container h-40 relative m-8 bg-blue-300">
+    <div class=" container h-40 relative m-8 overflow-auto bg-blue-300">
         Relative Parent
         <p>
             when an unknown printer took a galley of type and scrambled it to make a type specimen book.
@@ -172,10 +172,11 @@
 
     </div>
 
-<div class="container m-8 h-36 overflow-auto ">
-    <div class="sticky top-0 bg-green-400"> Heading Sticky 1</div>
+    <div class="container m-8 h-36 overflow-auto ">
+        <div class="sticky top-0 bg-green-400"> Heading Sticky 1</div>
         <p class="bg-gray-400">Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum
-            magna augue eget diam.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia
+            magna augue eget diam.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+            Curae; Morbi lacinia
             molestie dui. Praesent blandit dolor.
             Sed non quam. In vel mi sit amet augue congue elementum.
             Morbi in ipsum sit amet pede facilisis laoreet.
@@ -196,9 +197,10 @@
             Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper.
             Nulla facilisi.
         </p>
-    <div class="sticky top-0 bg-red-400"> Heading Sticky 2</div>
+        <div class="sticky top-0 bg-red-400"> Heading Sticky 2</div>
         <p class="bg-blue-400">Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum
-            magna augue eget diam.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia
+            magna augue eget diam.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+            Curae; Morbi lacinia
             molestie dui. Praesent blandit dolor.
             Sed non quam. In vel mi sit amet augue congue elementum.
             Morbi in ipsum sit amet pede facilisis laoreet.
@@ -221,7 +223,8 @@
         </p>
         <div class="sticky top-0 bg-purple-400"> Heading Sticky 3</div>
         <p class="bg-yellow-400">Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum
-            magna augue eget diam.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia
+            magna augue eget diam.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+            Curae; Morbi lacinia
             molestie dui. Praesent blandit dolor.
             Sed non quam. In vel mi sit amet augue congue elementum.
             Morbi in ipsum sit amet pede facilisis laoreet.
@@ -242,8 +245,82 @@
             Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper.
             Nulla facilisi.
         </p>
-</div>
+    </div>
 
+    <div class="container flex flex-wrap m-4 p-4 bg-gray-400">
+
+        <div class="relative h-36 w-36 m-4 bg-blue-300">
+            <div class="absolute inset-x-0 top-0 h-16 bg-green-600 text-white text-lg font-bold text-center">1</div>
+
+        </div>
+
+        <div class="relative h-36 w-36 m-4 bg-blue-300">
+            <div class="absolute inset-x-0 top-10 h-16 bg-green-600 text-white text-lg font-bold text-center">2</div>
+
+        </div>
+
+        <div class="relative h-36 w-36 m-4 bg-blue-300">
+            <div class="absolute inset-x-0 bottom-0 h-16 bg-green-600 text-white text-lg font-bold text-center">3</div>
+
+        </div>
+
+        <div class="relative h-36 w-36 m-4 bg-blue-300">
+            <div class="absolute inset-y-0 left-0 w-16 bg-green-600 text-white text-lg font-bold text-center">4</div>
+
+        </div>
+        
+        <div class="relative h-36 w-36 m-4 bg-blue-300">
+            <div class="absolute inset-y-0 left-10 w-16 bg-green-600 text-white text-lg font-bold text-center">5</div>
+
+        </div>
+
+        <div class="relative h-36 w-36 m-4 bg-blue-300">
+            <div class="absolute inset-y-0 right-0 w-16 bg-green-600 text-white text-lg font-bold text-center">6</div>
+
+        </div>
+        
+        <div class="relative h-36 w-36 m-4 bg-blue-300">
+            <div class="absolute inset-0  bg-green-600 text-white text-lg font-bold text-center">7</div>
+
+        </div>
+
+        <div class="relative h-36 w-36 m-4 bg-blue-300">
+            <div class="absolute left-0 top-0 h-12 w-12 bg-green-600 text-white text-lg font-bold text-center">8</div>
+
+        </div>
+
+        <div class="relative h-36 w-36 m-4 bg-blue-300">
+            <div class="absolute left-10 top-0 h-12 w-12 bg-green-600 text-white text-lg font-bold text-center">9</div>
+
+        </div>
+
+        <div class="relative h-36 w-36 m-4 bg-blue-300">
+            <div class="absolute right-0 top-0 h-12 w-12 bg-green-600 text-white text-lg font-bold text-center">10</div>
+
+        </div>
+
+        <div class="relative h-36 w-36 m-4 bg-blue-300">
+            <div class="absolute left-0 bottom-0 h-12 w-12 bg-green-600 text-white text-lg font-bold text-center">11</div>
+
+        </div>
+
+        <div class="relative h-36 w-36 m-4 bg-blue-300">
+            <div class="absolute right-10 bottom-0 h-12 w-12 bg-green-600 text-white text-lg font-bold text-center">12</div>
+
+        </div>
+
+        <div class="relative h-36 w-36 m-4 bg-blue-300">
+            <div class="absolute right-0 bottom-0 h-12 w-12 bg-green-600 text-white text-lg font-bold text-center">13</div>
+
+        </div>
+
+        <div class="relative h-36 w-36 m-4 bg-blue-300">
+            <div class="absolute left-0 bottom-10 h-16 w-16 bg-green-600 text-white text-lg font-bold text-center">14</div>
+            <div class="absolute right-0 bottom-10 h-16 w-16 bg-green-600 text-white text-lg font-bold text-center">15</div>
+
+        </div>
+
+    </div>
 
 
 
