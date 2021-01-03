@@ -349,16 +349,16 @@ Combinando com os utilities de preenchimento e margem do **Tailwind**, provavelm
 ![position](https://user-images.githubusercontent.com/64049906/103490764-75e17180-4df4-11eb-80ec-4e6e34d52eb3.png)
 
 
-
-
-
 ### 3.12 Visibility
+
+É uma utility para controlar a visibilidade de um elemento. Podemos alterar a propriedade **visibility** com duas classes: visible e invisible. Utilizamos para exibir ou esconder elementos.
+
+![visible](https://user-images.githubusercontent.com/64049906/103491018-6105dd80-4df6-11eb-8513-2fc43e20bad4.png)
 
 
 ### 3.13 Z-index
 
 
+
 ## 4. Flexbox
 
-
-### 
