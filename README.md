@@ -357,7 +357,11 @@ Combinando com os utilities de preenchimento e margem do **Tailwind**, provavelm
 
 
 ### 3.13 Z-index
+É uma utility para controlar a ordem de empilhamento de um elemento.
 
+![zindex](https://user-images.githubusercontent.com/64049906/103589918-ea82e180-4ec2-11eb-8db3-125c19987a92.png)
+
+![exzindex](https://user-images.githubusercontent.com/64049906/103589967-0a1a0a00-4ec3-11eb-8852-2683389cf8d4.png)
 
 
 ## 4. Flexbox
