@@ -366,3 +366,49 @@ Combinando com os utilities de preenchimento e margem do **Tailwind**, provavelm
 
 ## 4. Flexbox
 
+### 4.1 Display
+
+É uma utility que define o elemento como um flex container.
+
+![flex](https://user-images.githubusercontent.com/64049906/103591479-aa256280-4ec6-11eb-992d-ec4115bdcfa2.png)
+
+### 4.2 Flex Direction
+
+É uma utility para controlar a direção dos flex-itens.
+
+![flex direction](https://user-images.githubusercontent.com/64049906/103591578-efe22b00-4ec6-11eb-8179-8879e867c886.png)
+
+     <div class="container flex flex-row mx-auto m-4 bg-green-300">
+        <div class="bg-green-600 m-2 h-10 w-10 text-white text-xl text-center"> 1 </div>
+        <div class="bg-green-600 m-2 h-10 w-10 text-white text-xl text-center"> 2 </div>
+        <div class="bg-green-600 m-2 h-10 w-10 text-white text-xl text-center"> 3 </div>
+    </div>
+   
+    <div class="container flex flex-col mx-auto m-4 bg-blue-300">
+        <div class="bg-blue-600 m-2 text-white text-xl text-center"> 1 </div>
+        <div class="bg-blue-600 m-2 text-white text-xl text-center"> 2 </div>
+        <div class="bg-blue-600 m-2 text-white text-xl text-center"> 3 </div>
+    </div>
+    
+     <div class="container flex flex-row-reverse mx-auto m-4 bg-red-300">
+        <div class="bg-red-600 m-2 h-10 w-10 text-white text-xl text-center"> 1 </div>
+        <div class="bg-red-600 m-2 h-10 w-10 text-white text-xl text-center"> 2 </div>
+        <div class="bg-red-600 m-2 h-10 w-10 text-white text-xl text-center"> 3 </div>
+    </div>
+      
+       <div class="container flex flex-col-reverse mx-auto m-4 bg-yellow-300">
+        <div class="bg-yellow-600 m-2 text-white text-xl text-center"> 1 </div>
+        <div class="bg-yellow-600 m-2 text-white text-xl text-center"> 2 </div>
+        <div class="bg-yellow-600 m-2 text-white text-xl text-center"> 3 </div>
+    </div>
+![flexcolrow](https://user-images.githubusercontent.com/64049906/103592914-b3183300-4eca-11eb-907e-88a7c0ea88cf.png)
+
+### 4.3 Flew Wrap
+
+### 4.4 Flex
+
+### 4.5 Flew-grow
+
+### 4.6 Flew-shrink
+
+### 4.7 Order
