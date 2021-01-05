@@ -412,12 +412,54 @@ Abaixo observe um exemplo de código com as possibilidades de uso do flex-direct
 ![flexwrap](https://user-images.githubusercontent.com/64049906/103593384-13f43b00-4ecc-11eb-9b1a-3ea7b5864342.png)
 
 
-
-
 ### 4.4 Flex
+
+É um a utility para controlar como os flex itens aumentam e diminuem.
+
+![flex](https://user-images.githubusercontent.com/64049906/103709230-7a3e9380-4f88-11eb-8e18-01a42b35faeb.png)
+
+Use o **flex-initial** para permitir que um flex item encolha, mas não aumente, levando em consideração seu tamanho inicial.
+
+Use o **flex-1** para permitir que um flex item aumente e diminua conforme o necessário, ignorando seu tamanho inicial.
+
+Use o **flex-auto** para permitir que um flex item aumente e diminua, levando em consideração seu tamanho inicial.
 
 ### 4.5 Flew-grow
 
+É uma utility para controlar como os flex itens crescem.
+
+![flexgrow](https://user-images.githubusercontent.com/64049906/103710324-1ff30200-4f8b-11eb-8f98-45822adc2b32.png)
+
+Use o **flex-grow** para permitir que um flex item cresça para preencher qualquer espaço disponível.
+
+Use o **flex-grow-0** para evitar que um item flexível cresça.
+
 ### 4.6 Flew-shrink
 
+É uma utility para controlar como os flex itens diminuem.
+
+![flex shrink](https://user-images.githubusercontent.com/64049906/103710585-c2ab8080-4f8b-11eb-9b96-677f5ca79b05.png)
+
+Use o **flex-shrink** para permitir que um flex item encolha, se necessário.
+
+Use o **flex-shrink-0** para evitar que um flex item encolha.
+
 ### 4.7 Order
+
+É uma utility para controlar a ordem dos flex itens.
+
+![order](https://user-images.githubusercontent.com/64049906/103711513-fdaeb380-4f8d-11eb-8ce1-601852c9b939.png)
+
+Abaixo observe um trecho de código onde os flex itens são reorganizados:
+
+    <div class="container flex flex-row flex-wrap mx-auto m-4 bg-gray-400">
+        <div class="bg-purple-600 m-2 h-16 w-36 text-white text-xl text-center order-1"> 1 </div>
+        <div class="bg-purple-600 m-2 h-16 w-36 text-white text-xl text-center order-4"> 2 </div>
+        <div class="bg-purple-600 m-2 h-16 w-36 text-white text-xl text-center order-5"> 3 </div>
+        <div class="bg-purple-600 m-2 h-16 w-36 text-white text-xl text-center order-6"> 4 </div>
+        <div class="bg-purple-600 m-2 h-16 w-36 text-white text-xl text-center order-2"> 5 </div>
+        <div class="bg-purple-600 m-2 h-16 w-36 text-white text-xl text-center order-3"> 6 </div>
+        <div class="bg-purple-600 m-2 h-16 w-36 text-white text-xl text-center order-7"> 7 </div>
+    </div>
+![order-ex](https://user-images.githubusercontent.com/64049906/103711609-3d759b00-4f8e-11eb-9702-a86e4bbbecea.png)
+
