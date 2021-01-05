@@ -378,6 +378,8 @@ Combinando com os utilities de preenchimento e margem do **Tailwind**, provavelm
 
 ![flex direction](https://user-images.githubusercontent.com/64049906/103591578-efe22b00-4ec6-11eb-8179-8879e867c886.png)
 
+Abaixo observe um exemmplo de código com as possibilidades de uso com o flex-direction:
+
      <div class="container flex flex-row mx-auto m-4 bg-green-300">
         <div class="bg-green-600 m-2 h-10 w-10 text-white text-xl text-center"> 1 </div>
         <div class="bg-green-600 m-2 h-10 w-10 text-white text-xl text-center"> 2 </div>
