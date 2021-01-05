@@ -414,7 +414,7 @@ Abaixo observe um exemplo de código com as possibilidades de uso do flex-direct
 
 ### 4.4 Flex
 
-É um a utility para controlar como os flex itens aumentam e diminuem.
+É uma utility para controlar como os flex itens aumentam e diminuem.
 
 ![flex](https://user-images.githubusercontent.com/64049906/103709230-7a3e9380-4f88-11eb-8e18-01a42b35faeb.png)
 
@@ -462,4 +462,24 @@ Abaixo observe um trecho de código onde os flex itens são reorganizados:
         <div class="bg-purple-600 m-2 h-16 w-36 text-white text-xl text-center order-7"> 7 </div>
     </div>
 ![order-ex](https://user-images.githubusercontent.com/64049906/103711609-3d759b00-4f8e-11eb-9702-a86e4bbbecea.png)
+
+
+## 5. Grid
+
+### 5.1 Grid Template-Columns
+
+### 5.2 Grid Columns Star/End
+
+### 5.3 Grid Template Rows
+
+### 5.4 Grid Row Star/End
+
+### 5.5 Grid Auto Flow
+
+### 5.6 Grid Auto Columns
+
+### 5.7 Grid Auto Rows
+
+### 5.8 Gap
+
 
