@@ -300,7 +300,7 @@ Abaixo observe um trecho de que código onde aplicamos o conceito de **_float-ri
 
 ![position](https://user-images.githubusercontent.com/64049906/103427514-e3449680-4b97-11eb-9d46-9d87f8bf5b29.png)
 
-Abaixo observe um exemmplo de código com as possibilidades de posicionamento dentro de um container:
+Abaixo observe um exemplo de código com as possibilidades de posicionamento dentro de um container:
     
     <div class="container flex flex-wrap mx-auto m-4 p-4 bg-gray-400">
         <img class="w-32 h-32 m-4 object-none object-left-top bg-red-400"src="/src/img/placeholder-square-amber.svg" alt="bloco amarelo">
@@ -378,7 +378,7 @@ Combinando com os utilities de preenchimento e margem do **Tailwind**, provavelm
 
 ![flex direction](https://user-images.githubusercontent.com/64049906/103591578-efe22b00-4ec6-11eb-8179-8879e867c886.png)
 
-Abaixo observe um exemmplo de código com as possibilidades de uso com o flex-direction:
+Abaixo observe um exemplo de código com as possibilidades de uso do flex-direction:
 
      <div class="container flex flex-row mx-auto m-4 bg-green-300">
         <div class="bg-green-600 m-2 h-10 w-10 text-white text-xl text-center"> 1 </div>
