@@ -407,6 +407,13 @@ Abaixo observe um exemplo de código com as possibilidades de uso do flex-direct
 
 ### 4.3 Flew Wrap
 
+É uma utility para controlar como os itens flexíveis são agrupados e se adaptarão ao container. Com o **flex-no-wrap** os itens tendem a ficar na mesma linha. Com o **flex-wrap** os itens vão se encaixando em linhas abaixo, conforme o tamanho do container.
+
+![flexwrap](https://user-images.githubusercontent.com/64049906/103593384-13f43b00-4ecc-11eb-9b1a-3ea7b5864342.png)
+
+
+
+
 ### 4.4 Flex
 
 ### 4.5 Flew-grow
