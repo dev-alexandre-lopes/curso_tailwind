@@ -474,7 +474,36 @@ Abaixo observe um trecho de código onde os flex itens são reorganizados:
 
 A classe **grid-cols-x** define o número de colunas em um grid. Onde **x** é o número de colunas desejadas. A classe pai precisa conter a classe grid.
 
+Abaixo um código para exemplificar o uso do **grid-cols-x**, juntamente com as propriedades de responsividade:
+
+    <div class="grid lg:grid-cols-3 gap-4 mx-auto p-4 bg-gray-200 sm:grid-cols-1 md:grid-cols-2">
+        <div class="bg-blue-400 text-center font-bold text-2xl"> 1</div>
+        <div class="bg-blue-400 text-center font-bold text-2xl"> 2</div>
+        <div class="bg-blue-400 text-center font-bold text-2xl"> 3</div>
+        <div class="bg-blue-400 text-center font-bold text-2xl"> 4</div>
+        <div class="bg-blue-400 text-center font-bold text-2xl"> 5</div>
+        <div class="bg-blue-400 text-center font-bold text-2xl"> 6</div>
+        <div class="bg-blue-400 text-center font-bold text-2xl"> 7</div>
+        <div class="bg-blue-400 text-center font-bold text-2xl"> 8</div>
+        <div class="bg-blue-400 text-center font-bold text-2xl"> 9</div>
+    </div>
+
+Para o breakpoint lg:
+
+![grid lg](https://user-images.githubusercontent.com/64049906/103715588-69494e80-4f97-11eb-81ba-c0651fba0092.png)
+
+Para o breakpoint md:
+
+![grid md](https://user-images.githubusercontent.com/64049906/103715643-8d0c9480-4f97-11eb-8946-a8b37660e08a.png)
+
+Para o breakpoint sm:
+
+![grid sm](https://user-images.githubusercontent.com/64049906/103715666-985fc000-4f97-11eb-8919-eb2a3f4c98d9.png)
+
+
 ### 5.2 Grid Columns Star/End
+
+É uma utility para controlar como os elementos são dimensionados e colocados nas colunas do grid.
 
 ### 5.3 Grid Template Rows
 
