@@ -505,6 +505,11 @@ Para o breakpoint **_sm_**:
 
 É uma utility para controlar como os elementos são dimensionados e colocados nas colunas do grid.
 
+Com a col-span-x podemos controlar o tamanho da coluna. Onde x é o tamanho, baseado no número de colunas definido na classe pai. Lembrando que essa classe vai nos elementos filhos do container grid.
+
+![columns](https://user-images.githubusercontent.com/64049906/103716531-ad3d5300-4f99-11eb-9867-9e8aa161f9d7.png)
+
+
 ### 5.3 Grid Template Rows
 
 ### 5.4 Grid Row Star/End
