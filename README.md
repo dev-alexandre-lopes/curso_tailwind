@@ -468,6 +468,12 @@ Abaixo observe um trecho de código onde os flex itens são reorganizados:
 
 ### 5.1 Grid Template-Columns
 
+É uma utility para especificar as colunas em um layout de grid.
+
+![grid-columns](https://user-images.githubusercontent.com/64049906/103713352-7d3e8180-4f92-11eb-979b-9b4d0cc8c389.png)
+
+A classe **grid-cols-x** define o número de colunas em um grid. Onde **x** é o número de colunas desejadas. A classe pai precisa conter a classe grid.
+
 ### 5.2 Grid Columns Star/End
 
 ### 5.3 Grid Template Rows
