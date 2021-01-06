@@ -488,15 +488,15 @@ Abaixo um código para exemplificar o uso do **grid-cols-x**, juntamente com as 
         <div class="bg-blue-400 text-center font-bold text-2xl"> 9</div>
     </div>
 
-Para o breakpoint lg:
+Para o breakpoint **_lg_**:
 
 ![grid lg](https://user-images.githubusercontent.com/64049906/103715588-69494e80-4f97-11eb-81ba-c0651fba0092.png)
 
-Para o breakpoint md:
+Para o breakpoint **_md_**:
 
 ![grid md](https://user-images.githubusercontent.com/64049906/103715643-8d0c9480-4f97-11eb-8946-a8b37660e08a.png)
 
-Para o breakpoint sm:
+Para o breakpoint **_sm_**:
 
 ![grid sm](https://user-images.githubusercontent.com/64049906/103715666-985fc000-4f97-11eb-8919-eb2a3f4c98d9.png)
 
