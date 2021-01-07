@@ -500,7 +500,6 @@ Para o breakpoint **_sm_**:
 
 ![grid sm](https://user-images.githubusercontent.com/64049906/103715666-985fc000-4f97-11eb-8919-eb2a3f4c98d9.png)
 
-
 ### 5.2 Grid Columns Star/End
 
 É uma utility para controlar como os elementos são dimensionados e colocados nas colunas do grid.
@@ -527,17 +526,44 @@ Observe que as linhas do grid CSS começam em 1, não em 0, portanto, um element
 
 ![colstart](https://user-images.githubusercontent.com/64049906/103899802-4f118c80-50cd-11eb-8987-d1956c2978b2.png)
 
-
-
 ### 5.3 Grid Template Rows
+
+É uma utility para especificar as linhas em um layout de grid.
+
+![gridrow](https://user-images.githubusercontent.com/64049906/103900041-b29bba00-50cd-11eb-8c8b-00207598d465.png)
+
+Use os utilities **grid-rows- {n}** para criar grids com **n linhas** de tamanhos iguais.
+
+![rows](https://user-images.githubusercontent.com/64049906/103900507-4077a500-50ce-11eb-9987-d608a378f0bb.png)
 
 ### 5.4 Grid Row Star/End
 
+É uma utility para controlar como os elementos são dimensionados e colocados nas linhas do grid.
+
+![row](https://user-images.githubusercontent.com/64049906/103901278-5043b900-50cf-11eb-9d25-0dd843c96c94.png)
+
+
+![row2](https://user-images.githubusercontent.com/64049906/103901435-8719cf00-50cf-11eb-98fb-a664b3dd5fbc.png)
+
 ### 5.5 Grid Auto Flow
+
+É uma utility para controlar como os elementos em um grid são colocados automaticamente.
+
+![autoflow](https://user-images.githubusercontent.com/64049906/103901644-ca743d80-50cf-11eb-9483-22ff32d96390.png)
+
+Use os utilities **grid-flow-{keyword}** para controlar como o algoritmo de posicionamento automático funciona para um layout de grid.
 
 ### 5.6 Grid Auto Columns
 
+É uma utility para controlar o tamanho de colunas do grid criadas implicitamente.
+
+![auto columns](https://user-images.githubusercontent.com/64049906/103903818-c5fd5400-50d2-11eb-865a-714fc649077b.png)
+
 ### 5.7 Grid Auto Rows
+
+É uma utility para controlar o tamanho das linhas do grid criadas implicitamente.
+
+![autorows](https://user-images.githubusercontent.com/64049906/103904354-8be08200-50d3-11eb-8ec5-1eb41689b48e.png)
 
 ### 5.8 Gap
 
