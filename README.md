@@ -570,6 +570,7 @@ Use os utilities **grid-flow-{keyword}** para controlar como o algoritmo de posi
 É uma utility para controlar o espaçamento entre linhas e colunas do grid. Inserimos a classe **gap-x**, no container principal. Onde **x** é o tamanho do espaçamento. É possível também mudar o espaçamento pelo eixo x ou y.
 
 
+## 6. Customização do Tailwind
 
-
+### 6.1 
 
