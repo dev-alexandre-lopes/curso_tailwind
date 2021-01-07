@@ -505,9 +505,28 @@ Para o breakpoint **_sm_**:
 
 É uma utility para controlar como os elementos são dimensionados e colocados nas colunas do grid.
 
-Com a col-span-x podemos controlar o tamanho da coluna. Onde x é o tamanho, baseado no número de colunas definido na classe pai. Lembrando que essa classe vai nos elementos filhos do container grid.
+Com a **col-span-x** podemos controlar o tamanho da coluna. Onde x é o tamanho, baseado no número de colunas definido na classe pai. Lembrando que essa classe vai nos elementos filhos do container grid.
 
 ![columns](https://user-images.githubusercontent.com/64049906/103716531-ad3d5300-4f99-11eb-9867-9e8aa161f9d7.png)
+
+Use os utilities **col-start- {n}** e **col-end- {n}** para fazer um elemento começar ou terminar na enésima linha da grade. Eles também podem ser combinados com os utilities **col-span- {n}** para abranger um número específico de colunas.
+
+Observe que as linhas do grid CSS começam em 1, não em 0, portanto, um elemento de largura total em um grid de 6 colunas começaria na linha 1 e terminaria na linha 7.
+
+    <div class="grid grid-cols-3 gap-2 m-4 p-4 mx-auto bg-gray-200">
+        <div class="bg-red-300 text-center font-bold text-2xl col-start-2 col-end-4"> 1</div>
+        <div class="bg-red-300 text-center font-bold text-2xl col-span-2"> 2</div>
+        <div class="bg-red-300 text-center font-bold text-2xl"> 3</div>
+        <div class="bg-red-300 text-center font-bold text-2xl"> 4</div>
+        <div class="bg-red-300 text-center font-bold text-2xl col-start-3"> 5</div>
+        <div class="bg-red-300 text-center font-bold text-2xl"> 6</div>
+        <div class="bg-red-300 text-center font-bold text-2xl col-span-3"> 7</div>
+        <div class="bg-red-300 text-center font-bold text-2xl"> 8</div>
+        <div class="bg-red-300 text-center font-bold text-2xl"> 9</div>
+    </div>
+
+![colstart](https://user-images.githubusercontent.com/64049906/103899802-4f118c80-50cd-11eb-8987-d1956c2978b2.png)
+
 
 
 ### 5.3 Grid Template Rows
