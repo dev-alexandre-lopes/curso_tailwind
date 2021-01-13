@@ -590,7 +590,6 @@ Na customização do **theme** vamos inserir regras parecidas com as do **Tailwi
 
 Se colocarmos regras com o mesmo nome, iremos gerar um **override**, ou seja, uma substituição.
 
-Por padrão, seu projeto herdará automaticamente os valores da configuração padrão do  . 
-[the default theme configuration](https://github.com/tailwindlabs/tailwindcss/blob/v1/stubs/defaultConfig.stub.js#L5).Se quiser personalizar o **theme** padrão, você tem algumas opções diferentes, dependendo de seus objetivos.
+Por padrão, seu projeto herdará automaticamente os valores da configuração padrão do [the default theme configuration](https://github.com/tailwindlabs/tailwindcss/blob/v1/stubs/defaultConfig.stub.js#L5). Se quiser personalizar o **theme** padrão, você tem algumas opções diferentes, dependendo de seus objetivos.
 
 
