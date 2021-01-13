@@ -572,5 +572,16 @@ Use os utilities **grid-flow-{keyword}** para controlar como o algoritmo de posi
 
 ## 6. Customização do Tailwind
 
-### 6.1 
+### 6.1 Customização
+
+A customização do **Tailwind** ocorre com a edição do arquivo **_tailwind.config.js_**. Neste arquivo temos algumas seções específicas:
+
+* **Theme**: Customização dos estilos do projeto;
+
+* **Extend**: Extensão das nossas classos do projeto;
+
+* **Plugins**: Adicionar plugins do **Tailwind** externos;
+
+* **Prefix**: Adionar um prefixo as classes do **Tailwind**;
+
 
