@@ -592,9 +592,14 @@ Se colocarmos regras com o mesmo nome, iremos gerar um **override**, ou seja, um
 
 Por padrão, seu projeto herdará automaticamente os valores da configuração padrão do [the default theme configuration](https://github.com/tailwindlabs/tailwindcss/blob/v1/stubs/defaultConfig.stub.js#L5). Se quiser personalizar o **theme** padrão, você tem algumas opções diferentes, dependendo de seus objetivos.
 
-* **_Estendendo o tema padrão_**: Para preservar os valores padrões, mas também adicionar novos valores, adicione suas extensões sob a chave de **extend** na seção de **theme** do seu arquivo de configuração **_tailwind.config.js_**.
+* **_Estendendo o default theme_**: Para preservar os valores **default**, mas também adicionar novos valores, adicione suas extensões sob a chave de **extend** na seção de **theme** do seu arquivo de configuração **_tailwind.config.js_**.
 
-Por exemplo, se você quiser adicionar um **breakpoint** extra, mas preservar os existentes, poderá estender a propriedade **screen** conforme a figura abaixo:
+Por exemplo, se você quiser adicionar um **breakpoint** novo, mas preservar os já existentes, poderá estender a propriedade **screen** conforme a figura abaixo:
 
 ![extend_theme](https://user-images.githubusercontent.com/64049906/104519546-fc096f00-55cf-11eb-8f95-f9f58b212a71.png)
+
+* **_Substituindo o default theme_**: Para substituir uma opção no **default theme**, adicione suas substituições diretamente na seção **theme** do seu arquivo de configuração **_tailwind.config.js_** conforme figura abaixo:
+
+![override_theme](https://user-images.githubusercontent.com/64049906/104521178-c87c1400-55d2-11eb-8333-2f6bc0d27a74.png)
+
 
