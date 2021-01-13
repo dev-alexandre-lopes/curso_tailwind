@@ -572,7 +572,7 @@ Use os utilities **grid-flow-{keyword}** para controlar como o algoritmo de posi
 
 ## 6. Customização do Tailwind
 
-### 6.1 Customização
+### 6.1 Customização do Theme
 
 A customização do **Tailwind** ocorre com a edição do arquivo **_tailwind.config.js_**. Neste arquivo temos algumas seções específicas:
 
@@ -583,5 +583,14 @@ A customização do **Tailwind** ocorre com a edição do arquivo **_tailwind.co
 * **Plugins**: Adicionar plugins do **Tailwind** externos;
 
 * **Prefix**: Adionar um prefixo as classes do **Tailwind**;
+
+Obs: Após qualquer alteração na no arquivo **_tailwind.config.js_** deve-se fazer o build para que as customizações possam ser observadas no arquivo final na pasta dist.
+
+Na customização do **theme** vamos inserir regras parecidas com as do **Tailwind**, gerando o efeito de estender o framework.
+
+Se colocarmos regras com o mesmo nome, iremos gerar um **override**, ou seja, uma substituição.
+
+Por padrão, seu projeto herdará automaticamente os valores da configuração padrão do  . 
+[the default theme configuration](https://github.com/tailwindlabs/tailwindcss/blob/v1/stubs/defaultConfig.stub.js#L5).Se quiser personalizar o **theme** padrão, você tem algumas opções diferentes, dependendo de seus objetivos.
 
 
