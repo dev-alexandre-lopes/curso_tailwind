@@ -682,7 +682,7 @@ Isso irá gerar classes como **_bg-regal-blue_**, além de todas as cores padrõ
 
 Essas extensões são mescladas, portanto, se quiser adicionar um tom novo a uma das cores padrões do **Tailwind**, você pode fazer assim:
 
-module.exports = {
+    module.exports = {
         purge: [],
   
         darkMode: false, // or 'media' or 'class'
