@@ -614,6 +614,7 @@ Você pode, é claro, substituir algumas partes do **default theme** e estender 
 
 Você construir uma paleta de cores totalmente personalizada adicionando seus próprios valores de cores (from scratch), configurando o arquivo **_tailwind.config.js_**, conforme o exemplo abaixo:
 
+    // Arquivo tailwind.config.js
     module.exports = {
         purge: [],
   
@@ -657,6 +658,7 @@ Dessa forma somentes estarão disponíveis essas cores para desenvolvimento.
 
 Conforme descrito acima no item 6.1, se você desejar estender a paleta de cores padrão em vez de substituí-la, você pode fazer isso usando a seção **theme.extend.colors** do arquivo **_tailwind.config.js_**, conforme exemplo abaixo:
 
+    // Arquivo tailwind.config.js
     module.exports = {
         purge: [],
   
@@ -682,6 +684,7 @@ Isso irá gerar classes como **_bg-regal-blue_**, além de todas as cores padrõ
 
 Essas extensões são mescladas, portanto, se você quiser adicionar um tom novo a uma das cores padrões do **Tailwind**, você pode fazer assim:
 
+    // Arquivo tailwind.config.js
     module.exports = {
         purge: [],
   
