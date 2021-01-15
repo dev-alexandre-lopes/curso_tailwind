@@ -608,7 +608,7 @@ Por exemplo, se você quiser adicionar um **breakpoint** novo, mas preservar os 
         }
     }
 
-* **_Substituindo o default theme_**: Para substituir uma opção no **default theme**, adicione suas substituições diretamente na seção **theme** do seu arquivo de configuração **_tailwind.config.js_** 
+* **_Substituindo o default theme_**: Para substituir uma opção no **default theme**, adicione suas substituições diretamente na seção **theme** do seu arquivo de configuração **_tailwind.config.js_**. 
 
 Observe o trecho de código abaixo:
 
