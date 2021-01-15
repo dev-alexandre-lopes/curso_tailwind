@@ -596,6 +596,18 @@ Por padrão, seu projeto herdará automaticamente os valores da configuração p
 
 Por exemplo, se você quiser adicionar um **breakpoint** novo, mas preservar os já existentes, poderá estender a propriedade **screen** conforme a figura abaixo:
 
+    // tailwind.config.js
+    module.exports = {
+        theme: {
+            extend: {
+            // Adicionando um novo breakpoint aos padrões de breakpoints existentes;
+                screens: {
+                    '3xl': '1600px',
+                 }
+            }
+        }
+    }
+
 ![extend_theme](https://user-images.githubusercontent.com/64049906/104519546-fc096f00-55cf-11eb-8f95-f9f58b212a71.png)
 
 * **_Substituindo o default theme_**: Para substituir uma opção no **default theme**, adicione suas substituições diretamente na seção **theme** do seu arquivo de configuração **_tailwind.config.js_** conforme figura abaixo:
