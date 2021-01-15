@@ -594,7 +594,7 @@ Por padrão, seu projeto herdará automaticamente os valores da configuração p
 
 * **_Estendendo o default theme_**: Para preservar os valores **default**, mas também adicionar novos valores, adicione suas extensões sob a chave de **extend** na seção de **theme** do seu arquivo de configuração **_tailwind.config.js_**.
 
-Por exemplo, se você quiser adicionar um **breakpoint** novo, mas preservar os já existentes, poderá estender a propriedade **screen** conforme a figura abaixo:
+Por exemplo, se você quiser adicionar um **breakpoint** novo, mas preservar os já existentes, poderá estender a propriedade **screen** conforme exemplo abaixo:
 
     // tailwind.config.js
     module.exports = {
@@ -608,11 +608,26 @@ Por exemplo, se você quiser adicionar um **breakpoint** novo, mas preservar os 
         }
     }
 
-![extend_theme](https://user-images.githubusercontent.com/64049906/104519546-fc096f00-55cf-11eb-8f95-f9f58b212a71.png)
+* **_Substituindo o default theme_**: Para substituir uma opção no **default theme**, adicione suas substituições diretamente na seção **theme** do seu arquivo de configuração **_tailwind.config.js_** conforme abaixo:
 
-* **_Substituindo o default theme_**: Para substituir uma opção no **default theme**, adicione suas substituições diretamente na seção **theme** do seu arquivo de configuração **_tailwind.config.js_** conforme figura abaixo:
-
-![override_theme](https://user-images.githubusercontent.com/64049906/104521178-c87c1400-55d2-11eb-8333-2f6bc0d27a74.png)
+    // tailwind.config.js
+    module.exports = {
+        theme: {
+            opacity: {
+                '0': '0',
+                '20': '0.2',
+                '40': '0.4',
+                '60': '0.6',
+                '80': '0.8',
+                '100': '1',
+            },
+            extend: {
+                screens: {
+                    '3xl': '1600px',
+                }
+            }
+        }
+    }
 
 **Obs:** Como exemplo de customização, imagine um projeto que utiliza poucas cores. Nesse caso somente essas cores podem ser incluidas no **theme**, diminuindo o tamanho do arquivo. 
 
