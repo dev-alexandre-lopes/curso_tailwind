@@ -615,11 +615,18 @@ Observe o trecho de código abaixo:
     // tailwind.config.js
     module.exports = {
         theme: {
+            opacity: {
+                '0': '0',
+                '20': '0.2',
+                '40': '0.4',
+                '60': '0.6',
+                '80': '0.8',
+                '100': '1',
+            },
             extend: {
-            // Adicionando um novo breakpoint aos padrões de breakpoints existentes;
                 screens: {
-                    '3xl': '1600px',
-                 }
+                '3xl': '1600px',
+                }
             }
         }
     }
