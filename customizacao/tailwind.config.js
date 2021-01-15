@@ -32,10 +32,18 @@ module.exports = {
       white: colors.white,
       gray: colors.trueGray,
       indigo: colors.indigo,
+      green: colors.emerald,
       red: colors.rose,
       yellow: colors.amber,
     },
-    extend: {},
+    extend: {
+      colors: {
+        'regal-blue': '#243c5a',//Extensão nova regal-blue
+        blue: {
+          450: '#5F99F7'
+        },
+      },
+    },
   },
   
   variants: {

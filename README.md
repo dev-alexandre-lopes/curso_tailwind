@@ -578,7 +578,7 @@ A customização do **Tailwind** ocorre com a edição do arquivo **_tailwind.co
 
 * **Theme**: Customização dos estilos do projeto;
 
-* **Extend**: Extensão das nossas classos do projeto;
+* **Extend**: Extensão das nossas classes do projeto;
 
 * **Plugins**: Adicionar plugins do **Tailwind** externos;
 
@@ -651,4 +651,59 @@ Você construir uma paleta de cores totalmente personalizada adicionando seus pr
         plugins: [],
     }
 
-Dessa forma somentes estaram disponíveis essas cores para desenvolvimento.
+Dessa forma somentes estarão disponíveis essas cores para desenvolvimento.
+
+### 6.3 Exemplo de extensão de cores:
+
+Conforme descrito acima no item 6.1, se você desejar estender a paleta de cores padrão em vez de substituí-la, você pode fazer isso usando a seção **theme.extend.colors** do arquivo **_tailwind.config.js_**, conforme exemplo abaixo:
+
+    module.exports = {
+        purge: [],
+  
+        darkMode: false, // or 'media' or 'class'
+  
+        theme: {
+            colors: {},
+            extend: {
+                colors: {
+                    'regal-blue': '#243c5a',//Extensão nova regal-blue;
+                },
+            },
+        },
+  
+        variants: {
+            extend: {},
+        },
+  
+        plugins: [],
+    }
+
+Isso irá gerar classes como **_bg-regal-blue_**, além de todas as cores padrões do **Tailwind**.
+
+Essas extensões são mescladas, portanto, se quiser adicionar um tom novo a uma das cores padrões do **Tailwind**, você pode fazer assim:
+
+module.exports = {
+        purge: [],
+  
+        darkMode: false, // or 'media' or 'class'
+  
+        theme: {
+            colors: {},
+            extend: {
+                colors: {
+                    blue: {
+                            450: '#5F99F7'// Novo tom dentro da paleta de cores já existentes;
+                    },
+                },
+            },
+        },
+  
+        variants: {
+            extend: {},
+        },
+  
+        plugins: [],
+    }
+
+O mesmo procedimento pode ser feito para adicionar ou extender espaçamentos: **spacing**.
+

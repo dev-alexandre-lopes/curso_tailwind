@@ -189,7 +189,8 @@ Add the correct display in Chrome and Safari.
  */
 
 
-h1 {
+h1,
+h2 {
   margin: 0;
 }
 
@@ -273,7 +274,8 @@ body {
  * https://github.com/tailwindcss/tailwindcss/issues/362
  */
 
-h1 {
+h1,
+h2 {
   font-size: inherit;
   font-weight: inherit;
 }
@@ -347,6 +349,11 @@ h1 {
   }
 }
 
+.bg-gray-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(212, 212, 212, var(--tw-bg-opacity));
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -375,6 +382,16 @@ h1 {
   --tw-ring-color: rgba(59, 130, 246, 0.5);
   --tw-ring-offset-shadow: 0 0 #0000;
   --tw-ring-shadow: 0 0 #0000;
+}
+
+.text-green-800 {
+  --tw-text-opacity: 1;
+  color: rgba(6, 95, 70, var(--tw-text-opacity));
+}
+
+.text-regal-blue {
+  --tw-text-opacity: 1;
+  color: rgba(36, 60, 90, var(--tw-text-opacity));
 }
 
 @keyframes spin {
