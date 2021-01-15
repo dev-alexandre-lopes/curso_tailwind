@@ -602,9 +602,9 @@ Por exemplo, se você quiser adicionar um **breakpoint** novo, mas preservar os 
 
 ![override_theme](https://user-images.githubusercontent.com/64049906/104521178-c87c1400-55d2-11eb-8333-2f6bc0d27a74.png)
 
-Obs: Como exemplo de customização, imagine um projeto que utiliza poucas cores. Nesse caso somente essas cores podem ser incluidas no **theme**, diminuindo o tamanho do arquivo. 
+**Obs:** Como exemplo de customização, imagine um projeto que utiliza poucas cores. Nesse caso somente essas cores podem ser incluidas no **theme**, diminuindo o tamanho do arquivo. 
 
-No exemplo acima, ocorrerá a substituição completa da configuração padrão do Tailwind para aquela chave (opacity), portanto, nenhuma das **utilities** de **opacity default** seria gerado.
+No exemplo acima, ocorrerá a substituição completa da configuração **default** do Tailwind para aquela chave (opacity), portanto, nenhuma das **utilities** da **opacity default** seria gerado.
 
 Todas as chaves que você não fornecer serão herdadas do **default theme**, portanto, no exemplo acima, a configuração do **default theme** para coisas como: **colors, spacing, border-radius, background-position, etc.** seriam preservadas.
 
