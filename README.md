@@ -612,7 +612,7 @@ Você pode, é claro, substituir algumas partes do **default theme** e estender 
 
 ### 6.2 Exemplo de customização de cores:
 
-Podemos construir uma paleta de cores totalmente personalizada adicionando seus próprios valores de cor do zero, configurando o arquivo **_tailwind.config.js_**, conforme o exemplo abaixo:
+Você construir uma paleta de cores totalmente personalizada adicionando seus próprios valores de cores (from scratch), configurando o arquivo **_tailwind.config.js_**, conforme o exemplo abaixo:
 
     module.exports = {
         purge: [],
