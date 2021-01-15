@@ -608,4 +608,47 @@ No exemplo acima, ocorrerá a substituição completa da configuração **defaul
 
 Todas as chaves que você não fornecer serão herdadas do **default theme**, portanto, no exemplo acima, a configuração do **default theme** para coisas como: **colors, spacing, border-radius, background-position, etc.** seriam preservadas.
 
-Você pode, é claro, substituir algumas partes do **default theme** e estender outras partes do tema padrão dentro da mesma configuração:
+Você pode, é claro, substituir algumas partes do **default theme** e estender outras partes do tema padrão dentro da mesma configuração.
+
+### 6.2 Exemplo de customização de cores:
+
+Podemos construir uma paleta de cores totalmente personalizada adicionando seus próprios valores de cor do zero, configurando o arquivo **_tailwind.config.js_**, conforme o exemplo abaixo:
+
+    module.exports = {
+        purge: [],
+  
+        darkMode: false, // or 'media' or 'class'
+  
+        theme: {
+            colors: {
+                transparent: 'transparent',
+                current: 'currentColor',
+            blue: {
+                light: '#85d7ff',
+                DEFAULT: '#1fb6ff',
+                dark: '#009eeb',
+            },
+            pink: {
+                light: '#ff7ce5',
+                DEFAULT: '#ff49db',
+                dark: '#ff16d1',
+            },
+            gray: {
+                darkest: '#1f2d3d',
+                dark: '#3c4858',
+                DEFAULT: '#c0ccda',
+                light: '#e0e6ed',
+                lightest: '#f9fafc',
+            }
+            },
+            extend: {},
+        },
+  
+        variants: {
+            extend: {},
+        },
+  
+        plugins: [],
+    }
+
+Dessa forma somentes estaram disponíveis essas cores para desenvolvimento.
