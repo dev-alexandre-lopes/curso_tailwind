@@ -680,7 +680,7 @@ Conforme descrito acima no item 6.1, se você desejar estender a paleta de cores
 
 Isso irá gerar classes como **_bg-regal-blue_**, além de todas as cores padrões do **Tailwind**.
 
-Essas extensões são mescladas, portanto, se quiser adicionar um tom novo a uma das cores padrões do **Tailwind**, você pode fazer assim:
+Essas extensões são mescladas, portanto, se você quiser adicionar um tom novo a uma das cores padrões do **Tailwind**, você pode fazer assim:
 
     module.exports = {
         purge: [],
@@ -706,4 +706,25 @@ Essas extensões são mescladas, portanto, se quiser adicionar um tom novo a uma
     }
 
 O mesmo procedimento pode ser feito para adicionar ou extender espaçamentos: **spacing**.
+
+### 6.3 Adicionando um plugin externo:
+
+Instale o plug-in do npm:
+
+    # Usando o npm:
+    
+    npm install @tailwindcss/typography
+
+Em seguida, adicione o plug-in ao arquivo **_tailwind.config.js_**, conforme exemplo abaixo:
+
+    // Arquivo tailwind.config.js
+    module.exports = {
+        theme: {
+            // ...
+        },
+        plugins: [
+            require('@tailwindcss/typography'),
+        // ...
+        ],
+    }
 
