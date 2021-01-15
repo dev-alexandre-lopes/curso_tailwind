@@ -608,7 +608,9 @@ Por exemplo, se você quiser adicionar um **breakpoint** novo, mas preservar os 
         }
     }
 
-* **_Substituindo o default theme_**: Para substituir uma opção no **default theme**, adicione suas substituições diretamente na seção **theme** do seu arquivo de configuração **_tailwind.config.js_** conforme abaixo:
+* **_Substituindo o default theme_**: Para substituir uma opção no **default theme**, adicione suas substituições diretamente na seção **theme** do seu arquivo de configuração **_tailwind.config.js_** 
+
+Observe o trecho de código abaixo:
 
     // tailwind.config.js
     module.exports = {
@@ -622,7 +624,6 @@ Por exemplo, se você quiser adicionar um **breakpoint** novo, mas preservar os 
         }
     }
    
-
 **Obs:** Como exemplo de customização, imagine um projeto que utiliza poucas cores. Nesse caso somente essas cores podem ser incluidas no **theme**, diminuindo o tamanho do arquivo. 
 
 No exemplo acima, ocorrerá a substituição completa da configuração **default** do Tailwind para aquela chave (opacity), portanto, nenhuma das **utilities** da **opacity default** seria gerado.
