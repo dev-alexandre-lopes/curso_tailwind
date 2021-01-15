@@ -712,7 +712,7 @@ O mesmo procedimento pode ser feito para adicionar ou extender espaçamentos: **
 
 ### 6.3 Adicionando um plugin externo:
 
-Instale o plug-in do npm:
+Instale o plug-in do **npm**: Como exemplo vamos instalar um plugin que fornece um conjunto de classes de prosa que você pode usar para adicionar padrões tipográficos a qualquer HTML básico que você não controla (como HTML renderizado de Markdown ou extraído de um CMS).
 
     # Usando o npm:
     
