@@ -837,3 +837,74 @@ Use **justify-evenly** para justificar itens ao longo do eixo principal do conta
              <div class="bg-pink-500 m-4 p-4 font-bold"> Item 03</div>
              <div class="bg-pink-500 m-4 p-4 font-bold"> Item 04</div>
      </div>
+    
+### 7.2 Justify Items
+
+Utility para controlar como os itens de um grid são alinhados ao longo de seus eixos embutidos.
+
+![justify items](https://user-images.githubusercontent.com/64049906/105370243-c3722280-5bd9-11eb-89b2-252d65cee24a.png)
+
+#### 7.2.1 Auto
+
+Use **justify-items-auto** para justificar itens do grid automaticamente em seus eixos embutidos.Observer o exemplo abaixo:
+
+    <div class="container grid grid-cols-3 justify-items-auto bg-gray-200 mx-auto m-2 p-2">
+        <div class="bg-blue-500 m-4 p-4 font-bold text-center"> Item 01</div>
+        <div class="bg-blue-500 m-4 p-4 font-bold text-center"> Item 02</div>
+        <div class="bg-blue-500 m-4 p-4 font-bold text-center"> Item 03</div>
+        <div class="bg-blue-500 m-4 p-4 font-bold text-center"> Item 04</div>
+        <div class="bg-blue-500 m-4 p-4 font-bold text-center"> Item 05</div>
+        <div class="bg-blue-500 m-4 p-4 font-bold text-center"> Item 06</div>
+    </div>
+
+#### 7.2.2 Start
+
+Use **justify-items-start** para justificar os **itens do grid** em relação ao **início de seu eixo** embutido. Observer o exemplo abaixo:
+
+    <div class="container grid grid-cols-3 justify-items-start bg-gray-200 mx-auto m-2 p-2">
+        <div class="bg-red-500 m-4 p-4 font-bold text-center"> Item 01</div>
+        <div class="bg-red-500 m-4 p-4 font-bold text-center"> Item 02</div>
+        <div class="bg-red-500 m-4 p-4 font-bold text-center"> Item 03</div>
+        <div class="bg-red-500 m-4 p-4 font-bold text-center"> Item 04</div>
+        <div class="bg-red-500 m-4 p-4 font-bold text-center"> Item 05</div>
+        <div class="bg-red-500 m-4 p-4 font-bold text-center"> Item 06</div>
+    </div>
+
+#### 7.2.3 End
+
+Use **justify-items-end** para justificar os itens do grid em relação **ao final de seu eixo** embutido. Observe o exemplo abaixo:
+
+    <div class="container grid grid-cols-3 justify-items-end bg-gray-200 mx-auto m-2 p-2">
+        <div class="bg-green-500 m-4 p-4 font-bold text-center"> Item 01</div>
+        <div class="bg-green-500 m-4 p-4 font-bold text-center"> Item 02</div>
+        <div class="bg-green-500 m-4 p-4 font-bold text-center"> Item 03</div>
+        <div class="bg-green-500 m-4 p-4 font-bold text-center"> Item 04</div>
+        <div class="bg-green-500 m-4 p-4 font-bold text-center"> Item 05</div>
+        <div class="bg-green-500 m-4 p-4 font-bold text-center"> Item 06</div>
+    </div>
+
+#### 7.2.4 Center
+
+Use **justify-items-center** para justificar itens de grid ao longo de seu eixo embutido. Observe o exemplo abaixo:
+
+    <div class="container grid grid-cols-3 justify-items-center bg-gray-200 mx-auto m-2 p-2">
+        <div class="bg-yellow-500 m-4 p-4 font-bold text-center"> Item 01</div>
+        <div class="bg-yellow-500 m-4 p-4 font-bold text-center"> Item 02</div>
+        <div class="bg-yellow-500 m-4 p-4 font-bold text-center"> Item 03</div>
+        <div class="bg-yellow-500 m-4 p-4 font-bold text-center"> Item 04</div>
+        <div class="bg-yellow-500 m-4 p-4 font-bold text-center"> Item 05</div>
+        <div class="bg-yellow-500 m-4 p-4 font-bold text-center"> Item 06</div>
+    </div>
+
+#### 7.2.5 Stretch
+
+Use **justify-items-stretch** para esticar os itens ao longo de seu eixo embutido. Observe o exemplo abaixo:
+
+    <div class="container grid grid-cols-3 justify-items-stretch bg-gray-200 mx-auto m-2 p-2">
+        <div class="bg-pink-500 m-4 p-4 font-bold text-center"> Item 01</div>
+        <div class="bg-pink-500 m-4 p-4 font-bold text-center"> Item 02</div>
+        <div class="bg-pink-500 m-4 p-4 font-bold text-center"> Item 03</div>
+        <div class="bg-pink-500 m-4 p-4 font-bold text-center"> Item 04</div>
+        <div class="bg-pink-500 m-4 p-4 font-bold text-center"> Item 05</div>
+        <div class="bg-pink-500 m-4 p-4 font-bold text-center"> Item 06</div>
+    </div>
