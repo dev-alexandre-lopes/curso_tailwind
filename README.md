@@ -960,7 +960,7 @@ Observe a figura abaixo para a correta compreensão sobre o alinhamento dentro d
 
 ![flexcontainer](https://user-images.githubusercontent.com/64049906/105403710-7a34c980-5bff-11eb-996b-ed265b841236.png)
 
-Segue um exemplo:
+Segue um exemplo dos tipos de **Align Content**:
 
     <div class="container grid grid-cols-3 bg-gray-600 mx-auto m-2 p-2">
         <div class="container h-96 w-64 flex flex-wrap content-start justify-around bg-gray-200 mx-auto m-2 p-2">
