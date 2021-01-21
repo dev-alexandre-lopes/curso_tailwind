@@ -847,7 +847,7 @@ Use **justify-evenly** para justificar itens ao longo do eixo principal do conta
              <div class="bg-pink-500 m-4 p-4 font-bold"> Item 03</div>
              <div class="bg-pink-500 m-4 p-4 font-bold"> Item 04</div>
      </div>
-     
+
 ![evenly](https://user-images.githubusercontent.com/64049906/105374084-ad666100-5bdd-11eb-9e37-05f71fc99a71.png)
     
 ### 7.2 Justify Items
@@ -869,6 +869,8 @@ Use **justify-items-auto** para justificar itens do grid automaticamente em seus
         <div class="bg-blue-500 m-4 p-4 font-bold text-center"> Item 06</div>
     </div>
 
+![items auto](https://user-images.githubusercontent.com/64049906/105374810-780e4300-5bde-11eb-94de-e0b3afcdc7a7.png)
+
 #### 7.2.2 Start
 
 Use **justify-items-start** para justificar os **itens do grid** em relação ao **início de seu eixo** embutido. Observer o exemplo abaixo:
@@ -881,6 +883,8 @@ Use **justify-items-start** para justificar os **itens do grid** em relação ao
         <div class="bg-red-500 m-4 p-4 font-bold text-center"> Item 05</div>
         <div class="bg-red-500 m-4 p-4 font-bold text-center"> Item 06</div>
     </div>
+
+![items start](https://user-images.githubusercontent.com/64049906/105374844-82c8d800-5bde-11eb-85a3-3d9c7e9ea574.png)
 
 #### 7.2.3 End
 
@@ -895,6 +899,8 @@ Use **justify-items-end** para justificar os itens do grid em relação **ao fin
         <div class="bg-green-500 m-4 p-4 font-bold text-center"> Item 06</div>
     </div>
 
+![items end](https://user-images.githubusercontent.com/64049906/105374885-8e1c0380-5bde-11eb-9fc0-ca436461fd35.png)
+
 #### 7.2.4 Center
 
 Use **justify-items-center** para justificar itens de grid ao longo de seu eixo embutido. Observe o exemplo abaixo:
@@ -908,6 +914,8 @@ Use **justify-items-center** para justificar itens de grid ao longo de seu eixo 
         <div class="bg-yellow-500 m-4 p-4 font-bold text-center"> Item 06</div>
     </div>
 
+![items center](https://user-images.githubusercontent.com/64049906/105374922-996f2f00-5bde-11eb-85dd-e89fa8c1f888.png)
+
 #### 7.2.5 Stretch
 
 Use **justify-items-stretch** para esticar os itens ao longo de seu eixo embutido. Observe o exemplo abaixo:
@@ -920,3 +928,5 @@ Use **justify-items-stretch** para esticar os itens ao longo de seu eixo embutid
         <div class="bg-pink-500 m-4 p-4 font-bold text-center"> Item 05</div>
         <div class="bg-pink-500 m-4 p-4 font-bold text-center"> Item 06</div>
     </div>
+    
+![items stretch](https://user-images.githubusercontent.com/64049906/105374967-a429c400-5bde-11eb-8971-358349aa7336.png)
