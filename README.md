@@ -1029,5 +1029,35 @@ Utilities para controlar como os **flex e grid items** são posicionados ao long
 
 Segue um exemplo de **Align Items**:
 
+    <div class="container grid grid-cols-3 bg-gray-600 mx-auto m-2 p-2">
+
+        <div class="container h-96 w-96 flex flex-wrap items-start justify-around bg-gray-200 mx-auto m-2 p-2">
+            <div class="w-24 h-14 bg-red-400 m-2 p-2 font-bold text-xl text-center self-end"> 1 </div>
+            <div class="w-24 h-14 bg-red-400 m-2 p-2 font-bold text-xl text-center"> 2 </div>
+            <div class="w-24 h-14 bg-red-400 m-2 p-2 font-bold text-xl text-center"> 3 </div>
+            <div class="w-24 h-14 bg-red-400 m-2 p-2 font-bold text-xl text-center"> 4 </div>
+            <div class="w-24 h-14 bg-red-400 m-2 p-2 font-bold text-xl text-center"> 5 </div>
+            <div class="w-24 h-14 bg-red-400 m-2 p-2 font-bold text-xl text-center self-end"> 6 </div>
+        </div>
+
+        <div class="container h-96 w-96 flex flex-wrap items-center justify-around bg-gray-200 mx-auto m-2 p-2">
+            <div class="w-24 h-14 bg-green-400 m-2 p-2 font-bold text-xl text-center"> 1 </div>
+            <div class="w-24 h-14 bg-green-400 m-2 p-2 font-bold text-xl text-center self-start"> 2 </div>
+            <div class="w-24 h-14 bg-green-400 m-2 p-2 font-bold text-xl text-center self-end"> 3 </div>
+            <div class="w-24 h-14 bg-green-400 m-2 p-2 font-bold text-xl text-center self-end"> 4 </div>
+            <div class="w-24 h-14 bg-green-400 m-2 p-2 font-bold text-xl text-center self-center"> 5 </div>
+            <div class="w-24 h-14 bg-green-400 m-2 p-2 font-bold text-xl text-center self-start"> 6 </div>
+        </div>
+
+        <div class="container h-96 w-96 flex flex-wrap items-end justify-around bg-gray-200 mx-auto m-2 p-2">
+            <div class="w-24 h-14 bg-blue-400 m-2 p-2 font-bold text-xl text-center self-start"> 1 </div>
+            <div class="w-24 h-14 bg-blue-400 m-2 p-2 font-bold text-xl text-center self-center"> 2 </div>
+            <div class="w-24 h-14 bg-blue-400 m-2 p-2 font-bold text-xl text-center self-end"> 3 </div>
+            <div class="w-24 h-14 bg-blue-400 m-2 p-2 font-bold text-xl text-center self-end"> 4 </div>
+            <div class="w-24 h-14 bg-blue-400 m-2 p-2 font-bold text-xl text-center self-center"> 5 </div>
+            <div class="w-24 h-14 bg-blue-400 m-2 p-2 font-bold text-xl text-center self-start"> 6 </div>
+        </div>
+    </div>
+
 ![exe_self](https://user-images.githubusercontent.com/64049906/105411317-a0f7fd80-5c09-11eb-887e-b9c4f1d5dcc7.png)
 
