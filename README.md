@@ -783,6 +783,8 @@ Use **justify-start** para justificar os itens em relação ao início do eixo p
         <div class="bg-blue-500 m-4 p-4 font-bold"> Item 04</div>
     </div>
 
+![start](https://user-images.githubusercontent.com/64049906/105373782-6a0bf280-5bdd-11eb-98c4-c4a0858b3cd8.png)
+
 #### 7.1.2 Center
 
 Use **justify-center** para justificar itens ao centro do eixo principal do container. Observe o exemplo abaixo:
@@ -793,6 +795,8 @@ Use **justify-center** para justificar itens ao centro do eixo principal do cont
         <div class="bg-green-500 m-4 p-4 font-bold"> Item 03</div>
         <div class="bg-green-500 m-4 p-4 font-bold"> Item 04</div>
     </div>
+
+![center](https://user-images.githubusercontent.com/64049906/105373863-7db75900-5bdd-11eb-8b37-c6f37c7d1899.png)
 
 #### 7.1.3 End
 
@@ -805,6 +809,8 @@ Use **justify-end** para justificar os itens no final do eixo principal do conta
         <div class="bg-red-500 m-4 p-4 font-bold"> Item 04</div>
     </div>
 
+![End](https://user-images.githubusercontent.com/64049906/105373916-8a3bb180-5bdd-11eb-9ff0-915cfe12a7c3.png)
+
 #### 7.1.4 Space-Between
 
 Use **justify-between** para justificar itens ao longo do eixo principal do container de forma que haja uma **quantidade igual de espaços entre cada item**. Observe o exemplo abaixo:
@@ -815,6 +821,8 @@ Use **justify-between** para justificar itens ao longo do eixo principal do cont
         <div class="bg-purple-500 m-4 p-4 font-bold"> Item 03</div>
         <div class="bg-purple-500 m-4 p-4 font-bold"> Item 04</div>
     </div>
+
+![between](https://user-images.githubusercontent.com/64049906/105373963-96277380-5bdd-11eb-850d-f689d8fbd3cc.png)
 
 #### 7.1.5 Space-Around
 
@@ -827,6 +835,8 @@ Use **justify-around** para justificar itens ao longo do eixo principal do conta
            <div class="bg-yellow-500 m-4 p-4 font-bold"> Item 04</div>
     </div>
 
+![around](https://user-images.githubusercontent.com/64049906/105374030-a3446280-5bdd-11eb-9047-ac7c73b6d63f.png)
+
 #### 7.1.6 Space-Evenly
 
 Use **justify-evenly** para justificar itens ao longo do eixo principal do container de forma que haja uma **quantidade igual de espaço ao redor de cada item**, mas também contabilizando a duplicação do espaço que você normalmente veria entre cada item ao usar **justify-around**. Observe o exemplo abaixo:
@@ -837,6 +847,8 @@ Use **justify-evenly** para justificar itens ao longo do eixo principal do conta
              <div class="bg-pink-500 m-4 p-4 font-bold"> Item 03</div>
              <div class="bg-pink-500 m-4 p-4 font-bold"> Item 04</div>
      </div>
+     
+![evenly](https://user-images.githubusercontent.com/64049906/105374084-ad666100-5bdd-11eb-9e37-05f71fc99a71.png)
     
 ### 7.2 Justify Items
 
