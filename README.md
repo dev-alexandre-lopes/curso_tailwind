@@ -930,3 +930,24 @@ Use **justify-items-stretch** para esticar os itens ao longo de seu eixo embutid
     </div>
     
 ![items stretch](https://user-images.githubusercontent.com/64049906/105374967-a429c400-5bde-11eb-8971-358349aa7336.png)
+
+### 7.3 Justify Self
+
+Utility para controlar como um item de um grid individual é alinhado ao longo de seu eixo embutido.
+
+![justify self](https://user-images.githubusercontent.com/64049906/105392953-2c659480-5bf2-11eb-8306-f77d0174dd59.png)
+
+Observe o exemplo abaixo para cada tipo apresentado:
+
+    <div class="container grid grid-cols-3 justify-items-stretch bg-gray-200 mx-auto m-2 p-2">
+        <div class="bg-blue-500 m-4 p-4 font-bold justify-self-start"> Item 01</div>
+        <div class="bg-green-500 m-4 p-4 font-bold justify-self-center"> Item 02</div>
+        <div class="bg-yellow-500 m-4 p-4 font-bold justify-self-end"> Item 03</div>
+        <div class="bg-red-500 m-4 p-4 font-bold justify-self-auto text-center"> Item 04</div>
+        <div class="bg-purple-500 m-4 p-4 font-bold justify-self-stretch text-center"> Item 05</div>
+        <div class="bg-white m-4 p-4 font-bold text-center"> Item 06</div>
+    </div>
+
+![self](https://user-images.githubusercontent.com/64049906/105395842-93d11380-5bf5-11eb-8cfd-8db6aba0cadb.png)
+
+
