@@ -933,7 +933,7 @@ Use **justify-items-stretch** para esticar os itens ao longo de seu eixo embutid
 
 ### 7.3 Justify Self
 
-Utility para controlar como um item de um grid individual é alinhado ao longo de seu eixo embutido.
+Utilities para controlar como um item de um grid individual é alinhado ao longo de seu eixo embutido.
 
 ![justify self](https://user-images.githubusercontent.com/64049906/105392953-2c659480-5bf2-11eb-8306-f77d0174dd59.png)
 
@@ -950,4 +950,15 @@ Observe que o caso **default** é igual ao **auto** e **stretch** no exemplo aba
 
 ![self](https://user-images.githubusercontent.com/64049906/105395842-93d11380-5bf5-11eb-8cfd-8db6aba0cadb.png)
 
+### 7.4 Align Content
+
+Utilities para controlar como **as linhas são posicionadas** em **containers flex** e **grid** que possuem várias linhas.
+
+![align content](https://user-images.githubusercontent.com/64049906/105396623-7fd9e180-5bf6-11eb-8f1c-03e607f13fd3.png)
+
+Observe a figura abaixo para a correta compreensão sobre o alinhamento dentro de um flexbox:
+
+![flexcontainer](https://user-images.githubusercontent.com/64049906/105403710-7a34c980-5bff-11eb-996b-ed265b841236.png)
+
+![alicontent](https://user-images.githubusercontent.com/64049906/105403584-4bb6ee80-5bff-11eb-8ed6-fda1989d6f0a.png)
 

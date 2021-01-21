@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailwind Alinhamento</title>
+    <link rel=" shortcut icon" href="/src/img/favicon-32x32.png" />
     <link rel="stylesheet" href="/src/css/style.css">
 </head>
 
 <body>
+    <p class="container flex justify-center font-bold text-black text-4xl mx-auto m-4 p-4"> Curso TailwindCSS:</p>
     <p class="container flex justify-center font-bold text-black text-2xl mx-auto m-4 p-4"> Justify Content:</p>
     <p class="container font-bold text-black text-lg mx-auto m-4 p-4"> 1) Exemplo de Justify-Start:</p>
     <!-- Estudo do Justify Content: O comportamento default é o start-->
@@ -140,8 +142,72 @@
         <div class="border-2 border-red-700 bg-green-500 m-4 p-4 font-bold justify-self-center"> Item 02</div>
         <div class="border-2 border-red-700 bg-yellow-500 m-4 p-4 font-bold justify-self-end"> Item 03</div>
         <div class="border-2 border-red-700 bg-red-500 m-4 p-4 font-bold justify-self-auto text-center"> Item 04</div>
-        <div class="border-2 border-red-700 bg-purple-500 m-4 p-4 font-bold justify-self-stretch text-center"> Item 05</div>
+        <div class="border-2 border-red-700 bg-purple-500 m-4 p-4 font-bold justify-self-stretch text-center"> Item 05
+        </div>
         <div class="border-2 border-red-700 bg-white m-4 p-4 font-bold text-center"> Item 06</div>
     </div>
+
+    <p class="container flex justify-center font-bold text-black text-2xl mx-auto m-4 p-4"> Align Content:</p>
+
+    <p class="container font-bold text-black text-lg mx-auto m-4 p-4"> 1) Exemplo de Align Content </p>
+    <!-- Estudo do Align Content-->
+
+    <div class="container grid grid-cols-3 bg-gray-600 mx-auto m-2 p-2">
+        <div class="container h-96 w-64 flex flex-wrap content-start justify-around bg-gray-200 mx-auto m-2 p-2">
+            <div class="h-14 w-14 rounded-full bg-blue-500 m-2 p-2 font-bold text-xl text-center"> 1 </div>
+            <div class="h-14 w-14 rounded-full bg-blue-500 m-2 p-2 font-bold text-xl text-center"> 2 </div>
+            <div class="h-14 w-14 rounded-full bg-blue-500 m-2 p-2 font-bold text-xl text-center"> 3 </div>
+            <div class="h-14 w-14 rounded-full bg-blue-500 m-2 p-2 font-bold text-xl text-center"> 4 </div>
+            <div class="h-14 w-14 rounded-full bg-blue-500 m-2 p-2 font-bold text-xl text-center"> 5 </div>
+            <div class="h-14 w-14 rounded-full bg-blue-500 m-2 p-2 font-bold text-xl text-center"> 6 </div>
+        </div>
+
+        <div class="container h-96 w-64 flex flex-wrap content-center justify-around bg-gray-200 mx-auto m-2 p-2">
+            <div class="h-14 w-14 rounded-full bg-green-500 m-2 p-2 font-bold text-xl text-center"> 1 </div>
+            <div class="h-14 w-14 rounded-full bg-green-500 m-2 p-2 font-bold text-xl text-center"> 2 </div>
+            <div class="h-14 w-14 rounded-full bg-green-500 m-2 p-2 font-bold text-xl text-center"> 3 </div>
+            <div class="h-14 w-14 rounded-full bg-green-500 m-2 p-2 font-bold text-xl text-center"> 4 </div>
+            <div class="h-14 w-14 rounded-full bg-green-500 m-2 p-2 font-bold text-xl text-center"> 5 </div>
+            <div class="h-14 w-14 rounded-full bg-green-500 m-2 p-2 font-bold text-xl text-center"> 6 </div>
+        </div>
+
+        <div class="container h-96 w-64 flex flex-wrap content-end justify-around bg-gray-200 mx-auto m-2 p-2">
+            <div class="h-14 w-14 rounded-full bg-red-500 m-2 p-2 font-bold text-xl text-center"> 1 </div>
+            <div class="h-14 w-14 rounded-full bg-red-500 m-2 p-2 font-bold text-xl text-center"> 2 </div>
+            <div class="h-14 w-14 rounded-full bg-red-500 m-2 p-2 font-bold text-xl text-center"> 3 </div>
+            <div class="h-14 w-14 rounded-full bg-red-500 m-2 p-2 font-bold text-xl text-center"> 4 </div>
+            <div class="h-14 w-14 rounded-full bg-red-500 m-2 p-2 font-bold text-xl text-center"> 5 </div>
+            <div class="h-14 w-14 rounded-full bg-red-500 m-2 p-2 font-bold text-xl text-center"> 6 </div>
+        </div>
+
+        <div class="container h-96 w-64 flex flex-wrap content-between justify-around bg-gray-200 mx-auto m-2 p-2">
+            <div class="h-14 w-14 rounded-full bg-yellow-500 m-2 p-2 font-bold text-xl text-center"> 1 </div>
+            <div class="h-14 w-14 rounded-full bg-yellow-500 m-2 p-2 font-bold text-xl text-center"> 2 </div>
+            <div class="h-14 w-14 rounded-full bg-yellow-500 m-2 p-2 font-bold text-xl text-center"> 3 </div>
+            <div class="h-14 w-14 rounded-full bg-yellow-500 m-2 p-2 font-bold text-xl text-center"> 4 </div>
+            <div class="h-14 w-14 rounded-full bg-yellow-500 m-2 p-2 font-bold text-xl text-center"> 5 </div>
+            <div class="h-14 w-14 rounded-full bg-yellow-500 m-2 p-2 font-bold text-xl text-center"> 6 </div>
+        </div>
+
+        <div class="container h-96 w-64 flex flex-wrap content-around justify-around bg-gray-200 mx-auto m-2 p-2">
+            <div class="h-14 w-14 rounded-full bg-purple-500 m-2 p-2 font-bold text-xl text-center"> 1 </div>
+            <div class="h-14 w-14 rounded-full bg-purple-500 m-2 p-2 font-bold text-xl text-center"> 2 </div>
+            <div class="h-14 w-14 rounded-full bg-purple-500 m-2 p-2 font-bold text-xl text-center"> 3 </div>
+            <div class="h-14 w-14 rounded-full bg-purple-500 m-2 p-2 font-bold text-xl text-center"> 4 </div>
+            <div class="h-14 w-14 rounded-full bg-purple-500 m-2 p-2 font-bold text-xl text-center"> 5 </div>
+            <div class="h-14 w-14 rounded-full bg-purple-500 m-2 p-2 font-bold text-xl text-center"> 6 </div>
+        </div>
+
+        <div class="container h-96 w-64 flex flex-wrap content-evenly justify-around bg-gray-200 mx-auto m-2 p-2">
+            <div class="h-14 w-14 rounded-full bg-gray-400 m-2 p-2 font-bold text-xl text-center"> 1 </div>
+            <div class="h-14 w-14 rounded-full bg-gray-400 m-2 p-2 font-bold text-xl text-center"> 2 </div>
+            <div class="h-14 w-14 rounded-full bg-gray-400 m-2 p-2 font-bold text-xl text-center"> 3 </div>
+            <div class="h-14 w-14 rounded-full bg-gray-400 m-2 p-2 font-bold text-xl text-center"> 4 </div>
+            <div class="h-14 w-14 rounded-full bg-gray-400 m-2 p-2 font-bold text-xl text-center"> 5 </div>
+            <div class="h-14 w-14 rounded-full bg-gray-400 m-2 p-2 font-bold text-xl text-center"> 6 </div>
+        </div>
+
+    </div>
+   
 
 </html>
