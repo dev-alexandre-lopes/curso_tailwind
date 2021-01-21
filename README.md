@@ -1031,6 +1031,62 @@ Segue um exemplo de **Align Items**:
 
     <div class="container grid grid-cols-3 bg-gray-600 mx-auto m-2 p-2">
 
+        <div class="container h-96 w-64 flex flex-wrap items-start justify-around bg-gray-200 mx-auto m-2 p-2">
+            <div class="h-10 w-10 bg-red-400 m-2 p-2 font-bold text-xl text-center"> 1 </div>
+            <div class="bg-red-400 m-2 p-2 font-bold text-xl text-center"> 2 </div>
+            <div class="h-14 w-14 bg-red-400 m-2 p-2 font-bold text-xl text-center"> 3 </div>
+            <div class="h-14 w-14 bg-red-400 m-2 p-2 font-bold text-xl text-center"> 4 </div>
+            <div class="bg-red-400 m-2 p-2 font-bold text-xl text-center"> 5 </div>
+            <div class="h-20 w-20 bg-red-400 m-2 p-2 font-bold text-xl text-center"> 6 </div>
+        </div>
+
+        <div class="container h-96 w-64 flex flex-wrap items-center justify-around bg-gray-200 mx-auto m-2 p-2">
+            <div class="h-10 w-10 bg-green-400 m-2 p-2 font-bold text-xl text-center"> 1 </div>
+            <div class="bg-green-400 m-2 p-2 font-bold text-xl text-center"> 2 </div>
+            <div class="h-14 w-14 bg-green-400 m-2 p-2 font-bold text-xl text-center"> 3 </div>
+            <div class="h-14 w-14 bg-green-400 m-2 p-2 font-bold text-xl text-center"> 4 </div>
+            <div class="bg-green-400 m-2 p-2 font-bold text-xl text-center"> 5 </div>
+            <div class="h-20 w-20 bg-green-400 m-2 p-2 font-bold text-xl text-center"> 6 </div>
+        </div>
+
+        <div class="container h-96 w-64 flex flex-wrap items-end justify-around bg-gray-200 mx-auto m-2 p-2">
+            <div class="h-10 w-10 bg-purple-400 m-2 p-2 font-bold text-xl text-center"> 1 </div>
+            <div class="bg-purple-400 m-2 p-2 font-bold text-xl text-center"> 2 </div>
+            <div class="h-14 w-14 bg-purple-400 m-2 p-2 font-bold text-xl text-center"> 3 </div>
+            <div class="h-14 w-14 bg-purple-400 m-2 p-2 font-bold text-xl text-center"> 4 </div>
+            <div class="bg-purple-400 m-2 p-2 font-bold text-xl text-center"> 5 </div>
+            <div class="h-20 w-20 bg-purple-400 m-2 p-2 font-bold text-xl text-center"> 6 </div>
+        </div>
+
+        <div class="container h-96 w-64 flex flex-wrap items-stretch justify-around bg-gray-200 mx-auto m-2 p-2">
+            <div class="h-10 w-10 bg-yellow-400 m-2 p-2 font-bold text-xl text-center"> 1 </div>
+            <div class="bg-yellow-400 m-2 p-2 font-bold text-xl text-center"> 2 </div>
+            <div class="h-14 w-14 bg-yellow-400 m-2 p-2 font-bold text-xl text-center"> 3 </div>
+            <div class="h-14 w-14 bg-yellow-400 m-2 p-2 font-bold text-xl text-center"> 4 </div>
+            <div class="bg-yellow-400 m-2 p-2 font-bold text-xl text-center"> 5 </div>
+            <div class="h-20 w-20 bg-yellow-400 m-2 p-2 font-bold text-xl text-center"> 6 </div>
+        </div>
+
+        <div class="container h-96 w-64 flex flex-wrap items-baseline justify-around bg-gray-200 mx-auto m-2 p-2">
+            <div class="h-10 w-10 bg-gray-400 m-2 p-2 font-bold text-xl text-center pt-3 pb-6"> 1 </div>
+            <div class="bg-gray-400 m-2 p-2 font-bold text-xl text-center pt-10 pb-8"> 2 </div>
+            <div class="h-14 w-14 bg-gray-400 m-2 p-2 font-bold text-xl text-center pt-24 pb-10"> 3 </div>
+            <div class="h-14 w-14 bg-gray-400 m-2 p-2 font-bold text-xl text-center"> 4 </div>
+            <div class="bg-gray-400 m-2 p-2 font-bold text-xl text-center pt-6"> 5 </div>
+            <div class="h-20 w-20 bg-gray-400 m-2 p-2 font-bold text-xl text-center pt-20"> 6 </div>
+        </div>
+    </div>
+
+![align items](https://user-images.githubusercontent.com/64049906/105414855-6cd30b80-5c0e-11eb-814b-9d207f385d63.png)
+
+### 7.6 Align Self
+
+Utilities para controlar como um **flex e grid items** individualmente é posicionado ao longo do **cross-axis** de seu container.
+
+Segue um exemplo de **Align Self**:
+
+    <div class="container grid grid-cols-3 bg-gray-600 mx-auto m-2 p-2">
+
         <div class="container h-96 w-96 flex flex-wrap items-start justify-around bg-gray-200 mx-auto m-2 p-2">
             <div class="w-24 h-14 bg-red-400 m-2 p-2 font-bold text-xl text-center self-end"> 1 </div>
             <div class="w-24 h-14 bg-red-400 m-2 p-2 font-bold text-xl text-center"> 2 </div>
