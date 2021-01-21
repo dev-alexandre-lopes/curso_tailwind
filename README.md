@@ -1029,5 +1029,5 @@ Utilities para controlar como os **flex e grid items** são posicionados ao long
 
 Segue um exemplo de **Align Items**:
 
-![exe_self](https://user-images.githubusercontent.com/64049906/105411165-68582400-5c09-11eb-87b7-af48a2caf1fb.png)
+![exe_self](https://user-images.githubusercontent.com/64049906/105411317-a0f7fd80-5c09-11eb-887e-b9c4f1d5dcc7.png)
 
