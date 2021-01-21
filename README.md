@@ -88,7 +88,9 @@ O TailwindCSS é um framework que utiliza uma abordagem de escrita e uso do CSS 
 9. Adicione um **_script_** chamado de **_start_** no seu arquivo **package.json** criado na etapa 1. Este script irá gerar um arquivo **CSS Final** com todas as classes do **Tailwind**, dentro da pasta **src** criada no item 7. :
 
     ```
-    "scripts": {"start":"npx tailwindcss build tailwind.css -o src/css/style.css"},
+    "scripts": {
+        "start":"npx tailwindcss build tailwind.css -o src/css/style.css"
+        },
     ```
 10. Crie o seu arquivo **_CSS Final Compilado_** executando o _script_ através do comando abaixo no terminal: 
 
@@ -108,7 +110,7 @@ O TailwindCSS é um framework que utiliza uma abordagem de escrita e uso do CSS 
         <link rel="stylesheet" href="/src/css/style.css">
     </head>
     <body>
-     <h1 class="text-xl text-blue-800 ml-60"> HTML Boilerplate </h1>
+     <h1 class="container bg-gray-200 text-blue-400 font-bold text-2xl mx-auto m-4 p-4"> HTML Boilerplate </h1>
     </body>
     </html>
     ```
@@ -116,7 +118,9 @@ O TailwindCSS é um framework que utiliza uma abordagem de escrita e uso do CSS 
 13. Adicione um **_script_** chamado de **_build_** no seu arquivo **package.json** criado na etapa 1. Este script irá gerar um arquivo **CSS Final Minify** utilizando o **PostCSS** com todas as classes do **Tailwind**, dentro da pasta **dist** criada no item 7. :
     
     ```
-    "scripts": {"build":"postcss tailwind.css -o dist/css/style.css"},
+    "scripts": {
+        "build":"postcss tailwind.css -o dist/css/style.css"
+        },
     ```
 
 14. Crie o seu arquivo **_CSS Final Compilado Minify_** executando o script através do comando abaixo no terminal:
@@ -760,3 +764,76 @@ Em seguida, adicione o plug-in ao arquivo **_tailwind.config.js_**, conforme exe
         ],
     }
 
+## 7. Alinhamento com o Tailwind
+
+### 7.1 Justify Content
+
+Utilities para controlar como os itens flex e grid são posicionados ao longo do eixo (x) principal de um container.
+
+![justify content](https://user-images.githubusercontent.com/64049906/105357484-4b046500-5bcb-11eb-9593-828fff3c2227.png)
+
+#### 7.1.1 Star
+
+Use **justify-start** para justificar os itens em relação ao início do eixo principal do container. Observe o exemplo abaixo:
+
+    <div class="container flex bg-gray-200 mx-auto m-2 p-2">
+        <div class="bg-blue-500 m-4 p-4 font-bold"> Item 01</div>
+        <div class="bg-blue-500 m-4 p-4 font-bold"> Item 02</div>
+        <div class="bg-blue-500 m-4 p-4 font-bold"> Item 03</div>
+        <div class="bg-blue-500 m-4 p-4 font-bold"> Item 04</div>
+    </div>
+
+#### 7.1.2 Center
+
+Use **justify-center** para justificar itens ao centro do eixo principal do container. Observe o exemplo abaixo:
+
+    <div class="container flex justify-center bg-gray-200 mx-auto m-2 p-2">
+        <div class="bg-green-500 m-4 p-4 font-bold"> Item 01</div>
+        <div class="bg-green-500 m-4 p-4 font-bold"> Item 02</div>
+        <div class="bg-green-500 m-4 p-4 font-bold"> Item 03</div>
+        <div class="bg-green-500 m-4 p-4 font-bold"> Item 04</div>
+    </div>
+
+#### 7.1.3 End
+
+Use **justify-end** para justificar os itens no final do eixo principal do container. Observe o exemplo abaixo:
+
+    <div class="container flex justify-end bg-gray-200 mx-auto m-2 p-2">
+        <div class="bg-red-500 m-4 p-4 font-bold"> Item 01</div>
+        <div class="bg-red-500 m-4 p-4 font-bold"> Item 02</div>
+        <div class="bg-red-500 m-4 p-4 font-bold"> Item 03</div>
+        <div class="bg-red-500 m-4 p-4 font-bold"> Item 04</div>
+    </div>
+
+#### 7.1.4 Space-Between
+
+Use **justify-between** para justificar itens ao longo do eixo principal do container de forma que haja uma **quantidade igual de espaços entre cada item**. Observe o exemplo abaixo:
+
+    <div class="container flex justify-between bg-gray-200 mx-auto m-2 p-2">        
+        <div class="bg-purple-500 m-4 p-4 font-bold"> Item 01</div>
+        <div class="bg-purple-500 m-4 p-4 font-bold"> Item 02</div>
+        <div class="bg-purple-500 m-4 p-4 font-bold"> Item 03</div>
+        <div class="bg-purple-500 m-4 p-4 font-bold"> Item 04</div>
+    </div>
+
+#### 7.1.5 Space-Around
+
+Use **justify-around** para justificar itens ao longo do eixo principal do container de forma que haja uma quantidade igual de espaço **em cada lado de cada item**. Observer o exemplo abaixo:
+
+    <div class="container flex justify-around bg-gray-200 mx-auto m-2 p-2">
+           <div class="bg-yellow-500 m-4 p-4 font-bold"> Item 01</div>
+           <div class="bg-yellow-500 m-4 p-4 font-bold"> Item 02</div>
+           <div class="bg-yellow-500 m-4 p-4 font-bold"> Item 03</div>
+           <div class="bg-yellow-500 m-4 p-4 font-bold"> Item 04</div>
+    </div>
+
+#### 7.1.6 Space-Evenly
+
+Use **justify-evenly** para justificar itens ao longo do eixo principal do container de forma que haja uma **quantidade igual de espaço ao redor de cada item**, mas também contabilizando a duplicação do espaço que você normalmente veria entre cada item ao usar **justify-around**. Observe o exemplo abaixo:
+
+    <div class="container flex justify-evenly bg-gray-200 mx-auto m-2 p-2">
+             <div class="bg-pink-500 m-4 p-4 font-bold"> Item 01</div>
+             <div class="bg-pink-500 m-4 p-4 font-bold"> Item 02</div>
+             <div class="bg-pink-500 m-4 p-4 font-bold"> Item 03</div>
+             <div class="bg-pink-500 m-4 p-4 font-bold"> Item 04</div>
+     </div>
