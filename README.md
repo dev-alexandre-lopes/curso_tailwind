@@ -937,7 +937,7 @@ Utility para controlar como um item de um grid individual é alinhado ao longo d
 
 ![justify self](https://user-images.githubusercontent.com/64049906/105392953-2c659480-5bf2-11eb-8306-f77d0174dd59.png)
 
-Observe o exemplo abaixo para cada tipo apresentado:
+Observe que o caso **default** é igual ao **auto** e **stretch** no exemplo abaixo:
 
     <div class="container grid grid-cols-3 justify-items-stretch bg-gray-200 mx-auto m-2 p-2">
         <div class="bg-blue-500 m-4 p-4 font-bold justify-self-start"> Item 01</div>
