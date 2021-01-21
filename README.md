@@ -960,5 +960,64 @@ Observe a figura abaixo para a correta compreensão sobre o alinhamento dentro d
 
 ![flexcontainer](https://user-images.githubusercontent.com/64049906/105403710-7a34c980-5bff-11eb-996b-ed265b841236.png)
 
+Segue um exemplo:
+
+    <div class="container grid grid-cols-3 bg-gray-600 mx-auto m-2 p-2">
+        <div class="container h-96 w-64 flex flex-wrap content-start justify-around bg-gray-200 mx-auto m-2 p-2">
+            <div class="h-14 w-14 rounded-full bg-blue-500 m-2 p-2 font-bold text-xl text-center"> 1 </div>
+            <div class="h-14 w-14 rounded-full bg-blue-500 m-2 p-2 font-bold text-xl text-center"> 2 </div>
+            <div class="h-14 w-14 rounded-full bg-blue-500 m-2 p-2 font-bold text-xl text-center"> 3 </div>
+            <div class="h-14 w-14 rounded-full bg-blue-500 m-2 p-2 font-bold text-xl text-center"> 4 </div>
+            <div class="h-14 w-14 rounded-full bg-blue-500 m-2 p-2 font-bold text-xl text-center"> 5 </div>
+            <div class="h-14 w-14 rounded-full bg-blue-500 m-2 p-2 font-bold text-xl text-center"> 6 </div>
+        </div>
+
+        <div class="container h-96 w-64 flex flex-wrap content-center justify-around bg-gray-200 mx-auto m-2 p-2">
+            <div class="h-14 w-14 rounded-full bg-green-500 m-2 p-2 font-bold text-xl text-center"> 1 </div>
+            <div class="h-14 w-14 rounded-full bg-green-500 m-2 p-2 font-bold text-xl text-center"> 2 </div>
+            <div class="h-14 w-14 rounded-full bg-green-500 m-2 p-2 font-bold text-xl text-center"> 3 </div>
+            <div class="h-14 w-14 rounded-full bg-green-500 m-2 p-2 font-bold text-xl text-center"> 4 </div>
+            <div class="h-14 w-14 rounded-full bg-green-500 m-2 p-2 font-bold text-xl text-center"> 5 </div>
+            <div class="h-14 w-14 rounded-full bg-green-500 m-2 p-2 font-bold text-xl text-center"> 6 </div>
+        </div>
+
+        <div class="container h-96 w-64 flex flex-wrap content-end justify-around bg-gray-200 mx-auto m-2 p-2">
+            <div class="h-14 w-14 rounded-full bg-red-500 m-2 p-2 font-bold text-xl text-center"> 1 </div>
+            <div class="h-14 w-14 rounded-full bg-red-500 m-2 p-2 font-bold text-xl text-center"> 2 </div>
+            <div class="h-14 w-14 rounded-full bg-red-500 m-2 p-2 font-bold text-xl text-center"> 3 </div>
+            <div class="h-14 w-14 rounded-full bg-red-500 m-2 p-2 font-bold text-xl text-center"> 4 </div>
+            <div class="h-14 w-14 rounded-full bg-red-500 m-2 p-2 font-bold text-xl text-center"> 5 </div>
+            <div class="h-14 w-14 rounded-full bg-red-500 m-2 p-2 font-bold text-xl text-center"> 6 </div>
+        </div>
+
+        <div class="container h-96 w-64 flex flex-wrap content-between justify-around bg-gray-200 mx-auto m-2 p-2">
+            <div class="h-14 w-14 rounded-full bg-yellow-500 m-2 p-2 font-bold text-xl text-center"> 1 </div>
+            <div class="h-14 w-14 rounded-full bg-yellow-500 m-2 p-2 font-bold text-xl text-center"> 2 </div>
+            <div class="h-14 w-14 rounded-full bg-yellow-500 m-2 p-2 font-bold text-xl text-center"> 3 </div>
+            <div class="h-14 w-14 rounded-full bg-yellow-500 m-2 p-2 font-bold text-xl text-center"> 4 </div>
+            <div class="h-14 w-14 rounded-full bg-yellow-500 m-2 p-2 font-bold text-xl text-center"> 5 </div>
+            <div class="h-14 w-14 rounded-full bg-yellow-500 m-2 p-2 font-bold text-xl text-center"> 6 </div>
+        </div>
+
+        <div class="container h-96 w-64 flex flex-wrap content-around justify-around bg-gray-200 mx-auto m-2 p-2">
+            <div class="h-14 w-14 rounded-full bg-purple-500 m-2 p-2 font-bold text-xl text-center"> 1 </div>
+            <div class="h-14 w-14 rounded-full bg-purple-500 m-2 p-2 font-bold text-xl text-center"> 2 </div>
+            <div class="h-14 w-14 rounded-full bg-purple-500 m-2 p-2 font-bold text-xl text-center"> 3 </div>
+            <div class="h-14 w-14 rounded-full bg-purple-500 m-2 p-2 font-bold text-xl text-center"> 4 </div>
+            <div class="h-14 w-14 rounded-full bg-purple-500 m-2 p-2 font-bold text-xl text-center"> 5 </div>
+            <div class="h-14 w-14 rounded-full bg-purple-500 m-2 p-2 font-bold text-xl text-center"> 6 </div>
+        </div>
+
+        <div class="container h-96 w-64 flex flex-wrap content-evenly justify-around bg-gray-200 mx-auto m-2 p-2">
+            <div class="h-14 w-14 rounded-full bg-gray-400 m-2 p-2 font-bold text-xl text-center"> 1 </div>
+            <div class="h-14 w-14 rounded-full bg-gray-400 m-2 p-2 font-bold text-xl text-center"> 2 </div>
+            <div class="h-14 w-14 rounded-full bg-gray-400 m-2 p-2 font-bold text-xl text-center"> 3 </div>
+            <div class="h-14 w-14 rounded-full bg-gray-400 m-2 p-2 font-bold text-xl text-center"> 4 </div>
+            <div class="h-14 w-14 rounded-full bg-gray-400 m-2 p-2 font-bold text-xl text-center"> 5 </div>
+            <div class="h-14 w-14 rounded-full bg-gray-400 m-2 p-2 font-bold text-xl text-center"> 6 </div>
+        </div>
+
+    </div>
+
 ![alicontent](https://user-images.githubusercontent.com/64049906/105403584-4bb6ee80-5bff-11eb-8ed6-fda1989d6f0a.png)
 
