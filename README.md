@@ -1021,3 +1021,13 @@ Segue um exemplo dos tipos de **Align Content**:
 
 ![alicontent](https://user-images.githubusercontent.com/64049906/105403584-4bb6ee80-5bff-11eb-8ed6-fda1989d6f0a.png)
 
+### 7.5 Align Items
+
+Utilities para controlar como os **flex e grid items** são posicionados ao longo do **main-axis** de um container.
+
+![align items](https://user-images.githubusercontent.com/64049906/105404528-75244a00-5c00-11eb-9b84-617726aa0915.png)
+
+Segue um exemplo de **Align Items**:
+
+![exe_self](https://user-images.githubusercontent.com/64049906/105411165-68582400-5c09-11eb-87b7-af48a2caf1fb.png)
+
