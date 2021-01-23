@@ -768,13 +768,13 @@ Em seguida, adicione o plug-in ao arquivo **_tailwind.config.js_**, conforme exe
 
 ### 7.1 Justify Content
 
-Utilities para controlar como os itens flex e grid são posicionados ao longo do eixo (x) principal de um container.
+Utilities para controlar como os itens flex e grid são posicionados ao longo do **main-axis** de um container.
 
 ![justify content](https://user-images.githubusercontent.com/64049906/105357484-4b046500-5bcb-11eb-9593-828fff3c2227.png)
 
 #### 7.1.1 Star
 
-Use **justify-start** para justificar os itens em relação ao início do eixo principal do container. Observe o exemplo abaixo:
+Use **justify-start** para justificar os itens em relação ao início do **main-axis** do container. Observe o exemplo abaixo:
 
     <div class="container flex bg-gray-200 mx-auto m-2 p-2">
         <div class="bg-blue-500 m-4 p-4 font-bold"> Item 01</div>
@@ -787,7 +787,7 @@ Use **justify-start** para justificar os itens em relação ao início do eixo p
 
 #### 7.1.2 Center
 
-Use **justify-center** para justificar itens ao centro do eixo principal do container. Observe o exemplo abaixo:
+Use **justify-center** para justificar itens ao centro do **main-axis** do container. Observe o exemplo abaixo:
 
     <div class="container flex justify-center bg-gray-200 mx-auto m-2 p-2">
         <div class="bg-green-500 m-4 p-4 font-bold"> Item 01</div>
@@ -800,7 +800,7 @@ Use **justify-center** para justificar itens ao centro do eixo principal do cont
 
 #### 7.1.3 End
 
-Use **justify-end** para justificar os itens no final do eixo principal do container. Observe o exemplo abaixo:
+Use **justify-end** para justificar os itens no final do **main-axis** do container. Observe o exemplo abaixo:
 
     <div class="container flex justify-end bg-gray-200 mx-auto m-2 p-2">
         <div class="bg-red-500 m-4 p-4 font-bold"> Item 01</div>
@@ -813,7 +813,7 @@ Use **justify-end** para justificar os itens no final do eixo principal do conta
 
 #### 7.1.4 Space-Between
 
-Use **justify-between** para justificar itens ao longo do eixo principal do container de forma que haja uma **quantidade igual de espaços entre cada item**. Observe o exemplo abaixo:
+Use **justify-between** para justificar itens ao longo do **main-axis** do container de forma que haja uma **quantidade igual de espaços entre cada item**. Observe o exemplo abaixo:
 
     <div class="container flex justify-between bg-gray-200 mx-auto m-2 p-2">        
         <div class="bg-purple-500 m-4 p-4 font-bold"> Item 01</div>
@@ -826,7 +826,7 @@ Use **justify-between** para justificar itens ao longo do eixo principal do cont
 
 #### 7.1.5 Space-Around
 
-Use **justify-around** para justificar itens ao longo do eixo principal do container de forma que haja uma quantidade igual de espaço **em cada lado de cada item**. Observer o exemplo abaixo:
+Use **justify-around** para justificar itens ao longo do **main-axis** do container de forma que haja uma quantidade igual de espaço **em cada lado de cada item**. Observer o exemplo abaixo:
 
     <div class="container flex justify-around bg-gray-200 mx-auto m-2 p-2">
            <div class="bg-yellow-500 m-4 p-4 font-bold"> Item 01</div>
@@ -839,7 +839,7 @@ Use **justify-around** para justificar itens ao longo do eixo principal do conta
 
 #### 7.1.6 Space-Evenly
 
-Use **justify-evenly** para justificar itens ao longo do eixo principal do container de forma que haja uma **quantidade igual de espaço ao redor de cada item**, mas também contabilizando a duplicação do espaço que você normalmente veria entre cada item ao usar **justify-around**. Observe o exemplo abaixo:
+Use **justify-evenly** para justificar itens ao longo do **main-axis** do container de forma que haja uma **quantidade igual de espaço ao redor de cada item**, mas também contabilizando a duplicação do espaço que você normalmente veria entre cada item ao usar **justify-around**. Observe o exemplo abaixo:
 
     <div class="container flex justify-evenly bg-gray-200 mx-auto m-2 p-2">
              <div class="bg-pink-500 m-4 p-4 font-bold"> Item 01</div>
@@ -852,13 +852,13 @@ Use **justify-evenly** para justificar itens ao longo do eixo principal do conta
     
 ### 7.2 Justify Items
 
-Utility para controlar como os itens de um grid são alinhados ao longo de seus eixos embutidos.
+Utility para controlar como os itens de um grid são alinhados ao longo do **main-axis**.
 
 ![justify items](https://user-images.githubusercontent.com/64049906/105370243-c3722280-5bd9-11eb-89b2-252d65cee24a.png)
 
 #### 7.2.1 Auto
 
-Use **justify-items-auto** para justificar itens do grid automaticamente em seus eixos embutidos.Observer o exemplo abaixo:
+Use **justify-items-auto** para justificar itens do grid automaticamente no **main-axis**.Observer o exemplo abaixo:
 
     <div class="container grid grid-cols-3 justify-items-auto bg-gray-200 mx-auto m-2 p-2">
         <div class="bg-blue-500 m-4 p-4 font-bold text-center"> Item 01</div>
@@ -873,7 +873,7 @@ Use **justify-items-auto** para justificar itens do grid automaticamente em seus
 
 #### 7.2.2 Start
 
-Use **justify-items-start** para justificar os **itens do grid** em relação ao **início de seu eixo** embutido. Observer o exemplo abaixo:
+Use **justify-items-start** para justificar os **itens do grid** em relação ao **início** do **main-axis**. Observer o exemplo abaixo:
 
     <div class="container grid grid-cols-3 justify-items-start bg-gray-200 mx-auto m-2 p-2">
         <div class="bg-red-500 m-4 p-4 font-bold text-center"> Item 01</div>
@@ -888,7 +888,7 @@ Use **justify-items-start** para justificar os **itens do grid** em relação ao
 
 #### 7.2.3 End
 
-Use **justify-items-end** para justificar os itens do grid em relação **ao final de seu eixo** embutido. Observe o exemplo abaixo:
+Use **justify-items-end** para justificar os itens do grid em relação **ao final** do **main-axis**. Observe o exemplo abaixo:
 
     <div class="container grid grid-cols-3 justify-items-end bg-gray-200 mx-auto m-2 p-2">
         <div class="bg-green-500 m-4 p-4 font-bold text-center"> Item 01</div>
@@ -903,7 +903,7 @@ Use **justify-items-end** para justificar os itens do grid em relação **ao fin
 
 #### 7.2.4 Center
 
-Use **justify-items-center** para justificar itens de grid ao longo de seu eixo embutido. Observe o exemplo abaixo:
+Use **justify-items-center** para justificar itens de grid no centro do **main-axis**. Observe o exemplo abaixo:
 
     <div class="container grid grid-cols-3 justify-items-center bg-gray-200 mx-auto m-2 p-2">
         <div class="bg-yellow-500 m-4 p-4 font-bold text-center"> Item 01</div>
@@ -918,7 +918,7 @@ Use **justify-items-center** para justificar itens de grid ao longo de seu eixo 
 
 #### 7.2.5 Stretch
 
-Use **justify-items-stretch** para esticar os itens ao longo de seu eixo embutido. Observe o exemplo abaixo:
+Use **justify-items-stretch** para esticar os itens ao longo do **main-axis**. Observe o exemplo abaixo:
 
     <div class="container grid grid-cols-3 justify-items-stretch bg-gray-200 mx-auto m-2 p-2">
         <div class="bg-pink-500 m-4 p-4 font-bold text-center"> Item 01</div>
@@ -933,7 +933,7 @@ Use **justify-items-stretch** para esticar os itens ao longo de seu eixo embutid
 
 ### 7.3 Justify Self
 
-Utilities para controlar como um item de um grid individual é alinhado ao longo de seu eixo embutido.
+Utilities para controlar como um item de um grid individual é alinhado ao longo do **main-axis**.
 
 ![justify self](https://user-images.githubusercontent.com/64049906/105392953-2c659480-5bf2-11eb-8306-f77d0174dd59.png)
 
@@ -1023,7 +1023,7 @@ Segue um exemplo dos tipos de **Align Content**:
 
 ### 7.5 Align Items
 
-Utilities para controlar como os **flex e grid items** são posicionados ao longo do **main-axis** de um container.
+Utilities para controlar como os **flex e grid items** são posicionados ao longo do **cross-axis** de um container.
 
 ![align items](https://user-images.githubusercontent.com/64049906/105404528-75244a00-5c00-11eb-9b84-617726aa0915.png)
 

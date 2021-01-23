@@ -11,7 +11,7 @@
 
 <body>
     <p class="container flex justify-center font-bold text-black text-4xl mx-auto m-4 p-4"> Curso TailwindCSS:</p>
-    <p class="container flex justify-center font-bold text-black text-2xl mx-auto m-4 p-4"> Justify Content:</p>
+    <p class="container flex justify-center font-bold text-black text-2xl mx-auto m-4 p-4"> Justify Content - Flex Container:</p>
     <p class="container font-bold text-black text-lg mx-auto m-4 p-4"> 1) Exemplo de Justify-Start:</p>
     <!-- Estudo do Justify Content: O comportamento default é o start-->
     <div class="container flex bg-gray-200 mx-auto m-2 p-2">
@@ -76,7 +76,7 @@
         <div class="bg-red-500 m-4 p-4 font-bold"> Item 05</div>
         <div class="bg-green-500 m-4 p-4 font-bold"> Item 06</div>
     </div>
-    <p class="container flex justify-center font-bold text-black text-2xl mx-auto m-4 p-4"> Justify Items:</p>
+    <p class="container flex justify-center font-bold text-black text-2xl mx-auto m-4 p-4"> Justify Items - Grid Container:</p>
 
     <p class="container font-bold text-black text-lg mx-auto m-4 p-4"> 1) Exemplo de Justify-Items-Auto:</p>
     <!-- Estudo do Justify Items:Auto -->
@@ -133,7 +133,7 @@
         <div class="bg-pink-500 m-4 p-4 font-bold text-center"> Item 06</div>
     </div>
 
-    <p class="container flex justify-center font-bold text-black text-2xl mx-auto m-4 p-4"> Justify Self:</p>
+    <p class="container flex justify-center font-bold text-black text-2xl mx-auto m-4 p-4"> Justify Self - Grid Container:</p>
 
     <p class="container font-bold text-black text-lg mx-auto m-4 p-4"> 1) Exemplo de Justify-Self</p>
     <!-- Estudo do Justify Self-->
@@ -147,7 +147,7 @@
         <div class="border-2 border-red-700 bg-white m-4 p-4 font-bold text-center"> Item 06</div>
     </div>
 
-    <p class="container flex justify-center font-bold text-black text-2xl mx-auto m-4 p-4"> Align Content:</p>
+    <p class="container flex justify-center font-bold text-black text-2xl mx-auto m-4 p-4"> Align Content - Flex Container:</p>
 
     <p class="container font-bold text-black text-lg mx-auto m-4 p-4"> 1) Exemplo de Align Content </p>
     <!-- Estudo do Align Content-->
@@ -209,7 +209,7 @@
 
     </div>
 
-    <p class="container flex justify-center font-bold text-black text-2xl mx-auto m-4 p-4"> Align Items:</p>
+    <p class="container flex justify-center font-bold text-black text-2xl mx-auto m-4 p-4"> Align Items - Flex Container:</p>
     <p class="container font-bold text-black text-lg mx-auto m-4 p-4"> 1) Exemplo de Align Items </p>
     <!-- Estudo do Align Items-->
     <div class="container grid grid-cols-3 bg-gray-600 mx-auto m-2 p-2">
@@ -261,7 +261,7 @@
 
     </div>
 
-    <p class="container flex justify-center font-bold text-black text-2xl mx-auto m-4 p-4"> Align Self:</p>
+    <p class="container flex justify-center font-bold text-black text-2xl mx-auto m-4 p-4"> Align Self - Flex Container:</p>
     <p class="container font-bold text-black text-lg mx-auto m-4 p-4"> 1) Exemplo de Align Self </p>
     <!-- Estudo do Align Self-->
     <div class="container grid grid-cols-3 bg-gray-600 mx-auto m-2 p-2">
@@ -294,10 +294,77 @@
         </div>
     </div>
 
+    <p class="container flex justify-center font-bold text-black text-2xl mx-auto m-4 p-4"> Place Content - Grid Container:</p>
 
+    <p class="container font-bold text-black text-lg mx-auto m-4 p-4"> Exemplos com Grid Container do Place Content:</p>
+    <!-- Estudo do Place Content -->
 
-
-
+    <div class="container grid grid-cols-3 bg-gray-600 mx-auto m-2 p-2">
+        <div class="container w-96 h-96 grid grid-cols-3 bg-gray-200 mx-auto m-2 p-2">
+            <div class="bg-blue-500 m-4 p-4 font-bold text-center"> Item 01</div>
+            <div class="bg-blue-500 m-4 p-4 font-bold text-center"> Item 02</div>
+            <div class="bg-blue-500 m-4 p-4 font-bold text-center"> Item 03</div>
+            <div class="bg-blue-500 m-4 p-4 font-bold text-center"> Item 04</div>
+            <div class="bg-blue-500 m-4 p-4 font-bold text-center"> Item 05</div>
+            <div class="bg-blue-500 m-4 p-4 font-bold text-center"> Item 06</div>
+        </div>
+        <div class="container w-96 h-96 grid grid-cols-3 place-content-start bg-gray-200 mx-auto m-2 p-2">
+            <div class="bg-red-500 m-4 p-4 font-bold text-center"> Item 01</div>
+            <div class="bg-red-500 m-4 p-4 font-bold text-center"> Item 02</div>
+            <div class="bg-red-500 m-4 p-4 font-bold text-center"> Item 03</div>
+            <div class="bg-red-500 m-4 p-4 font-bold text-center"> Item 04</div>
+            <div class="bg-red-500 m-4 p-4 font-bold text-center"> Item 05</div>
+            <div class="bg-red-500 m-4 p-4 font-bold text-center"> Item 06</div>
+        </div>
+        <div class="container w-96 h-96 grid grid-cols-3 place-content-center bg-gray-200 mx-auto m-2 p-2">
+            <div class="bg-green-500 m-4 p-4 font-bold text-center"> Item 01</div>
+            <div class="bg-green-500 m-4 p-4 font-bold text-center"> Item 02</div>
+            <div class="bg-green-500 m-4 p-4 font-bold text-center"> Item 03</div>
+            <div class="bg-green-500 m-4 p-4 font-bold text-center"> Item 04</div>
+            <div class="bg-green-500 m-4 p-4 font-bold text-center"> Item 05</div>
+            <div class="bg-green-500 m-4 p-4 font-bold text-center"> Item 06</div>
+        </div>
+        <div class="container w-96 h-96 grid grid-cols-3 place-content-end bg-gray-200 mx-auto m-2 p-2">
+            <div class="bg-yellow-500 m-4 p-4 font-bold text-center"> Item 01</div>
+            <div class="bg-yellow-500 m-4 p-4 font-bold text-center"> Item 02</div>
+            <div class="bg-yellow-500 m-4 p-4 font-bold text-center"> Item 03</div>
+            <div class="bg-yellow-500 m-4 p-4 font-bold text-center"> Item 04</div>
+            <div class="bg-yellow-500 m-4 p-4 font-bold text-center"> Item 05</div>
+            <div class="bg-yellow-500 m-4 p-4 font-bold text-center"> Item 06</div>
+        </div>
+        <div class="container w-96 h-96 grid grid-cols-3 place-content-between bg-gray-200 mx-auto m-2 p-2">
+            <div class="bg-purple-500 m-4 p-4 font-bold text-center"> Item 01</div>
+            <div class="bg-purple-500 m-4 p-4 font-bold text-center"> Item 02</div>
+            <div class="bg-purple-500 m-4 p-4 font-bold text-center"> Item 03</div>
+            <div class="bg-purple-500 m-4 p-4 font-bold text-center"> Item 04</div>
+            <div class="bg-purple-500 m-4 p-4 font-bold text-center"> Item 05</div>
+            <div class="bg-purple-500 m-4 p-4 font-bold text-center"> Item 06</div>
+        </div>
+        <div class="container w-96 h-96 grid grid-cols-3 place-content-around bg-gray-200 mx-auto m-2 p-2">
+            <div class="bg-gray-400 m-4 p-4 font-bold text-center"> Item 01</div>
+            <div class="bg-gray-400 m-4 p-4 font-bold text-center"> Item 02</div>
+            <div class="bg-gray-400 m-4 p-4 font-bold text-center"> Item 03</div>
+            <div class="bg-gray-400 m-4 p-4 font-bold text-center"> Item 04</div>
+            <div class="bg-gray-400 m-4 p-4 font-bold text-center"> Item 05</div>
+            <div class="bg-gray-400 m-4 p-4 font-bold text-center"> Item 06</div>
+        </div>
+        <div class="container w-96 h-96 grid grid-cols-3 place-content-evenly bg-gray-200 mx-auto m-2 p-2">
+            <div class="bg-blue-800 m-4 p-4 font-bold text-center"> Item 01</div>
+            <div class="bg-blue-800 m-4 p-4 font-bold text-center"> Item 02</div>
+            <div class="bg-blue-800 m-4 p-4 font-bold text-center"> Item 03</div>
+            <div class="bg-blue-800 m-4 p-4 font-bold text-center"> Item 04</div>
+            <div class="bg-blue-800 m-4 p-4 font-bold text-center"> Item 05</div>
+            <div class="bg-blue-800 m-4 p-4 font-bold text-center"> Item 06</div>
+        </div>
+        <div class="container w-96 h-96 grid grid-cols-3 place-content-stretch bg-gray-200 mx-auto m-2 p-2">
+            <div class="bg-red-300 m-4 p-4 font-bold text-center"> Item 01</div>
+            <div class="bg-red-300 m-4 p-4 font-bold text-center"> Item 02</div>
+            <div class="bg-red-300 m-4 p-4 font-bold text-center"> Item 03</div>
+            <div class="bg-red-300 m-4 p-4 font-bold text-center"> Item 04</div>
+            <div class="bg-red-300 m-4 p-4 font-bold text-center"> Item 05</div>
+            <div class="bg-red-300 m-4 p-4 font-bold text-center"> Item 06</div>
+        </div>
+    </div>
 
 
 
