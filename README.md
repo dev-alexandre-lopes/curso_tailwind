@@ -1274,4 +1274,24 @@ Segue um exemplo de **Place Self**:
 ![self1](https://user-images.githubusercontent.com/64049906/105722520-20cce300-5efc-11eb-8d52-bc72addf03e3.png)
 
 
+## 8. Espaçamento - Padding
+
+Utilities para controlar o **padding** de um elemento. Podemos adicionar com as seguintes classes: 
+
+* classs p-*:  Adiciona em todas as direções (0 - 96);
+* classe px-*: Adiciona padding ao eixo x (0 - 96);
+* classe py-*: Adiciona padding ao eixo y (0 - 96);
+* classes:pt-, pb-, pl-, pr-*, Adiciona padding na direção específica (t -top, b- bottom, l-left, r-right)
+
+Segue um exemplo de **Padding em um único lado**:
+
+    <div class="container flex justify-around bg-gray-200 mx-auto m-2 p-2">
+        <div class="w-20 h-20 bg-blue-500 pt-10 font-bold text-center"> pt-10</div>
+        <div class="w-20 h-20 bg-red-500 pr-10 font-bold text-center"> pr-10</div>
+        <div class="w-20 h-20 bg-green-500 pl-10 font-bold text-center "> pl-10</div>
+        <div class="w-20 h-20 bg-yellow-500 pb-10 font-bold text-center "> pb-10</div>
+    </div>
+
+![padding1](https://user-images.githubusercontent.com/64049906/105775137-b12b1800-5f3c-11eb-9939-465c6a44b832.png)
+
 
