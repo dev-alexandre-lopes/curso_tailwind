@@ -1245,4 +1245,33 @@ Segue um exemplo de **Place Items**:
 
 ![items02](https://user-images.githubusercontent.com/64049906/105721791-53c2a700-5efb-11eb-8d7b-597f960eed58.png)
 
+### 7.9 Place Self
+
+Utilities para controlar como um item individual é justificado e alinhado ao mesmo tempo em relação a área de um grid.
+
+![self0](https://user-images.githubusercontent.com/64049906/105722338-efecae00-5efb-11eb-9843-a605973068a3.png)
+
+Segue um exemplo de **Place Self**:
+
+    <div class="container grid grid-cols-2 gap-4 bg-gray-600 mx-auto m-2 p-2">
+        <div class="container w-full h-96 grid grid-cols-2 bg-gray-200 mx-auto m-2 p-2">
+            <div class="bg-blue-500 m-4 p-4 font-bold text-center place-self-start"> Item 01</div>
+            <div class="bg-blue-500 m-4 p-4 font-bold text-center"> Item 02</div>
+            <div class="bg-blue-500 m-4 p-4 font-bold text-center place-self-end"> Item 03</div>
+            <div class="bg-blue-500 m-4 p-4 font-bold text-center"> Item 04</div>
+            <div class="bg-blue-500 m-4 p-4 font-bold text-center"> Item 05</div>
+            <div class="bg-blue-500 m-4 p-4 font-bold text-center place-self-center"> Item 06</div>
+        </div>
+        <div class="container w-full h-96 grid grid-cols-2 gap-2 bg-gray-200 mx-auto m-2 p-2">
+            <div class="bg-red-500 m-4 p-4 font-bold text-center "> Item 01</div>
+            <div class="bg-red-500 m-4 p-4 font-bold text-center place-self-end"> Item 02</div>
+            <div class="bg-red-500 m-4 p-4 font-bold text-center"> Item 03</div>
+            <div class="bg-red-500 m-4 p-4 font-bold text-center place-self-start"> Item 04</div>
+            <div class="bg-red-500 m-4 p-4 font-bold text-center place-self-center"> Item 05</div>
+            <div class="bg-red-500 m-4 p-4 font-bold text-center"> Item 06</div>
+        </div>
+
+![self1](https://user-images.githubusercontent.com/64049906/105722520-20cce300-5efc-11eb-8d52-bc72addf03e3.png)
+
+
 
