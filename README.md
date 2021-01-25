@@ -1119,7 +1119,11 @@ Segue um exemplo de **Align Self**:
 
 ### 7.7 Place Content
 
-Utilities para controlar como o conteúdo é justificado e alinhado ao mesmo tempo em um grid. Segue um exemplo de **Place Content**:
+Utilities para controlar como o conteúdo é justificado e alinhado ao mesmo tempo em relação ao bloco de um grid. 
+
+![place0](https://user-images.githubusercontent.com/64049906/105720835-45c05680-5efa-11eb-9a1b-751be9c4bb5b.png)
+
+Segue um exemplo de **Place Content**:
 
     <div class="container grid grid-cols-3 bg-gray-600 mx-auto m-2 p-2">
         <div class="container w-96 h-96 grid grid-cols-3 bg-gray-200 mx-auto m-2 p-2">
@@ -1193,3 +1197,52 @@ Utilities para controlar como o conteúdo é justificado e alinhado ao mesmo tem
 ![Place02](https://user-images.githubusercontent.com/64049906/105720444-d34f7680-5ef9-11eb-9f48-0f96c7a62440.png)
 
 ![place03](https://user-images.githubusercontent.com/64049906/105720484-dba7b180-5ef9-11eb-8030-3dd81fcecf44.png)
+
+### 7.8 Place Items
+
+Utilities para controlar como o conteúdo é justificado e alinhado ao mesmo tempo em relação a área de um grid. 
+
+![items0](https://user-images.githubusercontent.com/64049906/105721560-15c58300-5efb-11eb-8213-dca9d94017d6.png)
+
+Segue um exemplo de **Place Items**:
+
+    <div class="container grid grid-cols-2 gap-4 bg-gray-600 mx-auto m-2 p-2">
+        <div class="container w-full h-96 grid grid-cols-2 gap-2 place-items-start bg-gray-200 mx-auto m-2 p-2">
+            <div class="bg-blue-500 m-4 p-4 font-bold text-center"> Item 01</div>
+            <div class="bg-blue-500 m-4 p-4 font-bold text-center"> Item 02</div>
+            <div class="bg-blue-500 m-4 p-4 font-bold text-center"> Item 03</div>
+            <div class="bg-blue-500 m-4 p-4 font-bold text-center"> Item 04</div>
+            <div class="bg-blue-500 m-4 p-4 font-bold text-center"> Item 05</div>
+            <div class="bg-blue-500 m-4 p-4 font-bold text-center"> Item 06</div>
+        </div>
+        <div class="container w-full h-96 grid grid-cols-2 gap-2 place-items-center bg-gray-200 mx-auto m-2 p-2">
+            <div class="bg-red-500 m-4 p-4 font-bold text-center "> Item 01</div>
+            <div class="bg-red-500 m-4 p-4 font-bold text-center"> Item 02</div>
+            <div class="bg-red-500 m-4 p-4 font-bold text-center"> Item 03</div>
+            <div class="bg-red-500 m-4 p-4 font-bold text-center"> Item 04</div>
+            <div class="bg-red-500 m-4 p-4 font-bold text-center"> Item 05</div>
+            <div class="bg-red-500 m-4 p-4 font-bold text-center"> Item 06</div>
+        </div>
+        <div class="container w-full h-96 grid grid-cols-2 place-items-end  bg-gray-200 mx-auto m-2 p-2">
+            <div class="bg-green-500 m-4 p-4 font-bold text-center"> Item 01</div>
+            <div class="bg-green-500 m-4 p-4 font-bold text-center"> Item 02</div>
+            <div class="bg-green-500 m-4 p-4 font-bold text-center"> Item 03</div>
+            <div class="bg-green-500 m-4 p-4 font-bold text-center"> Item 04</div>
+            <div class="bg-green-500 m-4 p-4 font-bold text-center"> Item 05</div>
+            <div class="bg-green-500 m-4 p-4 font-bold text-center"> Item 06</div>
+        </div>
+        <div class="container w-full h-96 grid grid-cols-2 place-items-stretch  bg-gray-200 mx-auto m-2 p-2">
+            <div class="bg-yellow-500 m-4 p-4 font-bold text-center"> Item 01</div>
+            <div class="bg-yellow-500 m-4 p-4 font-bold text-center"> Item 02</div>
+            <div class="bg-yellow-500 m-4 p-4 font-bold text-center"> Item 03</div>
+            <div class="bg-yellow-500 m-4 p-4 font-bold text-center"> Item 04</div>
+            <div class="bg-yellow-500 m-4 p-4 font-bold text-center"> Item 05</div>
+            <div class="bg-yellow-500 m-4 p-4 font-bold text-center"> Item 06</div>
+        </div>
+    </div>
+
+![items01](https://user-images.githubusercontent.com/64049906/105721757-49a0a880-5efb-11eb-91f6-afc06c82ae3f.png)
+
+![items02](https://user-images.githubusercontent.com/64049906/105721791-53c2a700-5efb-11eb-8d7b-597f960eed58.png)
+
+
