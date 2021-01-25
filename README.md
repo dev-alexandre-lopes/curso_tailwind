@@ -1081,7 +1081,7 @@ Segue um exemplo de **Align Items**:
 
 ### 7.6 Align Self
 
-Utilities para controlar como um **flex e grid items** individualmente é posicionado ao longo do **cross-axis** de seu container.
+Utilities para controlar como um **flex e grid items** individualmente são posicionados ao longo do **cross-axis** de seu container.
 
 Segue um exemplo de **Align Self**:
 
@@ -1117,3 +1117,79 @@ Segue um exemplo de **Align Self**:
 
 ![exe_self](https://user-images.githubusercontent.com/64049906/105411317-a0f7fd80-5c09-11eb-887e-b9c4f1d5dcc7.png)
 
+### 7.7 Place Content
+
+Utilities para controlar como o conteúdo é justificado e alinhado ao mesmo tempo em um grid. Segue um exemplo de **Place Content**:
+
+    <div class="container grid grid-cols-3 bg-gray-600 mx-auto m-2 p-2">
+        <div class="container w-96 h-96 grid grid-cols-3 bg-gray-200 mx-auto m-2 p-2">
+            <div class="bg-blue-500 m-4 p-4 font-bold text-center"> Item 01</div>
+            <div class="bg-blue-500 m-4 p-4 font-bold text-center"> Item 02</div>
+            <div class="bg-blue-500 m-4 p-4 font-bold text-center"> Item 03</div>
+            <div class="bg-blue-500 m-4 p-4 font-bold text-center"> Item 04</div>
+            <div class="bg-blue-500 m-4 p-4 font-bold text-center"> Item 05</div>
+            <div class="bg-blue-500 m-4 p-4 font-bold text-center"> Item 06</div>
+        </div>
+        <div class="container w-96 h-96 grid grid-cols-3 place-content-start bg-gray-200 mx-auto m-2 p-2">
+            <div class="bg-red-500 m-4 p-4 font-bold text-center"> Item 01</div>
+            <div class="bg-red-500 m-4 p-4 font-bold text-center"> Item 02</div>
+            <div class="bg-red-500 m-4 p-4 font-bold text-center"> Item 03</div>
+            <div class="bg-red-500 m-4 p-4 font-bold text-center"> Item 04</div>
+            <div class="bg-red-500 m-4 p-4 font-bold text-center"> Item 05</div>
+            <div class="bg-red-500 m-4 p-4 font-bold text-center"> Item 06</div>
+        </div>
+        <div class="container w-96 h-96 grid grid-cols-3 place-content-center bg-gray-200 mx-auto m-2 p-2">
+            <div class="bg-green-500 m-4 p-4 font-bold text-center"> Item 01</div>
+            <div class="bg-green-500 m-4 p-4 font-bold text-center"> Item 02</div>
+            <div class="bg-green-500 m-4 p-4 font-bold text-center"> Item 03</div>
+            <div class="bg-green-500 m-4 p-4 font-bold text-center"> Item 04</div>
+            <div class="bg-green-500 m-4 p-4 font-bold text-center"> Item 05</div>
+            <div class="bg-green-500 m-4 p-4 font-bold text-center"> Item 06</div>
+        </div>
+        <div class="container w-96 h-96 grid grid-cols-3 place-content-end bg-gray-200 mx-auto m-2 p-2">
+            <div class="bg-yellow-500 m-4 p-4 font-bold text-center"> Item 01</div>
+            <div class="bg-yellow-500 m-4 p-4 font-bold text-center"> Item 02</div>
+            <div class="bg-yellow-500 m-4 p-4 font-bold text-center"> Item 03</div>
+            <div class="bg-yellow-500 m-4 p-4 font-bold text-center"> Item 04</div>
+            <div class="bg-yellow-500 m-4 p-4 font-bold text-center"> Item 05</div>
+            <div class="bg-yellow-500 m-4 p-4 font-bold text-center"> Item 06</div>
+        </div>
+        <div class="container w-96 h-96 grid grid-cols-3 place-content-between bg-gray-200 mx-auto m-2 p-2">
+            <div class="bg-purple-500 m-4 p-4 font-bold text-center"> Item 01</div>
+            <div class="bg-purple-500 m-4 p-4 font-bold text-center"> Item 02</div>
+            <div class="bg-purple-500 m-4 p-4 font-bold text-center"> Item 03</div>
+            <div class="bg-purple-500 m-4 p-4 font-bold text-center"> Item 04</div>
+            <div class="bg-purple-500 m-4 p-4 font-bold text-center"> Item 05</div>
+            <div class="bg-purple-500 m-4 p-4 font-bold text-center"> Item 06</div>
+        </div>
+        <div class="container w-96 h-96 grid grid-cols-3 place-content-around bg-gray-200 mx-auto m-2 p-2">
+            <div class="bg-gray-400 m-4 p-4 font-bold text-center"> Item 01</div>
+            <div class="bg-gray-400 m-4 p-4 font-bold text-center"> Item 02</div>
+            <div class="bg-gray-400 m-4 p-4 font-bold text-center"> Item 03</div>
+            <div class="bg-gray-400 m-4 p-4 font-bold text-center"> Item 04</div>
+            <div class="bg-gray-400 m-4 p-4 font-bold text-center"> Item 05</div>
+            <div class="bg-gray-400 m-4 p-4 font-bold text-center"> Item 06</div>
+        </div>
+        <div class="container w-96 h-96 grid grid-cols-3 place-content-evenly bg-gray-200 mx-auto m-2 p-2">
+            <div class="bg-blue-800 m-4 p-4 font-bold text-center"> Item 01</div>
+            <div class="bg-blue-800 m-4 p-4 font-bold text-center"> Item 02</div>
+            <div class="bg-blue-800 m-4 p-4 font-bold text-center"> Item 03</div>
+            <div class="bg-blue-800 m-4 p-4 font-bold text-center"> Item 04</div>
+            <div class="bg-blue-800 m-4 p-4 font-bold text-center"> Item 05</div>
+            <div class="bg-blue-800 m-4 p-4 font-bold text-center"> Item 06</div>
+        </div>
+        <div class="container w-96 h-96 grid grid-cols-3 place-content-stretch bg-gray-200 mx-auto m-2 p-2">
+            <div class="bg-red-300 m-4 p-4 font-bold text-center"> Item 01</div>
+            <div class="bg-red-300 m-4 p-4 font-bold text-center"> Item 02</div>
+            <div class="bg-red-300 m-4 p-4 font-bold text-center"> Item 03</div>
+            <div class="bg-red-300 m-4 p-4 font-bold text-center"> Item 04</div>
+            <div class="bg-red-300 m-4 p-4 font-bold text-center"> Item 05</div>
+            <div class="bg-red-300 m-4 p-4 font-bold text-center"> Item 06</div>
+        </div>
+    </div>
+
+![place01](https://user-images.githubusercontent.com/64049906/105720399-c763b480-5ef9-11eb-9cca-db60fe4e58c8.png)
+
+![Place02](https://user-images.githubusercontent.com/64049906/105720444-d34f7680-5ef9-11eb-9f48-0f96c7a62440.png)
+
+![place03](https://user-images.githubusercontent.com/64049906/105720484-dba7b180-5ef9-11eb-8030-3dd81fcecf44.png)
