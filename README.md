@@ -1281,7 +1281,7 @@ Utilities para controlar o **padding** de um elemento. Podemos adicionar com as 
 * classs p-*:  Adiciona em todas as direções (0 - 96);
 * classe px-*: Adiciona padding ao eixo x (0 - 96);
 * classe py-*: Adiciona padding ao eixo y (0 - 96);
-* classes:pt-, pb-, pl-, pr-*, Adiciona padding na direção específica (t -top, b- bottom, l-left, r-right)
+* classes:pt-, pb-, pl-, pr-*: Adiciona padding na direção específica (t -top, b- bottom, l-left, r-right)
 
 Segue um exemplo de **Padding em um único lado**:
 
@@ -1294,4 +1294,20 @@ Segue um exemplo de **Padding em um único lado**:
 
 ![padding1](https://user-images.githubusercontent.com/64049906/105775137-b12b1800-5f3c-11eb-9939-465c6a44b832.png)
 
+Segue um exemplo de **Padding horizontal**:
 
+    <div class="container flex justify-around bg-gray-200 mx-auto m-2 p-2">
+        <div class="w-20 h-20 bg-blue-500 px-4 font-bold text-center"> px-4</div>
+    </div>
+
+Segue um exemplo de **Padding vertical**:
+
+    <div class="container flex justify-around bg-gray-200 mx-auto m-2 p-2">
+        <div class="w-20 h-20 bg-blue-500 py-4 font-bold text-center"> py-4</div>
+    </div>
+
+Segue um exemplo de **Padding em todos os lados**:
+
+    <div class="container flex justify-around bg-gray-200 mx-auto m-2 p-2">
+        <div class="w-20 h-20 bg-blue-500 p-4 font-bold text-center"> p-4</div>
+    </div>
