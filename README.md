@@ -1338,7 +1338,7 @@ Segue um exemplo de **Margin em um único lado**:
         <div class="w-20 h-20 bg-yellow-500 mb-10 font-bold text-center "> mb-10</div>
     </div>
 
-![margintod](https://user-images.githubusercontent.com/64049906/106063773-1f074900-60cf-11eb-9763-47a1a42559b1.p
+![margintod](https://user-images.githubusercontent.com/64049906/106063773-1f074900-60cf-11eb-9763-47a1a42559b1.png)
 
 Segue um exemplo de **Margin horizontal**:
 
@@ -1361,7 +1361,7 @@ Segue um exemplo de **Margin em todos os lados**:
     <div class="container flex justify-around bg-gray-200 mx-auto m-2 p-2">
         <div class="w-20 h-20 bg-blue-500 m-4 font-bold text-center"> m-4</div>
     </div>
-    
+
 ![margtod](https://user-images.githubusercontent.com/64049906/106063867-478f4300-60cf-11eb-8b3a-3a6044405f90.png)
 
 ### 8.3 Space Between
