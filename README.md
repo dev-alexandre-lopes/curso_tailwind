@@ -1302,7 +1302,7 @@ Segue um exemplo de **Padding horizontal**:
         <div class="w-20 h-20 bg-blue-500 px-4 font-bold text-center"> px-4</div>
     </div>
 
-![padhoriz](https://user-images.githubusercontent.com/64049906/106062861-bf5c6e00-60cd-11eb-861e-9385bec8a351.png)
+![padhorz](https://user-images.githubusercontent.com/64049906/106064342-1105f800-60d0-11eb-95ca-1a8916abb1e6.png)
 
 Segue um exemplo de **Padding vertical**:
 
@@ -1310,7 +1310,7 @@ Segue um exemplo de **Padding vertical**:
         <div class="w-20 h-20 bg-blue-500 py-4 font-bold text-center"> py-4</div>
     </div>
 
-![padvert](https://user-images.githubusercontent.com/64049906/106062898-cb483000-60cd-11eb-8280-4af8ae7a0c98.png)
+![padvert](https://user-images.githubusercontent.com/64049906/106064370-1bc08d00-60d0-11eb-96d3-bf534f0a073d.png)
 
 Segue um exemplo de **Padding em todos os lados**:
 
@@ -1318,7 +1318,7 @@ Segue um exemplo de **Padding em todos os lados**:
         <div class="w-20 h-20 bg-blue-500 p-4 font-bold text-center"> p-4</div>
     </div>
 
-![padtod](https://user-images.githubusercontent.com/64049906/106062925-d4390180-60cd-11eb-86f8-44f5bcbb3868.png)
+![padtod](https://user-images.githubusercontent.com/64049906/106064397-27ac4f00-60d0-11eb-8559-ca8f0ef6408f.png)
 
 ### 8.2 Margin
 
@@ -1346,7 +1346,7 @@ Segue um exemplo de **Margin horizontal**:
         <div class="w-20 h-20 bg-blue-500 mx-4 font-bold text-center"> mx-4</div>
     </div>
 
-![marhoriz](https://user-images.githubusercontent.com/64049906/106063810-30e8ec00-60cf-11eb-91ee-6cae4319a696.png)
+![marghoriz](https://user-images.githubusercontent.com/64049906/106064437-3d217900-60d0-11eb-8973-d650cd59405d.png)
 
 Segue um exemplo de **Margin vertical**:
     
@@ -1354,7 +1354,7 @@ Segue um exemplo de **Margin vertical**:
         <div class="w-20 h-20 bg-blue-500 my-4 font-bold text-center"> my-4</div>
     </div>
 
-![margvert](https://user-images.githubusercontent.com/64049906/106063844-3e05db00-60cf-11eb-8da6-a2d031110633.png)
+![margvert](https://user-images.githubusercontent.com/64049906/106064461-46aae100-60d0-11eb-835b-ac4936546109.png)
 
 Segue um exemplo de **Margin em todos os lados**:
 
@@ -1362,7 +1362,7 @@ Segue um exemplo de **Margin em todos os lados**:
         <div class="w-20 h-20 bg-blue-500 m-4 font-bold text-center"> m-4</div>
     </div>
 
-![margtod](https://user-images.githubusercontent.com/64049906/106063867-478f4300-60cf-11eb-8b3a-3a6044405f90.png)
+![margtod](https://user-images.githubusercontent.com/64049906/106064476-50344900-60d0-11eb-82e0-6dc7af5c1ef6.png)
 
 ### 8.3 Space Between
 
