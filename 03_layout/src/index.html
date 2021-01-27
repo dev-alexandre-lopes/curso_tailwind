@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind - Criação de Layout</title>
+    <link rel=" shortcut icon" href="/src/img/favicon-32x32.png" />
+    <link rel="stylesheet" href="/src/css/style.css">
+</head>
+
+<body>
+    <p class="container flex justify-center font-bold text-black text-4xl mx-auto m-4 p-4"> Curso TailwindCSS</p>
+
+    <p class="container flex font-bold text-black text-2xl mx-auto m-4 p-4"> Capítulo 03: Layout:</p>
+
+    <p class="container font-bold text-black text-lg mx-auto m-2 p-2"> 1) Exemplo de container:</p>
+    <div class="container flex bg-gray-200 mx-auto m-2 p-2">
+        <div class="container bg-red-300 mx-auto p-4 m-4 text-red-900 border-red-600 border-4">
+            <p>Texto do Container</p>
+        </div>
+    </div>
+
+    <p class="container font-bold text-black text-lg mx-auto m-2 p-2"> Exercício 1: Mudando a cor do container com
+        responsividade</p>
+    <!--Exercício 01-->
+    <div class="container flex bg-gray-200 mx-auto m-2 p-2">
+        <div class="container mx-auto p-4 m-4 font-bold bg-green-300 md:bg-blue-400">
+            <p> Mudando da cor verde para azul no md breakpoint</p>
+        </div>
+    </div>
+
+    <p class="container font-bold text-black text-lg mx-auto m-2 p-2"> 2) Exemplo de box-border e box-content:</p>
+    <div class="container flex flex-col bg-gray-200 mx-auto m-2 p-2">
+        <div class="container box-border mx-auto p-8 m-8 bg-purple-500">
+            <p>Exemplo de um container com border-box e margem e padding de 2rem</p>
+        </div>
+        <div class="container box-content mx-auto p-8 m-8 bg-yellow-300">
+            <p>Exemplo de um container com box-content e margem e padding de 2rem </p>
+        </div>
+    </div>
+
+    <p class="container font-bold text-black text-lg mx-auto m-2 p-2"> 3) Exemplo de span como block:</p>
+    <div class="container flex flex-col bg-gray-200 mx-auto m-2 p-2">
+        <span>Este é um span e não tem a característica de block</span>
+        <span class="bg-red-400 block p-8 m-8">Este é um span com característica de block</span>
+
+    </div>
+
+    <p class="container font-bold text-black text-lg mx-auto m-2 p-2"> 4) Exemplo de inline-block:</p>
+    <div class="container flex bg-gray-200 mx-auto m-2 p-2">
+        <div class="w-40 bg-blue-500 inline-block p-4 m-4">Block</div>
+        <div class="w-60 bg-red-500 inline-block p-4 m-4">Block</div>
+        <div class="w-96 bg-green-500 inline-block p-4 m-4">Block</div>
+    </div>
+
+    <p class="container font-bold text-black text-lg mx-auto m-2 p-2"> Exercício 2: Inline-block com cores diferentes
+    </p>
+    <!--Exercício 02-->
+    <div class="container flex bg-gray-200 mx-auto m-2 p-2">
+        <div class="bg-red-400 inline-block p-2 m-2"> Bloco 01 </div>
+        <div class="bg-blue-500 inline-block p-2 m-2"> Bloco 02 </div>
+        <div class="bg-green-500 inline-block p-2 m-2"> Bloco 03 </div>
+    </div>
+
+    <p class="container font-bold text-black text-lg mx-auto m-2 p-2"> 5) Exemplos de Float:</p>
+    <div class="container h-24 bg-gray-200 mx-auto m-2 p-2">
+        <div class="bg-yellow-400 float-right m-2">Float-right</div>
+        <div class="bg-green-400 float-left m-2">Float-left</div>
+        <div class="clear-both"></div>
+        <div class="bg-red-400 float-right m-2">Float-right</div>
+        <div class="bg-blue-400 float-left m-2">Float-left</div>
+    </div>
+
+    <p class="container font-bold text-black text-lg mx-auto m-2 p-2"> 6) Exemplo de float com imagem:</p>
+    <div class="container mx-auto p-4 m-2 bg-gray-200">
+        <img class="float-right" src="/src/img/tailwind.png" alt="logo tailwind">
+        <p class="clear-none"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+            has been the industry's standard dummy text ever since the 1500s,
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            It has survived not only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged.
+            It was popularised in the 1960s with the release of Letraset sheets containing
+            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
+            including versions of Lorem Ipsum.</p>
+    </div>
+
+    <p class="container font-bold text-black text-lg mx-auto m-2 p-2"> 7) Exemplo de Object Fit</p>
+    <div class="container mx-auto m-4 p-4 bg-gray-200">
+        <div class="flex justify-center mx-auto m-2 p-2">
+            <img class="w-full h-40 object-scale-down bg-red-300" src="/src/img/fox.png" alt="logo tailwind">
+        </div>
+        <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            It has survived not only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged.Lorem Ipsum has been the industry's standard dummy text ever since the
+            1500s,
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            It has survived not only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged.
+            It was popularised in the 1960s with the release of Letraset sheets containing
+            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
+            including versions of Lorem Ipsum.</p>
+    </div>
+
+    <p class="container font-bold text-black text-lg mx-auto m-2 p-2"> 8) Exemplo de Object Position: </p>
+    <!--Exemplos de Object Position-->
+    <div class="container flex flex-wrap mx-auto m-4 p-4 bg-gray-200">
+        <img class="w-32 h-32 m-4 object-none object-left-top bg-red-400" src="/src/img/placeholder-square-amber.svg"
+            alt="bloco amarelo">
+        <img class="w-32 h-32 m-4 object-none object-top bg-blue-600" src="/src/img/placeholder-square-amber.svg"
+            alt="bloco amarelo">
+        <img class="w-32 h-32 m-4 object-none object-right-top bg-green-300" src="/src/img/placeholder-square-amber.svg"
+            alt="bloco amarelo">
+        <img class="w-32 h-32 m-4 object-none object-left bg-yellow-300" src="/src/img/placeholder-square-amber.svg"
+            alt="bloco amarelo">
+        <img class="w-32 h-32 m-4 object-none object-center bg-purple-800" src="/src/img/placeholder-square-amber.svg"
+            alt="bloco amarelo">
+        <img class="w-32 h-32 m-4 object-none object-right bg-green-900" src="/src/img/placeholder-square-amber.svg"
+            alt="bloco amarelo">
+        <img class="w-32 h-32 m-4 object-none object-left-bottom bg-red-700" src="/src/img/placeholder-square-amber.svg"
+            alt="bloco amarelo">
+        <img class="w-32 h-32 m-4 object-none object-bottom bg-yellow-300" src="/src/img/placeholder-square-amber.svg"
+            alt="bloco amarelo">
+        <img class="w-32 h-32 m-4 object-none object-right-bottom bg-indigo-600"
+            src="/src/img/placeholder-square-amber.svg" alt="bloco amarelo">
+    </div>
+
+    <!--Exemplos de Overflow-->
+    <p class="container font-bold text-black text-lg mx-auto m-2 p-2"> 9) Exemplos de Overflow: </p>
+    <div class="container flex flex-wrap mx-auto m-4 p-4 bg-gray-200">
+
+        <div class="overflow-hidden h-16 m-8 bg-red-300">
+            <p> Teste do Overflow Hidden </p>
+            <p> Teste do Overflow </p>
+            <p> Teste do Overflow </p>
+            <p> Teste do Overflow </p>
+            <p> Teste do Overflow </p>
+            <p> Teste do Overflow </p>
+            <p> Teste do Overflow </p>
+        </div>
+
+        <div class="overflow-auto h-16 m-8 bg-blue-300">
+            <p> Teste do Overflow Auto </p>
+            <p> Teste do Overflow </p>
+            <p> Teste do Overflow </p>
+            <p> Teste do Overflow </p>
+            <p> Teste do Overflow </p>
+            <p> Teste do Overflow </p>
+            <p> Teste do Overflow </p>
+        </div>
+
+        <div class="overflow-visible h-16 m-8 bg-green-300">
+            <p> Teste do Overflow Visible </p>
+            <p> Teste do Overflow </p>
+            <p> Teste do Overflow </p>
+            <p> Teste do Overflow </p>
+        </div>
+
+        <div class="overflow-scroll h-16 m-8 bg-blue-300">
+            <p> Teste do Overflow Scroll </p>
+            <p> Teste do Overflow </p>
+            <p> Teste do Overflow </p>
+            <p> Teste do Overflow </p>
+            <p> Teste do Overflow </p>
+            <p> Teste do Overflow </p>
+            <p> Teste do Overflow Teste do Overflow Teste do Overflow </p>
+        </div>
+
+        <div class="overflow-x-auto h-16 m-8 bg-green-300">
+            <p> $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+            </p>
+        </div>
+    </div>
+
+    <!--Exemplos de Position-->
+    <p class="container font-bold text-black text-lg mx-auto m-2 p-2"> 10) Exemplo de Position: Relative e Absolute: </p>
+    <div class="container flex mx-auto m-2 p-2 bg-gray-200">
+        <div class=" container h-40 relative m-8 overflow-auto bg-blue-300">
+            <span class="font-bold bg-green-300"> Relative Parent: </span>
+            <p>
+                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                It has survived not only five centuries, but also the leap into electronic typesetting,
+                remaining essentially unchanged.
+                It was popularised in the 1960s with the release of Letraset sheets containing
+                Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
+                including versions of Lorem Ipsum.
+            </p>
+            <div class="absolute bottom-0 right-0 bg-red-300 font-bold">
+                Absolute Child
+            </div>
+        </div>
+    </div>
+
+    <p class="container font-bold text-black text-lg mx-auto m-2 p-2"> 11) Exemplo de Position: Sticky: </p>
+    <div class="container flex mx-auto m-2 p-2 bg-gray-200">
+        <div class="container m-8 h-36 overflow-auto ">
+            <div class="sticky top-0 bg-green-400"> Heading Sticky 1</div>
+            <p class="bg-gray-400">Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum
+                magna augue eget diam.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+                Curae; Morbi lacinia
+                molestie dui. Praesent blandit dolor.
+                Sed non quam. In vel mi sit amet augue congue elementum.
+                Morbi in ipsum sit amet pede facilisis laoreet.
+                Donec lacus nunc, viverra nec, blandit vel, egestas et, augue.
+                Vestibulum tincidunt malesuada tellus. Ut ultrices ultrices enim.
+                Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper.
+                Nulla facilisi.
+                Sed non quam. In vel mi sit amet augue congue elementum.
+                Morbi in ipsum sit amet pede facilisis laoreet.
+                Donec lacus nunc, viverra nec, blandit vel, egestas et, augue.
+                Vestibulum tincidunt malesuada tellus. Ut ultrices ultrices enim.
+                Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper.
+                Nulla facilisi.
+                Sed non quam. In vel mi sit amet augue congue elementum.
+                Morbi in ipsum sit amet pede facilisis laoreet.
+                Donec lacus nunc, viverra nec, blandit vel, egestas et, augue.
+                Vestibulum tincidunt malesuada tellus. Ut ultrices ultrices enim.
+                Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper.
+                Nulla facilisi.
+            </p>
+            <div class="sticky top-0 bg-red-400"> Heading Sticky 2</div>
+            <p class="bg-blue-400">Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum
+                magna augue eget diam.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+                Curae; Morbi lacinia
+                molestie dui. Praesent blandit dolor.
+                Sed non quam. In vel mi sit amet augue congue elementum.
+                Morbi in ipsum sit amet pede facilisis laoreet.
+                Donec lacus nunc, viverra nec, blandit vel, egestas et, augue.
+                Vestibulum tincidunt malesuada tellus. Ut ultrices ultrices enim.
+                Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper.
+                Nulla facilisi.
+                Sed non quam. In vel mi sit amet augue congue elementum.
+                Morbi in ipsum sit amet pede facilisis laoreet.
+                Donec lacus nunc, viverra nec, blandit vel, egestas et, augue.
+                Vestibulum tincidunt malesuada tellus. Ut ultrices ultrices enim.
+                Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper.
+                Nulla facilisi.
+                Sed non quam. In vel mi sit amet augue congue elementum.
+                Morbi in ipsum sit amet pede facilisis laoreet.
+                Donec lacus nunc, viverra nec, blandit vel, egestas et, augue.
+                Vestibulum tincidunt malesuada tellus. Ut ultrices ultrices enim.
+                Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper.
+                Nulla facilisi.
+            </p>
+            <div class="sticky top-0 bg-purple-400"> Heading Sticky 3</div>
+            <p class="bg-yellow-400">Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum
+                magna augue eget diam.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+                Curae; Morbi lacinia
+                molestie dui. Praesent blandit dolor.
+                Sed non quam. In vel mi sit amet augue congue elementum.
+                Morbi in ipsum sit amet pede facilisis laoreet.
+                Donec lacus nunc, viverra nec, blandit vel, egestas et, augue.
+                Vestibulum tincidunt malesuada tellus. Ut ultrices ultrices enim.
+                Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper.
+                Nulla facilisi.
+                Sed non quam. In vel mi sit amet augue congue elementum.
+                Morbi in ipsum sit amet pede facilisis laoreet.
+                Donec lacus nunc, viverra nec, blandit vel, egestas et, augue.
+                Vestibulum tincidunt malesuada tellus. Ut ultrices ultrices enim.
+                Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper.
+                Nulla facilisi.
+                Sed non quam. In vel mi sit amet augue congue elementum.
+                Morbi in ipsum sit amet pede facilisis laoreet.
+                Donec lacus nunc, viverra nec, blandit vel, egestas et, augue.
+                Vestibulum tincidunt malesuada tellus. Ut ultrices ultrices enim.
+                Curabitur sit amet mauris. Morbi in dui quis est pulvinar ullamcorper.
+                Nulla facilisi.
+            </p>
+        </div>
+    </div>
+
+    <p class="container font-bold text-black text-lg mx-auto m-2 p-2"> 12) Exemplo de Top / Right / Bottom / Left: </p>
+
+    <div class="container flex mx-auto flex-wrap m-2 p-2 bg-gray-200">
+
+        <div class="relative h-36 w-36 m-4 bg-blue-300">
+            <div class="absolute inset-x-0 top-0 h-16 bg-green-600 text-white text-lg font-bold text-center">1</div>
+        </div>
+
+        <div class="relative h-36 w-36 m-4 bg-blue-300">
+            <div class="absolute inset-x-0 top-10 h-16 bg-green-600 text-white text-lg font-bold text-center">2
+            </div>
+        </div>
+
+        <div class="relative h-36 w-36 m-4 bg-blue-300">
+            <div class="absolute inset-x-0 bottom-0 h-16 bg-green-600 text-white text-lg font-bold text-center">3
+            </div>
+        </div>
+
+        <div class="relative h-36 w-36 m-4 bg-blue-300">
+            <div class="absolute inset-y-0 left-0 w-16 bg-green-600 text-white text-lg font-bold text-center">4
+            </div>
+        </div>
+
+        <div class="relative h-36 w-36 m-4 bg-blue-300">
+            <div class="absolute inset-y-0 left-10 w-16 bg-green-600 text-white text-lg font-bold text-center">5
+            </div>
+        </div>
+
+        <div class="relative h-36 w-36 m-4 bg-blue-300">
+            <div class="absolute inset-y-0 right-0 w-16 bg-green-600 text-white text-lg font-bold text-center">6
+            </div>
+
+        </div>
+
+        <div class="relative h-36 w-36 m-4 bg-blue-300">
+            <div class="absolute inset-0  bg-green-600 text-white text-lg font-bold text-center">7</div>
+        </div>
+
+        <div class="relative h-36 w-36 m-4 bg-blue-300">
+            <div class="absolute left-0 top-0 h-12 w-12 bg-green-600 text-white text-lg font-bold text-center">8
+            </div>
+        </div>
+
+        <div class="relative h-36 w-36 m-4 bg-blue-300">
+            <div class="absolute left-10 top-0 h-12 w-12 bg-green-600 text-white text-lg font-bold text-center">9
+            </div>
+        </div>
+
+        <div class="relative h-36 w-36 m-4 bg-blue-300">
+            <div class="absolute right-0 top-0 h-12 w-12 bg-green-600 text-white text-lg font-bold text-center">10
+            </div>
+        </div>
+
+        <div class="relative h-36 w-36 m-4 bg-blue-300">
+            <div class="absolute left-0 bottom-0 h-12 w-12 bg-green-600 text-white text-lg font-bold text-center">11
+            </div>
+        </div>
+
+        <div class="relative h-36 w-36 m-4 bg-blue-300">
+            <div class="absolute right-10 bottom-0 h-12 w-12 bg-green-600 text-white text-lg font-bold text-center">
+                12</div>
+        </div>
+
+        <div class="relative h-36 w-36 m-4 bg-blue-300">
+            <div class="absolute right-0 bottom-0 h-12 w-12 bg-green-600 text-white text-lg font-bold text-center">
+                13</div>
+        </div>
+
+        <div class="relative h-36 w-36 m-4 bg-blue-300">
+            <div class="absolute left-0 bottom-10 h-16 w-16 p-4 bg-green-600 text-white text-lg font-bold text-center">
+                14
+            </div>
+            <div class="absolute right-0 bottom-10 h-16 w-16 p-4 bg-green-600 text-white text-lg font-bold text-center">
+                15
+            </div>
+
+        </div>
+    </div>
+
+    <p class="container font-bold text-black text-lg mx-auto m-2 p-2"> 13) Exemplo de Visibility: </p>
+    <div class="container relative mx-auto m-4 w-96 flex flex-wrap h-36 bg-gray-200">
+
+        <div class="absolute inset-x-20 top-10 h-16 w-16 p-4 bg-green-600 text-white text-lg font-bold text-center">
+            1
+        </div>
+
+        <div
+            class="absolute invisible inset-x-40 top-10 h-16 w-16 p-4 bg-red-600 text-white text-lg font-bold text-center">
+            2 </div>
+
+        <div class="absolute inset-x-60 top-10 h-16 w-16 p-4 bg-blue-600 text-white text-lg font-bold text-center">
+            3
+        </div>
+
+    </div>
+
+    <p class="container font-bold text-black text-lg mx-auto m-2 p-2"> 14) Exemplo de Z-Index: </p>
+      <!--Exercício 03-->
+
+    <div class="container relative mx-auto m-4 w-96 h-36 bg-gray-200">
+        <div class="absolute right-0 m-2 z-10 h-16 w-16 bg-green-600 text-white text-lg font-bold text-center"> 1
+        </div>
+        <div class="absolute right-0 m-6 z-20 h-16 w-16 bg-red-600 text-white text-lg font-bold text-center"> 2
+        </div>
+        <div class="absolute right-0 m-10 z-30 h-16 w-16 bg-blue-600 text-white text-lg font-bold text-center"> 3
+        </div>
+    </div>
+    <!--Fim Exercício 03-->
+</body>
+
+</html>

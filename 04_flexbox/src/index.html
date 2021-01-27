@@ -5,35 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailwind Flexbox</title>
+    <link rel=" shortcut icon" href="/src/img/favicon-32x32.png" />
     <link rel="stylesheet" href="/src/css/style.css">
 </head>
 
 <body>
+    <p class="container flex justify-center font-bold text-black text-4xl mx-auto m-4 p-4"> Curso TailwindCSS</p>
+
+    <p class="container flex font-bold text-black text-2xl mx-auto m-2 p-2"> Capítulo 04: Flexbox:</p>
+
     <!--Exemplo de Flex-row-->
+    <p class="container font-bold text-black text-lg mx-auto m-2 p-2"> 1) Exemplo de Flex-row:</p>
     <div class="container flex flex-row mx-auto m-4 bg-green-300">
         <div class="bg-green-600 m-2 h-10 w-10 text-white text-xl text-center"> 1 </div>
         <div class="bg-green-600 m-2 h-10 w-10 text-white text-xl text-center"> 2 </div>
         <div class="bg-green-600 m-2 h-10 w-10 text-white text-xl text-center"> 3 </div>
     </div>
     <!--Exemplo de Flex-col-->
+    <p class="container font-bold text-black text-lg mx-auto m-2 p-2"> 2) Exemplo de Flex-col:</p>
     <div class="container flex flex-col mx-auto m-4 bg-blue-300">
         <div class="bg-blue-600 m-2 text-white text-xl text-center"> 1 </div>
         <div class="bg-blue-600 m-2 text-white text-xl text-center"> 2 </div>
         <div class="bg-blue-600 m-2 text-white text-xl text-center"> 3 </div>
     </div>
     <!--Exemplo de Flex-row-reverse-->
+    <p class="container font-bold text-black text-lg mx-auto m-2 p-2"> 3) Exemplo de Flex-row-reverse:</p>
     <div class="container flex flex-row-reverse mx-auto m-4 bg-red-300">
         <div class="bg-red-600 m-2 h-10 w-10 text-white text-xl text-center"> 1 </div>
         <div class="bg-red-600 m-2 h-10 w-10 text-white text-xl text-center"> 2 </div>
         <div class="bg-red-600 m-2 h-10 w-10 text-white text-xl text-center"> 3 </div>
     </div>
     <!--Exemplo de Flex-col-reverse-->
+    <p class="container font-bold text-black text-lg mx-auto m-2 p-2"> 4) Exemplo de Flex-col-reverse:</p>
     <div class="container flex flex-col-reverse mx-auto m-4 bg-yellow-300">
         <div class="bg-yellow-600 m-2 text-white text-xl text-center"> 1 </div>
         <div class="bg-yellow-600 m-2 text-white text-xl text-center"> 2 </div>
         <div class="bg-yellow-600 m-2 text-white text-xl text-center"> 3 </div>
     </div>
     <!--Exercício-->
+    <p class="container font-bold text-black text-lg mx-auto m-2 p-2"> Exercício 01: </p>
     <div class="container flex flex-col mx-auto m-4 bg-gray-300">
         <div class="bg-blue-600 m-4 text-white text-xl text-center"> 1 </div>
         <div class="bg-red-600 m-4 text-white text-xl text-center"> 2 </div>
@@ -42,7 +52,9 @@
         <div class="bg-purple-600 m-4 text-white text-xl text-center"> 5 </div>
         <div class="bg-gray-600 m-4 text-white text-xl text-center"> 6 </div>
     </div>
+
     <!--Exemplo de Flex-wrap-->
+    <p class="container font-bold text-black text-lg mx-auto m-2 p-2"> 5) Exemplo Flex-wrap: </p>
     <div class="container flex flex-row flex-wrap mx-auto m-4 bg-gray-400">
         <div class="bg-red-600 m-2 h-16 w-36 text-white text-xl text-center"> 1 </div>
         <div class="bg-red-600 m-2 h-16 w-36 text-white text-xl text-center"> 2 </div>
@@ -57,22 +69,29 @@
         <div class="bg-red-600 m-2 h-16 w-36 text-white text-xl text-center"> 11 </div>
         <div class="bg-red-600 m-2 h-16 w-36 text-white text-xl text-center"> 12 </div>
     </div>
+
+    <p class="container font-bold text-black text-lg mx-auto m-2 p-2"> 6) Exemplo Flex-grow: </p>
     <div class="container flex mx-auto m-4 p-4 bg-gray-400">
         <div class="flex-1 bg-green-400 text-center font-bold"> 1 </div>
         <div class="flex-1 bg-blue-400 text-center font-bold"> 2 </div>
         <div class="flex-1 bg-red-400 text-center font-bold"> 3 </div>
         <div class="flex-1 bg-yellow-400 text-center font-bold"> 4 </div>
     </div>
-    <div class="container flex flex-row flex-wrap mx-auto m-4 bg-gray-400">
-        <div class="bg-purple-600 m-2 h-16 w-36 text-white text-xl text-center order-1"> 1 </div>
-        <div class="bg-purple-600 m-2 h-16 w-36 text-white text-xl text-center order-4"> 2 </div>
-        <div class="bg-purple-600 m-2 h-16 w-36 text-white text-xl text-center order-5"> 3 </div>
-        <div class="bg-purple-600 m-2 h-16 w-36 text-white text-xl text-center order-6"> 4 </div>
-        <div class="bg-purple-600 m-2 h-16 w-36 text-white text-xl text-center order-2"> 5 </div>
-        <div class="bg-purple-600 m-2 h-16 w-36 text-white text-xl text-center order-3"> 6 </div>
-        <div class="bg-purple-600 m-2 h-16 w-36 text-white text-xl text-center order-7"> 7 </div>
+
+    <p class="container font-bold text-black text-lg mx-auto m-2 p-2"> 7) Exemplo Flex Order: </p>
+    <div class="container flex mx-auto m-4 p-4 bg-gray-200">
+        <div class="container flex flex-row flex-wrap mx-auto m-4 bg-gray-400">
+            <div class="bg-purple-600 m-2 h-16 w-36 text-white text-xl text-center order-1"> 1 </div>
+            <div class="bg-purple-600 m-2 h-16 w-36 text-white text-xl text-center order-4"> 2 </div>
+            <div class="bg-purple-600 m-2 h-16 w-36 text-white text-xl text-center order-5"> 3 </div>
+            <div class="bg-purple-600 m-2 h-16 w-36 text-white text-xl text-center order-6"> 4 </div>
+            <div class="bg-purple-600 m-2 h-16 w-36 text-white text-xl text-center order-2"> 5 </div>
+            <div class="bg-purple-600 m-2 h-16 w-36 text-white text-xl text-center order-3"> 6 </div>
+            <div class="bg-purple-600 m-2 h-16 w-36 text-white text-xl text-center order-7"> 7 </div>
+        </div>
     </div>
     <!--Exercício-->
+    <p class="container font-bold text-black text-lg mx-auto m-2 p-2"> Exercício 02: </p>
     <div class="container flex flex-row flex-wrap mx-auto m-4 bg-gray-400">
         <div class="bg-red-600 m-2 h-16 w-36 text-white text-xl text-center order-1 lg:order-4"> 1 </div>
         <div class="bg-green-600 m-2 h-16 w-36 text-white text-xl text-center order-2 lg:order-3"> 2 </div>

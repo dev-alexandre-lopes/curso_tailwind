@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind - Conceitos Fundamentais</title>
+    <link rel=" shortcut icon" href="/src/img/favicon-32x32.png" />
+    <link rel="stylesheet" href="/src/css/style.css">
+</head>
+
+<body>
+    <p class="container flex justify-center font-bold text-black text-4xl mx-auto m-4 p-4"> Curso TailwindCSS</p>
+
+    <p class="container flex font-bold text-black text-2xl mx-auto m-4 p-4"> Capítulo 02: Conceitos Fundamentais:</p>
+
+    <p class="container font-bold text-black text-lg mx-auto m-2 p-2"> 1) Exemplo background:</p>
+    <div class="container flex bg-gray-200 mx-auto m-2 p-2">
+        <h1 class="bg-green-500 text-white font-bold hover:bg-red-400 hover:text-black">Segundo Projeto com o Framework
+            TailwindCSS</h1> </br>
+    </div>
+
+    <p class="container font-bold text-black text-lg mx-auto m-2 p-2"> 2) Exemplos de Botões:</p>
+    <div class="container flex justify-around bg-gray-200 mx-auto m-2 p-2">
+        <button class="ml-9 btn-blue">Botão</button>
+        <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Botão</button>
+        <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">Botão</button>
+    </div>
+
+    <p class="container font-bold text-black text-lg mx-auto m-2 p-2"> 3) Exemplo de responsividade e entrada de dados:
+    </p>
+    <div class="container flex flex-col bg-gray-200 mx-auto p-2">
+        <div class="w-4 h-4 md:w-8 md:h-8 lg:w-16 lg:h-16 m-8 bg-red-600 md:bg-green-600 lg:bg-blue-600"></div>
+        <input type="text" placeholder="Insira seu E-mail"
+            class="w-96 ml-9 bg-gray-300 text-gray-800 focus:bg-red-400 focus:text-black">
+    </div>
+</body>
+</html>
