@@ -1366,4 +1366,66 @@ Segue um exemplo de **Margin em todos os lados**:
 
 ### 8.3 Space Between
 
+Utilities para controlar o espaço entre elementos filhos. Podemos adicionar com as seguintes classes: 
 
+* classs space-x-*:  Adiciona espaço entre os elementos no eixo x (0 - 96);
+* classe space-y-*: Adiciona espaço entre os elementos no eixo y  (0 - 96);
+* classe -space-x-*: Adiciona espaço entre os elementos no eixo x reverso (0 - 96);
+* classe -space-y-*: Adiciona espaço entre os elementos no eixo y reverso (0 - 96);
+
+Segue um exemplo de **Space Between horizontal**:
+    
+    <div class="container flex space-x-10 bg-gray-200 mx-auto m-2 p-2">
+        <div class="w-20 h-20 bg-blue-500 font-bold text-center"> item 1</div>
+        <div class="w-20 h-20 bg-red-500 font-bold text-center"> item 2</div>
+        <div class="w-20 h-20 bg-green-500 font-bold text-center "> item 3</div>
+        <div class="w-20 h-20 bg-yellow-500 font-bold text-center "> item 4</div>
+    </div>
+
+![betweenhoriz](https://user-images.githubusercontent.com/64049906/106065326-8b834780-60d1-11eb-9f07-50b2f21c874f.png)
+
+Segue um exemplo de **Space Between vertical**:
+
+    <div class="container flex flex-col space-y-4 bg-gray-200 mx-auto m-2 p-2">
+        <div class="w-20 h-20 bg-blue-500 font-bold text-center"> item 1</div>
+        <div class="w-20 h-20 bg-red-500 font-bold text-center"> item 2</div>
+        <div class="w-20 h-20 bg-green-500 font-bold text-center "> item 3</div>
+        <div class="w-20 h-20 bg-yellow-500 font-bold text-center "> item 4</div>
+    </div>
+
+![betweenvert](https://user-images.githubusercontent.com/64049906/106065352-94741900-60d1-11eb-98a9-fc13320a4d4f.png)
+
+### 8.4 Width
+
+Utilities para definir a largura de um elemento. Podemos adicionar com as seguintes classes: 
+
+    .w-0    width: 0px	
+    .w-1    width: 0.25rem	4px
+    .w-2    width: 0.5rem	8px
+    .w-3    width: 0.75rem	12px
+    .w-4    width: 1rem 	16px
+    .w-5    width: 1.25rem	20px
+    .w-6    width: 1.5rem	24px
+    .w-7    width: 1.75rem	28px
+    .w-8    width: 2rem 	32px
+    .w-9    width: 2.25rem	36px
+    .w-10   width: 2.5rem	40px
+    .w-11   width: 2.75rem	44px
+    .w-12   width: 3rem	    48px
+    .w-14   width: 3.5rem	56px
+    .w-16   width: 4rem	    64px
+    .w-20   width: 5rem	    80px
+    .w-24   width: 6rem	    96px
+    .w-28   width: 7rem	    112px
+    .w-32   width: 8rem	    128px
+    .w-36   width: 9rem	    144px
+    .w-40   width: 10rem	160px
+    .w-44   width: 11rem	176px
+    .w-48   width: 12rem	192px
+    .w-52   width: 13rem	208px
+    .w-56   width: 14rem	224px
+    .w-60   width: 15rem	240px
+    .w-64   width: 16rem	256px
+    .w-72   width: 18rem	288px
+    .w-80   width: 20rem	320px
+    .w-96   width: 24rem	384px
