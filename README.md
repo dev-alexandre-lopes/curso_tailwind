@@ -1311,3 +1311,5 @@ Segue um exemplo de **Padding em todos os lados**:
     <div class="container flex justify-around bg-gray-200 mx-auto m-2 p-2">
         <div class="w-20 h-20 bg-blue-500 p-4 font-bold text-center"> p-4</div>
     </div>
+
+
