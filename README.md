@@ -1274,14 +1274,16 @@ Segue um exemplo de **Place Self**:
 ![self1](https://user-images.githubusercontent.com/64049906/105722520-20cce300-5efc-11eb-8d52-bc72addf03e3.png)
 
 
-## 8. Espaçamento - Padding
+## 8. Espaçamento e Dimensões 
+
+### 8.1 Padding
 
 Utilities para controlar o **padding** de um elemento. Podemos adicionar com as seguintes classes: 
 
 * classs p-*:  Adiciona em todas as direções (0 - 96);
 * classe px-*: Adiciona padding ao eixo x (0 - 96);
 * classe py-*: Adiciona padding ao eixo y (0 - 96);
-* classes:pt-, pb-, pl-, pr-*: Adiciona padding na direção específica (t -top, b- bottom, l-left, r-right)
+* classes:pt-, pb-, pl-, pr-*: Adiciona padding na direção específica (t -top, b- bottom, l-left, r-right) (0 - 96)
 
 Segue um exemplo de **Padding em um único lado**:
 
@@ -1300,16 +1302,68 @@ Segue um exemplo de **Padding horizontal**:
         <div class="w-20 h-20 bg-blue-500 px-4 font-bold text-center"> px-4</div>
     </div>
 
+![padhoriz](https://user-images.githubusercontent.com/64049906/106062861-bf5c6e00-60cd-11eb-861e-9385bec8a351.png)
+
 Segue um exemplo de **Padding vertical**:
 
     <div class="container flex justify-around bg-gray-200 mx-auto m-2 p-2">
         <div class="w-20 h-20 bg-blue-500 py-4 font-bold text-center"> py-4</div>
     </div>
 
+![padvert](https://user-images.githubusercontent.com/64049906/106062898-cb483000-60cd-11eb-8280-4af8ae7a0c98.png)
+
 Segue um exemplo de **Padding em todos os lados**:
 
     <div class="container flex justify-around bg-gray-200 mx-auto m-2 p-2">
         <div class="w-20 h-20 bg-blue-500 p-4 font-bold text-center"> p-4</div>
     </div>
+
+![padtod](https://user-images.githubusercontent.com/64049906/106062925-d4390180-60cd-11eb-86f8-44f5bcbb3868.png)
+
+### 8.2 Margin
+
+Utilities para controlar a **margin** de um elemento. Podemos adicionar com as seguintes classes: 
+
+* classs m-*:  Adiciona em todas as direções (0 - 96);
+* classe mx-*: Adiciona padding ao eixo x (0 - 96);
+* classe my-*: Adiciona padding ao eixo y (0 - 96);
+* classes:mt-, mb-, ml-, mr-*: Adiciona padding na direção específica (t -top, b- bottom, l-left, r-right) (0 - 96)
+
+Segue um exemplo de **Margin em um único lado**:
+
+    <div class="container flex justify-around bg-gray-200 mx-auto m-2 p-2">
+        <div class="w-20 h-20 bg-blue-500 mt-10 font-bold text-center"> mt-10</div>
+        <div class="w-20 h-20 bg-red-500 mr-10 font-bold text-center"> mr-10</div>
+        <div class="w-20 h-20 bg-green-500 ml-10 font-bold text-center "> ml-10</div>
+        <div class="w-20 h-20 bg-yellow-500 mb-10 font-bold text-center "> mb-10</div>
+    </div>
+
+![margintod](https://user-images.githubusercontent.com/64049906/106063773-1f074900-60cf-11eb-9763-47a1a42559b1.p
+
+Segue um exemplo de **Margin horizontal**:
+
+    <div class="container flex justify-around bg-gray-200 mx-auto m-2 p-2">
+        <div class="w-20 h-20 bg-blue-500 mx-4 font-bold text-center"> mx-4</div>
+    </div>
+
+![marhoriz](https://user-images.githubusercontent.com/64049906/106063810-30e8ec00-60cf-11eb-91ee-6cae4319a696.png)
+
+Segue um exemplo de **Margin vertical**:
+    
+    <div class="container flex justify-around bg-gray-200 mx-auto m-2 p-2">
+        <div class="w-20 h-20 bg-blue-500 my-4 font-bold text-center"> my-4</div>
+    </div>
+
+![margvert](https://user-images.githubusercontent.com/64049906/106063844-3e05db00-60cf-11eb-8da6-a2d031110633.png)
+
+Segue um exemplo de **Margin em todos os lados**:
+
+    <div class="container flex justify-around bg-gray-200 mx-auto m-2 p-2">
+        <div class="w-20 h-20 bg-blue-500 m-4 font-bold text-center"> m-4</div>
+    </div>
+    
+![margtod](https://user-images.githubusercontent.com/64049906/106063867-478f4300-60cf-11eb-8b3a-3a6044405f90.png)
+
+### 8.3 Space Between
 
 
