@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind - Bordas</title>
+    <link rel=" shortcut icon" href="/src/img/favicon-32x32.png" />
+    <link rel="stylesheet" href="/src/css/style.css">
+</head>
+
+<body>
+    <p class="container flex justify-center font-bold text-black text-4xl mx-auto m-4 p-4"> Curso TailwindCSS:</p>
+    <p class="container flex font-bold text-black text-2xl mx-auto m-2 p-2"> Capítulo 11: Bordas</p>
+    <p class="container flex font-bold text-black text-2xl mx-auto m-2 p-2"> 1) Border Radius: Cantos arredondados </p>
+    <div class="container flex h-24 justify-around bg-gray-200 mx-auto m-2 p-2">
+        <button
+            class="w-20 h-10 rounded-md border-2 border-green-400 bg-blue-500 m-2 p-2  hover:border-red-700 text-center font-bold">
+            Click </button>
+        <div class="w-36 h-12 border-4 border-red-800 bg-blue-500 m-2 p-2 rounded-sm text-center font-bold">rounded-sm
+        </div>
+        <div class="w-36 h-12 border-4 border-green-600 bg-red-500 m-2 p-2 rounded text-center font-bold">rounded </div>
+        <div class="w-36 h-12 border-4 border-red-800 bg-green-500 m-2 p-2 rounded-md text-center font-bold">rounded-md
+        </div>
+        <div class="w-36 h-12 border-4 border-indigo-800 bg-yellow-500 m-2 p-2 rounded-lg text-center font-bold">
+            rounded-lg
+        </div>
+
+
+    </div>
+
+    <p class="container flex font-bold text-black text-2xl mx-auto m-2 p-2"> 2) Pills e Circles: </p>
+    <div class="container flex h-64 justify-around items-center bg-gray-200 mx-auto m-2 p-2">
+        <div class=" rounded-full w-40 h-10 px-3 py-1 border-2 border-red-800 bg-blue-500 text-center font-bold">pill
+        </div>
+        <div class="rounded-full w-10 h-10 border-2 border-pink-800 bg-green-500 m-2 p-2 text-center font-bold">c1
+        </div>
+        <div class="rounded-full w-20 h-20 border-2 border-pink-800 bg-blue-500 m-2 p-2 text-center font-bold">c2
+        </div>
+        <div class="rounded-full w-40 h-40 border-2 border-yellow-400 bg-red-500 m-2 p-2 text-center font-bold">c3
+        </div>
+        <div class="rounded-full w-60 h-60 border-2 border-blue-600 bg-pink-500 m-2 p-2 text-center font-bold">circle
+        </div>
+    </div>
+
+    <p class="container flex font-bold text-black text-2xl mx-auto m-2 p-2"> 3) Arredondando os lados separadamente:
+    </p>
+    <div class="container flex h-24 justify-around items-center bg-gray-200 mx-auto m-2 p-2">
+        <div class="w-36 h-12 border-2 rounded-t-xl border-blue-800 bg-blue-500 m-2 p-2 text-center font-bold"> top
+        </div>
+        <div class="w-36 h-12 border-2 rounded-b-xl border-blue-800 bg-blue-500 m-2 p-2 text-center font-bold"> bottom
+        </div>
+        <div class="w-36 h-12 border-2 rounded-l-xl border-blue-800 bg-blue-500 m-2 p-2 text-center font-bold"> left
+        </div>
+        <div class="w-36 h-12 border-2 rounded-r-xl border-blue-800 bg-blue-500 m-2 p-2 text-center font-bold"> right
+        </div>
+    </div>
+
+    <p class="container flex font-bold text-black text-2xl mx-auto m-2 p-2"> 4) Arredondando os cantos separadamente:
+    </p>
+    <div class="container flex h-24 justify-around items-center bg-gray-200 mx-auto m-2 p-2">
+        <div
+            class="w-36 h-12 border-2 rounded-tl-2xl border-red-800 bg-red-500 hover:border-blue-600 m-2 p-2 text-center font-bold">
+            top-left
+        </div>
+        <div class="w-36 h-12 border-2 rounded-tr-2xl border-red-800 bg-red-500 m-2 p-2 text-center font-bold"> to-right
+        </div>
+        <div class="w-36 h-12 border-2 rounded-bl-2xl border-red-800 bg-red-500 m-2 p-2 text-center font-bold">
+            bottom-left
+        </div>
+        <div class="w-36 h-12 border-2 rounded-br-2xl border-red-800 bg-red-500 m-2 p-2 text-center font-bold">
+            bottom-right
+        </div>
+    </div>
+
+    <p class="container flex font-bold text-black text-2xl mx-auto m-2 p-2"> 5)Largura de Borda:
+    </p>
+    <div class="container flex h-24 justify-around items-center bg-gray-200 mx-auto m-2 p-2">
+        <div
+            class="w-36 h-12 border-0  border-yellow-800 bg-yellow-500 hover:border-blue-600 m-2 p-2 text-center font-bold">
+            border</div>
+        <div
+            class="w-36 h-12 border  border-yellow-800 bg-yellow-500 hover:border-blue-600 m-2 p-2 text-center font-bold">
+            border-0</div>
+        <div
+            class="w-36 h-12 border-2  border-yellow-800 bg-yellow-500 hover:border-blue-600 m-2 p-2 text-center font-bold">
+            border-2</div>
+        <div
+            class="w-36 h-12 border-4  border-yellow-800 bg-yellow-500 hover:border-blue-600 m-2 p-2 text-center font-bold">
+            border-4</div>
+        <div class="w-36 h-12 border-8  border-yellow-800 bg-yellow-500 hover:border-blue-600 text-center font-bold">
+            border-8</div>
+    </div>
+
+    <p class="container flex font-bold text-black text-2xl mx-auto m-2 p-2"> 6)Largura de Borda: Lados individuais
+    </p>
+    <div class="container flex h-24 justify-around items-center bg-gray-200 mx-auto m-2 p-2">
+        <div
+            class="w-36 h-12 border-t-4  border-green-800 bg-green-500 hover:border-blue-600 m-2 p-2 text-center font-bold">
+            border-top</div>
+        <div
+            class="w-36 h-12 border-b-4  border-green-800 bg-green-500 hover:border-blue-600 m-2 p-2 text-center font-bold">
+            border-bottom</div>
+        <div
+            class="w-36 h-12 border-l-4  border-green-800 bg-green-500 hover:border-blue-600 m-2 p-2 text-center font-bold">
+            border-left</div>
+        <div
+            class="w-36 h-12 border-r-4  border-green-800 bg-green-500 hover:border-blue-600 m-2 p-2 text-center font-bold">
+            border-right</div>
+    </div>
+
+    <p class="container flex font-bold text-black text-2xl mx-auto m-2 p-2"> 7)Largura de Borda: Between
+    </p>
+    <div
+        class="container flex flex-col divide-y-2 divide-blue-500 h-60 justify-around items-center bg-gray-200 mx-auto m-2">
+        <div class="w-full  p-4 text-center font-bold"> 1</div>
+        <div class="w-full  p-4 text-center font-bold"> 2</div>
+        <div class="w-full  p-4 text-center font-bold"> 3</div>
+        <div class="w-full  p-4 text-center font-bold"> 4</div>
+    </div>
+
+    <p class="container flex font-bold text-black text-2xl mx-auto m-2 p-2"> 8)Cores de bordas:
+    <div class="container flex flex-col h-96 justify-around bg-gray-200 mx-auto m-2">
+        <div class="container w-1/2 flex  bg-red-300 mx-auto m-2 p-2">
+            <input class="w-1/2 h-10 m-2 p-2 rounded-md border-2 border-red-300 focus:outline-none focus:border-red-500 opacity-90" type="Email"
+                placeholder="E-mail">
+            <button class="w-20 h-10 rounded-md ml-8 mx-2 my-2 border-2 border-green-500 bg-green-400 focus:outline-none focus:border-green-700">Enviar</button>
+        </div>
+        <div class="container w-1/2 flex  bg-blue-300 mx-auto m-2 p-2">
+            <input class="w-1/2 h-10 m-2 p-2 rounded-md border-2 border-blue-300 focus:outline-none focus:border-blue-800 opacity-90" type="text"
+                placeholder="Digite seu nome">
+            <button
+                class="w-20 h-10 ml-8 mx-2 my-2 rounded-md border-2 border-red-500 bg-red-400 opacity-90 focus:outline-none focus:border-red-700">Cancelar</button>
+            <button
+                class="w-20 h-10 mx-2 my-2 rounded-md border-2 border-yellow-500 bg-yellow-400 opacity-90 focus:outline-none focus:border-yellow-700">Editar</button>
+            <button
+                class="w-20 h-10 mx-2 my-2 rounded-md border-2 border-green-500 bg-green-400 opacity-90 focus:outline-none focus:border-green-700">Enviar</button>
+        </div>
+    </div>
+
+    <p class="container flex font-bold text-black text-2xl mx-auto m-2 p-2"> 9)Cores de borda: opacidade</p>
+    <div class="container flex flex-col h-40 justify-around bg-gray-200 mx-auto m-2">
+        <div class="container w-screen flex justify-around bg-gray-500 mx-auto m-2 p-2">
+            <button
+                class="w-20 h-10 rounded-md ml-8 mx-2 my-2 border-2 border-green-700 bg-green-400 border-opacity-100">100%</button>
+            <button
+                class="w-20 h-10 rounded-md ml-8 mx-2 my-2 border-2 border-green-700 bg-green-400 border-opacity-50">50%</button>
+            <button
+                class="w-20 h-10 rounded-md ml-8 mx-2 my-2 border-2 border-green-700 bg-green-400 border-opacity-25">25%</button>
+            <button
+                class="w-20 h-10 rounded-md ml-8 mx-2 my-2 border-2 border-green-700 bg-green-400 border-opacity-5">5%</button>
+        </div>
+    </div>
+
+    <p class="container flex font-bold text-black text-2xl mx-auto m-2 p-2"> 10)Cores de borda: hover</p>
+    <div class="container flex flex-col h-40 justify-around bg-gray-200 mx-auto m-2">
+        <div class="container w-screen flex justify-around bg-gray-500 mx-auto m-2 p-2">
+            <button
+                class="w-20 h-10 bg-clip-text rounded-md mx-2 my-2 border-2 border-green-700 bg-green-400 hover:bg-red-400 hover:border-red-700">Click
+                Aqui</button>
+
+        </div>
+    </div>
+
+    <p class="container flex font-bold text-black text-2xl mx-auto m-2 p-2"> 11)Cores de borda: focus</p>
+    <div class="container flex flex-col h-40 justify-around bg-gray-200 mx-auto m-2">
+        <div class="container w-screen flex justify-around bg-gray-400 mx-auto m-2 p-2">
+            <input class="w-1/2 h-10 m-2 p-4 rounded-md border border-transparent focus:outline-none focus:ring-2 focus:ring-green-500 opacity-90" type="text"
+                placeholder="Digite seu E-mail">
+        </div>
+    </div>
+
+    <p class="container flex font-bold text-black text-2xl mx-auto m-2 p-2"> 12)Estilos de bordas: </p>
+    <div class="container flex flex-col h-40 justify-around bg-gray-200 mx-auto m-2">
+        <div class="container w-screen flex justify-around bg-gray-400 mx-auto m-2 p-2">
+            <button
+                class="w-20 h-10 rounded-md ml-8 mx-2 my-2 border-4 border-green-700 bg-green-400">solid</button>
+            <button
+                class="w-20 h-10 rounded-md ml-8 mx-2 my-2 border-4 border-dotted border-green-700 bg-green-400">dotted</button>
+            <button
+                class="w-20 h-10 rounded-md ml-8 mx-2 my-2 border-4 border-dashed border-green-700 bg-green-400">dashed</button>
+            <button
+                class="w-20 h-10 rounded-md ml-8 mx-2 my-2 bg-clip-text border-4 border-double border-green-700 bg-green-400">double</button>
+        </div>
+    </div>
+
+
+    <p class="container flex font-bold text-black text-2xl mx-auto m-2 p-2"> 13)Divide-x: Widh
+    </p>
+    <div
+        class="container flex flex-row divide-x-4 divide-blue-500 items-center bg-gray-200 mx-auto ">
+        <div class="w-full p-2 text-center font-bold"> 1</div>
+        <div class="w-full p-2 text-center font-bold"> 2</div>
+        <div class="w-full p-2 text-center font-bold"> 3</div>
+        <div class="w-full  p-2 text-center font-bold"> 4</div>
+    </div>
+
+    <p class="container flex font-bold text-black text-2xl mx-auto m-2 p-2"> 14)Divide-y: Widh
+    </p>
+    <div
+        class="container flex flex-col divide-y-4 divide-blue-500 items-center bg-gray-200 mx-auto ">
+        <div class="w-full p-2 text-center font-bold"> 1</div>
+        <div class="w-full p-2 text-center font-bold"> 2</div>
+        <div class="w-full p-2 text-center font-bold"> 3</div>
+        <div class="w-full  p-2 text-center font-bold"> 4</div>
+    </div>
+
+    <p class="container flex font-bold text-black text-2xl mx-auto m-2 p-2"> 15)Divide-y-reverse: Widh
+    </p>
+    <div
+        class="container flex flex-col-reverse divide-y-4 divide-y-reverse divide-red-500 items-center bg-gray-200 mx-auto ">
+        <div class="w-full py-2 text-center font-bold"> 1</div>
+        <div class="w-full py-2 text-center font-bold"> 2</div>
+        <div class="w-full py-2 text-center font-bold"> 3</div>
+        <div class="w-full py-2 text-center font-bold"> 4</div>
+    </div>
+
+    <p class="container flex font-bold text-black text-2xl mx-auto m-2 p-2"> 16)Divide: Opacidade
+    </p>
+    <div
+        class="container flex flex-col divide-y-4 divide-black divide-opacity-25 items-center bg-gray-200 mx-auto ">
+        <div class="w-full py-4 text-center text-2xl font-bold"> 1</div>
+        <div class="w-full py-4 text-center text-2xl font-bold"> 2</div>
+        <div class="w-full py-4 text-center text-2xl font-bold"> 3</div>
+        <div class="w-full py-4 text-center text-2xl font-bold"> 4</div>
+    </div>
+
+    <p class="container flex font-bold text-black text-2xl mx-auto m-2 p-2"> 17)Divide: Estilo -> Dotted
+    </p>
+    <div
+        class="container flex flex-col divide-y-4 divide-blue-600 divide-opacity-80 divide-dotted items-center bg-gray-200 mx-auto ">
+        <div class="w-full py-4 text-center text-2xl font-bold"> 1</div>
+        <div class="w-full py-4 text-center text-2xl font-bold"> 2</div>
+        <div class="w-full py-4 text-center text-2xl font-bold"> 3</div>
+        <div class="w-full py-4 text-center text-2xl font-bold"> 4</div>
+    </div>
+
+    <p class="container flex font-bold text-black text-2xl mx-auto m-2 p-2"> 18)Divide: Estilo -> Dashed
+    </p>
+    <div
+        class="container flex flex-col divide-y-4 divide-green-600 divide-dashed items-center bg-gray-200 mx-auto ">
+        <div class="w-full py-4 text-center text-2xl font-bold"> 1</div>
+        <div class="w-full py-4 text-center text-2xl font-bold"> 2</div>
+        <div class="w-full py-4 text-center text-2xl font-bold"> 3</div>
+        <div class="w-full py-4 text-center text-2xl font-bold"> 4</div>
+    </div>
+
+    <p class="container flex font-bold text-black text-2xl mx-auto m-2 p-2"> 19) Ring: Width </p>
+    <div class="container flex flex-col h-40 justify-around bg-gray-200 mx-auto m-2">
+        <div class="container w-screen flex justify-around bg-gray-400 mx-auto m-2 p-2">
+            <button
+                class="w-20 h-10 rounded-md  mx-2 my-2 ring-0 bg-green-400">ring-0</button>
+            <button
+                class="w-20 h-10 rounded-md  mx-2 my-2 ring bg-green-400">ring</button>
+            <button
+                class="w-20 h-10 rounded-md  mx-2 my-2 ring-4 bg-green-400">ring-4</button>
+            <button
+                class="w-20 h-10 rounded-md  mx-2 my-2 ring-8 bg-green-400">ring-8</button>
+        </div>
+    </div>
+
+    <p class="container flex font-bold text-black text-2xl mx-auto m-2 p-2"> 20) Ring: cores </p>
+    <div class="container flex flex-col h-40 justify-around bg-gray-200 mx-auto m-2">
+        <div class="container w-screen flex justify-around bg-gray-400 mx-auto m-2 p-2">
+            <button
+                class="w-20 h-10 rounded-md  mx-2 my-2 ring-0 focus:outline-none  bg-green-400">ring-0</button>
+            <button
+                class="w-20 h-10 rounded-md  mx-2 my-2 ring ring-red-500 focus:outline-none focus:ring-red-700 bg-green-400">ring</button>
+            <button
+                class="w-20 h-10 rounded-md  mx-2 my-2 ring-4 ring-blue-500 focus:outline-none focus:ring-blue-800  bg-green-400">ring-4</button>
+            <button
+                class="w-20 h-10 rounded-md  mx-2 my-2 ring-8 ring-yellow-500 focus:outline-none focus:ring-yellow-800  bg-green-400">ring-8</button>
+        </div>
+    </div>
+
+    <p class="container flex font-bold text-black text-2xl mx-auto m-2 p-2"> 21) Ring: Opacidade e Offset </p>
+    <div class="container flex flex-col h-40 justify-around bg-gray-200 mx-auto m-2">
+        <div class="container w-screen flex justify-around bg-gray-400 mx-auto m-2 p-2">
+            <button
+                class="w-20 h-10 rounded-md  mx-2 my-2 ring-4 ring-green-700 ring-offset-2  focus:outline-none  bg-green-400">offset-2</button>
+            <button
+                class="w-20 h-10 rounded-md  mx-2 my-2 ring ring-red-500 ring-opacity-25 focus:outline-none  bg-green-400">25%</button>
+                <button
+                class="w-20 h-10 rounded-md mx-2 my-2 ring-4 ring-green-700 ring-offset-4 ring-offset-yellow-300 focus:outline-none  bg-green-400">offset-4</button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

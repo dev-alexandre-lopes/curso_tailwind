@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailwind Background</title>
-    <link rel=" shortcut icon" href="/src/img/favicon-32x32.png" />
+    <link rel=" shortcut icon" href="/src/img/favicon-32x32.png"/>
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/src/css/style.css">
 </head>
@@ -158,6 +158,14 @@
     <p class="container flex font-bold text-black text-2xl mx-auto m-2 p-2"> 10) Background Button:</p>
     <div class="container flex flex-col h-24 justify-around bg-gray-200 mx-auto m-2 p-2">
             <button class=" w-20 h-10 bg-gradient-to-r from-green-400 to-blue-600 hover:bg-gradient-to-l hover:from-pink-500 hover:to-red-600   rounded-md mx-auto"> Alerta </button>
+    </div>
+
+    <p class="container flex font-bold text-black text-2xl mx-auto m-2 p-2"> 11) Background Clip:</p>
+    <div class="container flex h-20 justify-around bg-gray-200 mx-auto m-2 p-2">
+            <div class="w-36 h-12 bg-clip-text border-4 border-indigo-800 hover:border-red-500 bg-blue-500 mx-auto m-2 p-2 rounded-md text-center font-bold">clip text</div>
+            <div class="w-36 h-12 bg-clip-content border-4 border-indigo-800 hover:border-yellow-500 bg-blue-500 mx-auto m-2 p-2 rounded-md text-center font-bold">clip content</div>
+            <div class="w-36 h-12 bg-clip-padding border-4 border-indigo-800 hover:border-green-500 bg-blue-500 mx-auto m-2 p-2 rounded-md text-center font-bold">clip padding</div>
+            <div class="w-36 h-12 bg-clip-border border-4 border-indigo-800 hover:border-gray-800 bg-blue-500 mx-auto m-2 p-2 rounded-md text-center font-bold">clip border</div>
     </div>
   
 </body>
