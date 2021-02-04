@@ -7,6 +7,9 @@
     <title>Tailwind - Efeitos & Tabelas</title>
     <link rel=" shortcut icon" href="/src/img/favicon-32x32.png" />
     <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
 </head>
 
 <body>
@@ -49,68 +52,228 @@
     </div>
 
 
-    <p class="container flex font-bold text-black text-2xl mx-auto m-2 p-2"> 3) Tabela: </p>
+    <p class="container flex font-bold text-black text-2xl mx-auto m-2 p-2"> 3) Tabela Simples: </p>
 
-    <div class="container bg-blue-200 w-full mx-auto m-2 p-2">
-
-        <table class="table-auto w-full text-justify">
-            <thead>
-                <tr>
-                    <th
-                        class="px-4 py-3  tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tl rounded-bl">
-                        Plan</th>
-                    <th class="px-4 py-3  tracking-wider font-medium text-gray-900 text-sm bg-gray-100">
-                        Speed</th>
-                    <th class="px-4 py-3  tracking-wider font-medium text-gray-900 text-sm bg-gray-100">
-                        Storage</th>
-                    <th class="px-4 py-3 tracking-wider font-medium text-gray-900 text-sm bg-gray-100">
-                        Price</th>
-                    <th
-                        class="w-10 tracking-wider py-3 px-3 font-medium text-gray-900 text-sm bg-gray-100 rounded-tr rounded-br"> 
-                        Select</th>
-                    
+    <div class="container w-full mx-auto m-2 p-2">
+        <table class="min-w-full table-auto text-center">
+            <thead class="justify-between">
+                <tr class="bg-gray-600">
+                    <th class="px-16 py-2 font-medium text-white text-lg rounded-tl rounded-bl">
+                        Foto
+                    </th>
+                    <th class="px-16 py-2 font-medium text-white text-lg ">
+                        Nome
+                    </th>
+                    <th class="px-16 py-2 font-medium text-white text-lg ">
+                        E-mail
+                    </th>
+                    <th class="px-16 py-2 font-medium text-white text-lg rounded-tr rounded-br ">
+                        Celular
+                    </th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td class="px-4 py-3">Start</td>
-                    <td class="px-4 py-3">5 Mb/s</td>
-                    <td class="px-4 py-3">15 GB</td>
-                    <td class="px-4 py-3 text-lg text-gray-900">Free</td>
-                    <td class="w-10 text-center">
-                        <input name="plan" type="radio">
+                <tr class="bg-white border-4 border-gray-200">
+                    <td class="flex flex-row justify-center">
+                        <img src="/src/img/foto1.jpg" class="rounded-full w-12 h-12" alt="Foto">
+                    </td>
+                    <td class="px-16 py-2 font-medium ">
+                        Paulo Eduardo
+                    </td>
+                    <td class="px-16 py-2 font-medium ">
+                        paulo@gmail.com
+                    </td>
+                    <td class="px-16 py-2 font-medium ">
+                        (92) 98354-0987
                     </td>
                 </tr>
-                <tr>
-                    <td class="border-t-2 border-gray-200 px-4 py-3">Pro</td>
-                    <td class="border-t-2 border-gray-200 px-4 py-3">25 Mb/s</td>
-                    <td class="border-t-2 border-gray-200 px-4 py-3">25 GB</td>
-                    <td class="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900">$24</td>
-                    <td class="border-t-2 border-gray-200 w-10 text-center">
-                        <input name="plan" type="radio">
+                <tr class="bg-white border-4 border-gray-200">
+                    <td class="flex flex-row justify-center">
+                        <img src="/src/img/foto2.jpg" class="rounded-full w-12 h-12" alt="Foto">
+                    </td>
+                    <td class="px-16 py-2 font-medium ">
+                        José Ricardo
+                    </td>
+                    <td class="px-16 py-2 font-medium ">
+                        ricardo@gmail.com
+                    </td>
+                    <td class="px-16 py-2 font-medium ">
+                        (92) 98254-1687
                     </td>
                 </tr>
-                <tr>
-                    <td class="border-t-2 border-gray-200 px-4 py-3">Business</td>
-                    <td class="border-t-2 border-gray-200 px-4 py-3">36 Mb/s</td>
-                    <td class="border-t-2 border-gray-200 px-4 py-3">40 GB</td>
-                    <td class="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900">$50</td>
-                    <td class="border-t-2 border-gray-200 w-10 text-center">
-                        <input name="plan" type="radio">
+                <tr class="bg-white border-4 border-gray-200">
+                    <td class="flex flex-row justify-center">
+                        <img src="/src/img/foto1.jpg" class="rounded-full w-12 h-12" alt="Foto">
+                    </td>
+                    <td class="px-16 py-2 font-medium ">
+                        Reginaldo Silva
+                    </td>
+                    <td class="px-16 py-2 font-medium ">
+                        reg@gmail.com
+                    </td>
+                    <td class="px-16 py-2 font-medium ">
+                        (92) 98454-4967
                     </td>
                 </tr>
+                <tr class="bg-white border-4 border-gray-200">
+                    <td class="flex flex-row justify-center">
+                        <img src="/src/img/foto2.jpg" class="rounded-full w-12 h-12" alt="Foto">
+                    </td>
+                    <td class="px-16 py-2 font-medium ">
+                        Manuel Avelino
+                    </td>
+                    <td class="px-16 py-2 font-medium ">
+                        avelino@gmail.com
+                    </td>
+                    <td class="px-16 py-2 font-medium ">
+                        (92) 98566-2957
+                    </td>
+                </tr>
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <div class="container w-full-screen mx-auto m-2 p-2">
+        <table class="w-full table-auto text-center">
+            <thead>
                 <tr>
-                    <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">Exclusive</td>
-                    <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">48 Mb/s</td>
-                    <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">120 GB</td>
-                    <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900">$72</td>
-                    <td class="border-t-2 border-b-2 border-gray-200 w-10 text-center">
-                        <input name="plan" type="radio">
+                    <div class="w-full-scrren h-16 flex justify-between items-center bg-cyan-900 text-white rounded-md">
+                        <div class="font-bold text-xl m-2 p-2">Gestão de Empregados</div>
+                        <div class="m-2 p-2">
+                            <button
+                                class="w-28 h-30 bg-red-400 border-2 border-red-500 focus:outline-none focus:border-red-700 font-bold rounded-md m-2">
+                                <i class="fas fa-minus-circle mx-2"></i> Excluir</button>
+                            <button
+                                class="w-40 h-30 bg-green-400 border-2 border-green-500 focus:outline-none focus:border-green-700 font-bold rounded-md m-2">
+                                <i class="fas fa-plus-circle mx-2"></i> Adicionar</button>
+                        </div>
+                    </div>
+                </tr>
+                <tr class="min-w-full bg-white border-2 border-gray-200">
+                    <th>
+                        <input type="checkbox" class="w-5 h-5 ml-4 mr-4">
+                    </th>
+                    <th class="px-10 py-2 font-medium text-lg">
+                        Foto
+                    </th>
+                    <th class="font-medium text-lg">
+                        Nome
+                    </th>
+                    <th class="font-medium text-lg">
+                        E-mail
+                    </th>
+                    <th class="font-medium text-lg">
+                        Endereço
+                    </th>
+                    <th class="font-medium text-lg">
+                        Celular
+                    </th>
+                    <th class="font-medium text-lg">
+                        Ações
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="w-full bg-white border-2 border-gray-200 hover:bg-blue-200">
+                    <td>
+                        <input type="checkbox" class="w-5 h-5 ml-4 mr-4">
+                    </td>
+                    <td class="flex flex-row justify-center">
+                        <img src="/src/img/foto1.jpg" class="rounded-full w-12 h-12" alt="Foto">
+                    </td>
+                    <td class="px-10 py-2 font-medium ">
+                        Paulo Eduardo
+                    </td>
+                    <td class="px-10 py-2 font-medium ">
+                        paulo@gmail.com
+                    </td>
+                    <td class="px-10 py-2 font-medium ">
+                        Rua Africa nº6509
+                    </td>
+                    <td class="px-10 py-2 font-medium ">
+                        (92)98354-0987
+                    </td>
+                    <td class="px-10 py-2 font-medium ">
+                        <i class="far fa-edit ml-2 mr-2"></i>
+                        <i class="far fa-trash-alt ml-2 mr-2"></i>
+                    </td>
+                </tr>
+                <tr class="w-full bg-white border-2 border-gray-200 hover:bg-blue-200">
+                    <td>
+                        <input type="checkbox" class="w-5 h-5 ml-4 mr-4">
+                    </td>
+                    <td class="flex flex-row justify-center">
+                        <img src="/src/img/foto2.jpg" class="rounded-full w-12 h-12" alt="Foto">
+                    </td>
+                    <td class="px-10 py-2 font-medium ">
+                        José Ricardo
+                    </td>
+                    <td class="px-10 py-2 font-medium ">
+                        ricardo@gmail.com
+                    </td>
+                    <td class="px-10 py-2 font-medium ">
+                        Rua Espanha nº4509
+                    </td>
+                    <td class="px-10 py-2 font-medium ">
+                        (92)98254-1687
+                    </td>
+                    <td class="px-10 py-2 font-medium ">
+                        <i class="far fa-edit ml-2 mr-2"></i>
+                        <i class="far fa-trash-alt ml-2 mr-2"></i>
+                    </td>
+                </tr>
+                <tr class="w-full bg-white border-2 border-gray-200 hover:bg-blue-200">
+                    <td>
+                        <input type="checkbox" class="w-5 h-5 ml-4 mr-4">
+                    </td>
+                    <td class="flex flex-row justify-center">
+                        <img src="/src/img/foto1.jpg" class="rounded-full w-12 h-12" alt="Foto">
+                    </td>
+                    <td class="px-10 py-2 font-medium ">
+                        Reginaldo Silva
+                    </td>
+                    <td class="px-10 py-2 font-medium ">
+                        reg@gmail.com
+                    </td>
+                    <td class="px-10 py-2 font-medium ">
+                        Rua Brasil nº1509
+                    </td>
+                    <td class="px-16 py-2 font-medium ">
+                        (92)98454-4967
+                    </td>
+                    <td class="px-10 py-2 font-medium ">
+                        <i class="far fa-edit ml-2 mr-2"></i>
+                        <i class="far fa-trash-alt ml-2 mr-2"></i>
+                    </td>
+                </tr>
+                <tr class="w-full bg-white border-2 border-gray-200 hover:bg-blue-200">
+                    <td>
+                        <input type="checkbox" class="w-5 h-5 ml-4 mr-4">
+                    </td>
+                    <td class="flex flex-row justify-center">
+                        <img src="/src/img/foto2.jpg" class="rounded-full w-12 h-12" alt="Foto">
+                    </td>
+                    <td class="px-10 py-2 font-medium ">
+                        Manuel Avelino
+                    </td>
+                    <td class="px-10 py-2 font-medium ">
+                        avelino@gmail.com
+                    </td>
+                    <td class="px-10 py-2 font-medium ">
+                        Rua nova esperança nº15
+                    </td>
+                    <td class="px-10 py-2 font-medium ">
+                        (92)98566-2957
+                    </td>
+                    <td class="px-10 py-2 font-medium ">
+                        <i class="far fa-edit ml-2 mr-2"></i>
+                        <i class="far fa-trash-alt ml-2 mr-2"></i>
                     </td>
                 </tr>
             </tbody>
         </table>
-
     </div>
 </body>
 
