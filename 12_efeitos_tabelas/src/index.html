@@ -275,6 +275,41 @@
             </tbody>
         </table>
     </div>
+
+
+
+
+    <section class="max-w-4xl p-6 mx-auto bg-gray-300 dark:bg-gray-800 rounded-md shadow-md">
+        <h2 class="text-lg text-gray-700 dark:text-white font-semibold capitalize">Configurações da Conta</h2>
+        
+        <form>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-4">
+                <div>
+                    <label class="text-gray-700 dark:text-gray-200" for="username">Usuário</label>
+                    <input id="username" type="text" class="mt-2 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600 rounded py-2 px-4 block w-full focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring">
+                </div>
+
+                <div>
+                    <label class="text-gray-700 dark:text-gray-200" for="emailAddress">Email</label>
+                    <input id="emailAddress" type="email" class="mt-2 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600 rounded py-2 px-4 block w-full focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring">
+                </div>
+
+                <div>
+                    <label class="text-gray-700 dark:text-gray-200" for="password">Senha</label>
+                    <input id="password" type="password" class="mt-2 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600 rounded py-2 px-4 block w-full focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring">
+                </div>
+
+                <div>
+                    <label class="text-gray-700 dark:text-gray-200" for="passwordConfirmation">Confirmação da Senha</label>
+                    <input id="passwordConfirmation" type="password" class="mt-2 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 border border-gray-300 dark:border-gray-600 rounded py-2 px-4 block w-full focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring">
+                </div>
+            </div>
+
+            <div class="flex justify-end mt-6">
+                <button class="bg-gray-700 text-white py-2 px-4 rounded hover:bg-gray-600 focus:outline-none focus:bg-gray-600">Update Account Information</button>
+            </div>
+        </form>
+    </section>    
 </body>
 
 </html>
