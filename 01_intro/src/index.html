@@ -5,13 +5,211 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailwind - Introdução</title>
-    <link rel=" shortcut icon" href="/src/img/favicon-32x32.png" />
-    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel=" shortcut icon" href="/01_intro/src/img/favicon-32x32.png" />
+    <link rel="stylesheet" href="/01_intro/src/css/style.css">
 </head>
 
 <body>
-    <h1 class="container bg-gray-200 text-blue-400 font-bold text-2xl mx-auto m-4 p-4"> HTML Boilerplate </h1>
+    <h1 class="container bg-gray-300 shadow-md font-bold text-2xl mx-auto m-4 p-4"> Curso TailwindCSS </h1>
 
+    <div class="container flex flex-col w-auto overflow-x-scroll shadow-sm bg-gray-100 mx-auto m-2 p-2">
+        <section>
+            <h1 class="text-xl font-bold p-2">
+                Capítulo 1 - Introdução:
+            </h1>
+            <h2 class="text-lg font-bold p-2">
+                1.1 Como instalar o TailwindCSS:
+            </h2>
+            <ol class="list-decimal list-inside p-2 text-justify">
+                <li class="p-4">
+                    Se caso ainda não tenha o NodeJS instalado no computador, você precisará instalar. Utilize sempre a
+                    versão recomendada LTS.
+                </li>
+                <li class="p-4">
+                    Inicialize o <strong><i>npm</i></strong> na pasta do seu projeto executando o comando abaixo no
+                    terminal. Isso criará um
+                    arquivo <strong> <i> package.json </i></strong> e permitirá que você instale posteriormente os
+                    pacotes necessários:<br>
+                    <code class="flex flex-col w-auto p-2 rounded-md overflow-hidden text-yellow-200 bg-gray-700">
+                       <span> npm init -y </span>
+                    </code>
+                </li>
+                <li class="p-4">
+                    Instale os pacotes necessários executando o comando abaixo no terminal. Isso irá instalar o <a
+                        class="font-bold italic" href="https://postcss.org/" target="_blank"> PostCSS</a>,
+                    o <strong> <i>PostCSS CLI</i> </strong> (para executar o script de compilação) e os 3 plugins
+                    principais para <strong><i>PostCSS</i> </strong>, que
+                    são: <strong> <i> TailwindCSS, AutoPrefixer e o PurgeCSS.</i></strong>
+                    <code class="flex flex-col w-auto p-2 rounded-md overflow-hidden text-yellow-200 bg-gray-700">
+                       <span> npm install postcss@latest postcss-cli@latest tailwindcss@latest autoprefixer@latest @fullhuman/postcss-purgecss@latest
+                    </span>
+                    </code>
+                </li>
+                <li class="p-4">
+                    Execute o comando abaixo no terminal para gerar o arquivo <strong> <i> tailwind.config.js</i>
+                    </strong>, que é opcional, mas
+                    permite que você substitua ou estenda as configurações básicas no Tailwind, como fontes, cores,
+                    espaçamento etc.
+                    <code class="flex flex-col w-auto p-2 rounded-md overflow-hidden text-yellow-200 bg-gray-700">
+                       <span> npx tailwind init </span>
+                    </code>
+                </li>
+                <li class="p-4">
+                    Crie o arquivo <strong><i>postcss.config.js</i></strong> que será utilizado para a criação da versão
+                    do arquivo final CSS compilado. Use o seguinte código:
+                    <code
+                        class="flex flex-col w-auto rounded-md overflow-x-auto overflow-hidden text-yellow-200 bg-gray-700">
+                       <pre> 
+                        module.exports = {
+                            plugins: [
+                                require('tailwindcss'),
+                                require('autoprefixer'),
+                                require('@fullhuman/postcss-purgecss')({
+                                    content: [
+                                    '**/*.html' // whatever your template language
+                                    ],
+                                defaultExtractor: content => content.match(/[\w-/:]+(?<span>&lt</span>!:)/g) || []
+                            })
+                            ]
+                        }
+                    </pre>
+                    </code>
+                </li>
+                <li class="p-4">
+                    Crie o arquivo <strong><i>tailwind.css</i> </strong> que irá conter as diretivas do TailwindCSS. Use
+                    o seguinte código:
+                    <code
+                        class="flex flex-col w-auto rounded-md overflow-x-auto overflow-hidden text-yellow-200 bg-gray-700">
+                        <pre> 
+                        @tailwind base;
+
+                        @tailwind components;
+                        
+                        @tailwind utilities;
+                    </pre>
+                    </code>
+                </li>
+                <li class="p-4">
+                    Crie a seguinte estrura de pastas:
+                    <ul class="my-2">
+                        <li>a) Pasta <strong><i>src:</i></strong> Deve conter o código html do projeto e o CSS final
+                            compilado do Tailwind;</li> <br>
+
+                        <li>b) Pasta <strong><i>dist:</i> </strong> Deve conter o CSS final compilado e minificado do
+                            Tailwind;</li>
+                    </ul>
+                </li>
+                <li class="p-4">
+                    Crie o arquivo <strong><i>index.html</i> </strong> dentro da pasta src e digite o código do projeto.
+                </li>
+                <li class="p-4">
+                    Adicione um <strong><i>script</i></strong> chamado de <strong><i>start</i></strong> no seu arquivo
+                    <strong><i>package.json</i></strong> criado na etapa 1. Este script irá
+                    gerar um arquivo <strong><i>CSS Final</i></strong> com todas as classes do
+                    <strong><i>TailwindCSS</i></strong>, dentro da pasta <strong><i>src</i></strong> criada no item 7. :
+                    <code
+                        class="flex flex-col w-auto rounded-md overflow-x-auto overflow-hidden text-yellow-200 bg-gray-700">
+                        <pre> 
+                        scripts: {
+                            "start":"npx tailwindcss build tailwind.css -o src/css/style.css"
+                        },
+                    </pre>
+                    </code>
+                </li>
+                <li class="p-4">
+                    Crie o seu arquivo <strong><i>CSS Final Compilado</i></strong> executando o script através do
+                    comando abaixo no terminal:
+                    <code
+                        class="flex flex-col w-auto p-2 rounded-md overflow-x-auto overflow-hidden text-yellow-200 bg-gray-700">
+                     npm run start
+                    </code>
+                </li>
+                <li class="p-4">
+                    Faça o link dentro do arquivo html para o arquivo CSS Final compilado do Tailwind gerado no item 10
+                    que encontra-se na pasta <strong><i>/src/css.</i> </strong>
+                </li>
+                <li class="p-4">
+                    O Tailwind já está em funcionamento, para verificar o resultado utilize o Live Server do VS Code
+                    para visualizar a página HTML com o código padrão abaixo:
+                    <code
+                        class="flex flex-col w-auto rounded-md overflow-x-auto overflow-hidden text-yellow-200 bg-gray-700">
+                        <pre> 
+                            <span>&lt</span>!DOCTYPE html<span>&gt</span>
+                            <span>&lt</span>html lang="pt-BR"<span>&gt</span>
+                            <span>&lt</span>head<span>&gt</span>
+                            <span>&lt</span>meta charset="UTF-8"<span>&gt</span>
+                            <span>&lt</span>meta name="viewport" content="width=device-width, initial-scale=1.0"<span>&gt</span>
+                            <span>&lt</span>title> Framework TailwindCSS <span>&lt</span>/title<span>&gt</span>
+                            <span>&lt</span>link rel="stylesheet" href="/src/css/style.css"<span>&gt</span>
+                            <span>&lt</span>/head<span>&gt</span>
+                            <span>&lt</span>body<span>&gt</span>
+                            <span>&lt</span>h1 class="container bg-gray-200 text-blue-400 font-bold text-2xl mx-auto m-4 p-4"<span>&gt</span> HTML Boilerplate<span>&lt</span>/h1<span>&gt</span>
+                            <span>&lt</span>/body<span>&gt</span>
+                            <span>&lt</span>/html<span>&gt</span>
+                    </pre>
+                    </code>
+                </li>
+                <li class="p-4">
+                    Adicione um <strong><i>script</i></strong> chamado de <strong><i>build</i></strong> no seu arquivo
+                    <strong><i>package.json</i></strong> criado na etapa 1. Este script irá
+                    gerar o arquivo <strong><i>CSS Final Compilado</i></strong> utilizando o <strong><i>PostCSS</i>
+                    </strong> com somente as classes utilizadas do
+                    <strong><i>TailwindCSS</i></strong>, dentro da pasta <strong><i>dist</i></strong> criada no item 7.
+                    :
+                    <code
+                        class="flex flex-col w-auto rounded-md overflow-x-auto overflow-hidden text-yellow-200 bg-gray-700">
+                        <pre> 
+                        scripts: {
+                            "build":"postcss tailwind.css -o dist/css/style.css"
+                        },
+                    </pre>
+                    </code>
+                </li>
+                <li class="p-4">
+                    Crie o seu arquivo <strong><i>CSS Final Compilado</i></strong> executando o script através do
+                    comando abaixo no terminal:
+                    <code
+                        class="flex flex-col w-auto p-2 rounded-md overflow-x-auto overflow-hidden text-yellow-200 bg-gray-700">
+                     npm run build
+                    </code>
+                </li>
+                <li class="p-4">
+                    Pronto agora você deve ter um arquivo <strong><i>CSS Final</i></strong> na pasta
+                    <strong><i>src/css</i></strong> e um arquivo <strong><i>CSS Final
+                            Compilado</i></strong> na pasta <strong><i>dist/css.</i></strong> Este último possui somente
+                    as configurações básicas utilizadas
+                    do TailwindCSS, junto com as classes de utilitário que você está usando em seus modelos, podendo ser
+                    utilizado em modo de produção.
+                </li>
+            </ol>
+            <h2 class="text-lg font-bold p-2">
+                1.2 Como instalar a Extensão IntelliSense para o Visual Studio Code:
+            </h2>
+            <p class="p-6 text-justify">
+                A extensão TailwindCSS IntelliSense para o Visual Studio Code aprimora a experiência de desenvolvimento
+                com o Framework TailwindCSS, fornecendo ao usuário recursos avançados, como preenchimento automático, destaque de sintaxe
+                e linting.
+            </p>
+            <img class="min-w-full h-96 px-6" src="/01_intro/src/img/intellisense.png" alt="Intellisense">
+            <p class="px-6 py-2 text-lg font-bold text-justify">
+                Principais funcionalidades:
+            </p>
+            <ul class="list-disc list-inside px-2 text-justify">
+                <li class="px-4 py-2">
+                    <strong>Autocompletar:</strong> Sugestões inteligentes para nomes de classes, bem como funções e diretivas CSS.
+                </li>
+                <li class="px-4 py-2">
+                    <strong>Linting:</strong> Destaca os erros e possíveis bugs em seu CSS e em sua marcação.
+                </li>
+                <li class="px-4 py-2">
+                    <strong>Hover Preview:</strong> Veja o CSS completo para um nome de classe do Tailwind passando o mouse sobre ele.
+                </li>
+                <li class="px-4 py-2">
+                    <strong>Realce de sintaxe:</strong> Fornece definições de sintaxe para que os recursos do Tailwind sejam destacados corretamente.
+                </li>
+            </ul>
+        </section>
+    </div>
 </body>
 
 </html>
